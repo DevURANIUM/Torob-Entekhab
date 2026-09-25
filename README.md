@@ -47,7 +47,7 @@ Smartphones provide a constrained ontology, understandable trade-offs, and enoug
 
 1. On `/`, enter:
 
-   `برای مامانم گوشی می‌خوام تا ۲۵ میلیون. باتری و صفحه بزرگ مهمه، دوربین خیلی مهم نیست و می‌خوام چند سال راحت کار کنه.`
+   `برای خودم گوشی می‌خوام تا ۲۵ میلیون. باتری و صفحه بزرگ مهمه، دوربین خیلی مهم نیست و می‌خوام چند سال راحت کار کنه.`
 
 2. Inspect budget, recipient, priorities and large-screen constraint. Expand **جزئیات برداشت AI**. Open **چرا اینو پیشنهاد دادی؟** and show both raw scores and normalized contribution weights.
 3. Enter the follow-up `سامسونگ ترجیح میدم.` The budget and existing priorities remain intact.
@@ -58,7 +58,7 @@ Smartphones provide a constrained ontology, understandable trade-offs, and enoug
 More supported queries (the complete evaluation fixtures live in `lib/evaluation/cases.ts`):
 
 ```text
-برای مامانم گوشی تا ۲۵ میلیون میخوام، باتری خوب و صفحه بزرگ
+برای خودم گوشی تا ۲۵ میلیون میخوام، باتری خوب و صفحه بزرگ
 برای پابجی گوشی تا ۳۰ میلیون میخوام
 دوربین خیلی مهمه و تا ۴۰ میلیون بودجه دارم
 سامسونگ تا ۲۰ میلیون
