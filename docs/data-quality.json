@@ -1,0 +1,458 @@
+{
+  "models": 61,
+  "variants": 163,
+  "brands": [
+    "Apple",
+    "Samsung",
+    "Poco",
+    "Xiaomi",
+    "Redmi",
+    "Honor",
+    "Nothing",
+    "OnePlus",
+    "Motorola",
+    "Google"
+  ],
+  "fields": 54,
+  "populated": 1307,
+  "missing": 1987,
+  "coverage": 0.3967820279295689,
+  "highConfidence": 1307,
+  "unverified": 0,
+  "stalePrices": 0,
+  "demoPrices": 163,
+  "byField": [
+    {
+      "key": "dimensions",
+      "populated": 17,
+      "missing": 44,
+      "coverage": 0.2786885245901639,
+      "highConfidence": 17,
+      "unverified": 0
+    },
+    {
+      "key": "weightGrams",
+      "populated": 59,
+      "missing": 2,
+      "coverage": 0.9672131147540983,
+      "highConfidence": 59,
+      "unverified": 0
+    },
+    {
+      "key": "materials",
+      "populated": 2,
+      "missing": 59,
+      "coverage": 0.03278688524590164,
+      "highConfidence": 2,
+      "unverified": 0
+    },
+    {
+      "key": "ipRating",
+      "populated": 47,
+      "missing": 14,
+      "coverage": 0.7704918032786885,
+      "highConfidence": 47,
+      "unverified": 0
+    },
+    {
+      "key": "screenSizeInches",
+      "populated": 61,
+      "missing": 0,
+      "coverage": 1,
+      "highConfidence": 61,
+      "unverified": 0
+    },
+    {
+      "key": "panel",
+      "populated": 61,
+      "missing": 0,
+      "coverage": 1,
+      "highConfidence": 61,
+      "unverified": 0
+    },
+    {
+      "key": "resolution",
+      "populated": 38,
+      "missing": 23,
+      "coverage": 0.6229508196721312,
+      "highConfidence": 38,
+      "unverified": 0
+    },
+    {
+      "key": "pixelDensity",
+      "populated": 35,
+      "missing": 26,
+      "coverage": 0.5737704918032787,
+      "highConfidence": 35,
+      "unverified": 0
+    },
+    {
+      "key": "refreshRateHz",
+      "populated": 49,
+      "missing": 12,
+      "coverage": 0.8032786885245902,
+      "highConfidence": 49,
+      "unverified": 0
+    },
+    {
+      "key": "peakBrightnessNits",
+      "populated": 12,
+      "missing": 49,
+      "coverage": 0.19672131147540983,
+      "highConfidence": 12,
+      "unverified": 0
+    },
+    {
+      "key": "hdr",
+      "populated": 30,
+      "missing": 31,
+      "coverage": 0.4918032786885246,
+      "highConfidence": 30,
+      "unverified": 0
+    },
+    {
+      "key": "protection",
+      "populated": 27,
+      "missing": 34,
+      "coverage": 0.4426229508196721,
+      "highConfidence": 27,
+      "unverified": 0
+    },
+    {
+      "key": "chipset",
+      "populated": 61,
+      "missing": 0,
+      "coverage": 1,
+      "highConfidence": 61,
+      "unverified": 0
+    },
+    {
+      "key": "nodeNm",
+      "populated": 11,
+      "missing": 50,
+      "coverage": 0.18032786885245902,
+      "highConfidence": 11,
+      "unverified": 0
+    },
+    {
+      "key": "cpu",
+      "populated": 0,
+      "missing": 61,
+      "coverage": 0,
+      "highConfidence": 0,
+      "unverified": 0
+    },
+    {
+      "key": "gpu",
+      "populated": 0,
+      "missing": 61,
+      "coverage": 0,
+      "highConfidence": 0,
+      "unverified": 0
+    },
+    {
+      "key": "storageTechnology",
+      "populated": 16,
+      "missing": 45,
+      "coverage": 0.26229508196721313,
+      "highConfidence": 16,
+      "unverified": 0
+    },
+    {
+      "key": "expandableStorage",
+      "populated": 1,
+      "missing": 60,
+      "coverage": 0.01639344262295082,
+      "highConfidence": 1,
+      "unverified": 0
+    },
+    {
+      "key": "launchOs",
+      "populated": 24,
+      "missing": 37,
+      "coverage": 0.39344262295081966,
+      "highConfidence": 24,
+      "unverified": 0
+    },
+    {
+      "key": "majorUpgrades",
+      "populated": 17,
+      "missing": 44,
+      "coverage": 0.2786885245901639,
+      "highConfidence": 17,
+      "unverified": 0
+    },
+    {
+      "key": "securityYears",
+      "populated": 23,
+      "missing": 38,
+      "coverage": 0.3770491803278688,
+      "highConfidence": 23,
+      "unverified": 0
+    },
+    {
+      "key": "supportStartYear",
+      "populated": 19,
+      "missing": 42,
+      "coverage": 0.3114754098360656,
+      "highConfidence": 19,
+      "unverified": 0
+    },
+    {
+      "key": "mainCameraMp",
+      "populated": 59,
+      "missing": 2,
+      "coverage": 0.9672131147540983,
+      "highConfidence": 59,
+      "unverified": 0
+    },
+    {
+      "key": "mainAperture",
+      "populated": 1,
+      "missing": 60,
+      "coverage": 0.01639344262295082,
+      "highConfidence": 1,
+      "unverified": 0
+    },
+    {
+      "key": "ois",
+      "populated": 52,
+      "missing": 9,
+      "coverage": 0.8524590163934426,
+      "highConfidence": 52,
+      "unverified": 0
+    },
+    {
+      "key": "ultrawideMp",
+      "populated": 56,
+      "missing": 5,
+      "coverage": 0.9180327868852459,
+      "highConfidence": 56,
+      "unverified": 0
+    },
+    {
+      "key": "telephotoMp",
+      "populated": 27,
+      "missing": 34,
+      "coverage": 0.4426229508196721,
+      "highConfidence": 27,
+      "unverified": 0
+    },
+    {
+      "key": "opticalZoom",
+      "populated": 20,
+      "missing": 41,
+      "coverage": 0.32786885245901637,
+      "highConfidence": 20,
+      "unverified": 0
+    },
+    {
+      "key": "macroMp",
+      "populated": 10,
+      "missing": 51,
+      "coverage": 0.16393442622950818,
+      "highConfidence": 10,
+      "unverified": 0
+    },
+    {
+      "key": "rearVideo",
+      "populated": 42,
+      "missing": 19,
+      "coverage": 0.6885245901639344,
+      "highConfidence": 42,
+      "unverified": 0
+    },
+    {
+      "key": "frontCameraMp",
+      "populated": 47,
+      "missing": 14,
+      "coverage": 0.7704918032786885,
+      "highConfidence": 47,
+      "unverified": 0
+    },
+    {
+      "key": "frontVideo",
+      "populated": 27,
+      "missing": 34,
+      "coverage": 0.4426229508196721,
+      "highConfidence": 27,
+      "unverified": 0
+    },
+    {
+      "key": "batteryMah",
+      "populated": 45,
+      "missing": 16,
+      "coverage": 0.7377049180327869,
+      "highConfidence": 45,
+      "unverified": 0
+    },
+    {
+      "key": "wiredChargingW",
+      "populated": 39,
+      "missing": 22,
+      "coverage": 0.639344262295082,
+      "highConfidence": 39,
+      "unverified": 0
+    },
+    {
+      "key": "wirelessChargingW",
+      "populated": 6,
+      "missing": 55,
+      "coverage": 0.09836065573770492,
+      "highConfidence": 6,
+      "unverified": 0
+    },
+    {
+      "key": "reverseCharging",
+      "populated": 0,
+      "missing": 61,
+      "coverage": 0,
+      "highConfidence": 0,
+      "unverified": 0
+    },
+    {
+      "key": "chargerInBox",
+      "populated": 2,
+      "missing": 59,
+      "coverage": 0.03278688524590164,
+      "highConfidence": 2,
+      "unverified": 0
+    },
+    {
+      "key": "has5G",
+      "populated": 59,
+      "missing": 2,
+      "coverage": 0.9672131147540983,
+      "highConfidence": 59,
+      "unverified": 0
+    },
+    {
+      "key": "wifi",
+      "populated": 24,
+      "missing": 37,
+      "coverage": 0.39344262295081966,
+      "highConfidence": 24,
+      "unverified": 0
+    },
+    {
+      "key": "bluetooth",
+      "populated": 39,
+      "missing": 22,
+      "coverage": 0.639344262295082,
+      "highConfidence": 39,
+      "unverified": 0
+    },
+    {
+      "key": "nfc",
+      "populated": 46,
+      "missing": 15,
+      "coverage": 0.7540983606557377,
+      "highConfidence": 46,
+      "unverified": 0
+    },
+    {
+      "key": "usb",
+      "populated": 24,
+      "missing": 37,
+      "coverage": 0.39344262295081966,
+      "highConfidence": 24,
+      "unverified": 0
+    },
+    {
+      "key": "esim",
+      "populated": 22,
+      "missing": 39,
+      "coverage": 0.36065573770491804,
+      "highConfidence": 22,
+      "unverified": 0
+    },
+    {
+      "key": "sim",
+      "populated": 6,
+      "missing": 55,
+      "coverage": 0.09836065573770492,
+      "highConfidence": 6,
+      "unverified": 0
+    },
+    {
+      "key": "stereo",
+      "populated": 12,
+      "missing": 49,
+      "coverage": 0.19672131147540983,
+      "highConfidence": 12,
+      "unverified": 0
+    },
+    {
+      "key": "headphoneJack",
+      "populated": 1,
+      "missing": 60,
+      "coverage": 0.01639344262295082,
+      "highConfidence": 1,
+      "unverified": 0
+    },
+    {
+      "key": "fingerprint",
+      "populated": 8,
+      "missing": 53,
+      "coverage": 0.13114754098360656,
+      "highConfidence": 8,
+      "unverified": 0
+    },
+    {
+      "key": "faceUnlock",
+      "populated": 22,
+      "missing": 39,
+      "coverage": 0.36065573770491804,
+      "highConfidence": 22,
+      "unverified": 0
+    },
+    {
+      "key": "colors",
+      "populated": 0,
+      "missing": 61,
+      "coverage": 0,
+      "highConfidence": 0,
+      "unverified": 0
+    },
+    {
+      "key": "notableFeatures",
+      "populated": 1,
+      "missing": 60,
+      "coverage": 0.01639344262295082,
+      "highConfidence": 1,
+      "unverified": 0
+    },
+    {
+      "key": "measuredBatteryHours",
+      "populated": 0,
+      "missing": 61,
+      "coverage": 0,
+      "highConfidence": 0,
+      "unverified": 0
+    },
+    {
+      "key": "measuredThermalScore",
+      "populated": 0,
+      "missing": 61,
+      "coverage": 0,
+      "highConfidence": 0,
+      "unverified": 0
+    },
+    {
+      "key": "reviewCameraScore",
+      "populated": 0,
+      "missing": 61,
+      "coverage": 0,
+      "highConfidence": 0,
+      "unverified": 0
+    },
+    {
+      "key": "repairabilityScore",
+      "populated": 0,
+      "missing": 61,
+      "coverage": 0,
+      "highConfidence": 0,
+      "unverified": 0
+    }
+  ]
+}

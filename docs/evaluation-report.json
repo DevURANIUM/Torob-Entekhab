@@ -1,0 +1,2802 @@
+{
+  "timestamp": "2026-09-25T03:16:04.528Z",
+  "mode": "mock",
+  "count": 100,
+  "judgedCount": 3,
+  "intentAccuracy": 1,
+  "byField": {
+    "budget": 1,
+    "brands": 1,
+    "useCases": 1,
+    "constraints": 1
+  },
+  "byCategory": {
+    "budget": {
+      "count": 20,
+      "passed": 20,
+      "accuracy": 1
+    },
+    "useCases": {
+      "count": 4,
+      "passed": 4,
+      "accuracy": 1
+    },
+    "constraints": {
+      "count": 6,
+      "passed": 6,
+      "accuracy": 1
+    },
+    "brands": {
+      "count": 4,
+      "passed": 4,
+      "accuracy": 1
+    },
+    "excludedBrands": {
+      "count": 2,
+      "passed": 2,
+      "accuracy": 1
+    },
+    "recipient": {
+      "count": 1,
+      "passed": 1,
+      "accuracy": 1
+    },
+    "priorities": {
+      "count": 1,
+      "passed": 1,
+      "accuracy": 1
+    },
+    "ambiguity": {
+      "count": 2,
+      "passed": 2,
+      "accuracy": 1
+    },
+    "soft budget": {
+      "count": 3,
+      "passed": 3,
+      "accuracy": 1
+    },
+    "hard budget": {
+      "count": 4,
+      "passed": 4,
+      "accuracy": 1
+    },
+    "brand": {
+      "count": 5,
+      "passed": 5,
+      "accuracy": 1
+    },
+    "brand exclusion": {
+      "count": 4,
+      "passed": 4,
+      "accuracy": 1
+    },
+    "gaming": {
+      "count": 3,
+      "passed": 3,
+      "accuracy": 1
+    },
+    "camera": {
+      "count": 3,
+      "passed": 3,
+      "accuracy": 1
+    },
+    "battery": {
+      "count": 3,
+      "passed": 3,
+      "accuracy": 1
+    },
+    "parents": {
+      "count": 3,
+      "passed": 3,
+      "accuracy": 1
+    },
+    "student": {
+      "count": 2,
+      "passed": 2,
+      "accuracy": 1
+    },
+    "longevity": {
+      "count": 2,
+      "passed": 2,
+      "accuracy": 1
+    },
+    "compact": {
+      "count": 3,
+      "passed": 3,
+      "accuracy": 1
+    },
+    "large display": {
+      "count": 2,
+      "passed": 2,
+      "accuracy": 1
+    },
+    "storage": {
+      "count": 3,
+      "passed": 3,
+      "accuracy": 1
+    },
+    "charging": {
+      "count": 2,
+      "passed": 2,
+      "accuracy": 1
+    },
+    "multiple preferences": {
+      "count": 4,
+      "passed": 4,
+      "accuracy": 1
+    },
+    "no-results": {
+      "count": 2,
+      "passed": 2,
+      "accuracy": 1
+    },
+    "conflicting constraints": {
+      "count": 1,
+      "passed": 1,
+      "accuracy": 1
+    },
+    "follow-ups": {
+      "count": 11,
+      "passed": 11,
+      "accuracy": 1
+    }
+  },
+  "diversity": {
+    "brands": 2,
+    "priceSpread": 14321000,
+    "featureDistance": 7.642181834707163
+  },
+  "recall": 0.47222222222222215,
+  "ndcg": 0.5306925999883374,
+  "relevance": 0.4444444444444444,
+  "p50": 13.490199999999959,
+  "p95": 30.72860000000003,
+  "rows": [
+    {
+      "query": "برای مامانم گوشی تا ۲۵ میلیون میخوام، باتری خوب و صفحه بزرگ",
+      "category": "budget",
+      "diversity": {
+        "brands": 3,
+        "priceSpread": 3400000,
+        "featureDistance": 6.208333333333332
+      },
+      "fields": [
+        {
+          "key": "budget",
+          "pass": true
+        },
+        {
+          "key": "recipient",
+          "pass": true
+        },
+        {
+          "key": "constraints",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 16.060600000000022,
+      "top": [
+        "X6",
+        "Galaxy A26 5G",
+        "Note 13 Pro 5G"
+      ],
+      "recall": 0.5,
+      "ndcg": 0.2322609126342973,
+      "relevance": 0.3333333333333333
+    },
+    {
+      "query": "برای پابجی گوشی تا ۳۰ میلیون میخوام",
+      "category": "budget",
+      "diversity": {
+        "brands": 2,
+        "priceSpread": 3000000,
+        "featureDistance": 8.722222222222221
+      },
+      "fields": [
+        {
+          "key": "budget",
+          "pass": true
+        },
+        {
+          "key": "useCases",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 12.668999999999983,
+      "top": [
+        "X6 Pro",
+        "Note 13 Pro+ 5G",
+        "X6"
+      ],
+      "recall": 0.6666666666666666,
+      "ndcg": 0.8178747578506881,
+      "relevance": 0.6666666666666666
+    },
+    {
+      "query": "دوربین خیلی مهمه و تا ۴۰ میلیون بودجه دارم",
+      "category": "budget",
+      "diversity": {
+        "brands": 3,
+        "priceSpread": 4600000,
+        "featureDistance": 12.642857142857142
+      },
+      "fields": [
+        {
+          "key": "budget",
+          "pass": true
+        },
+        {
+          "key": "priorities",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 24.474400000000003,
+      "top": [
+        "200",
+        "Pixel 8A",
+        "14T"
+      ],
+      "recall": 0.25,
+      "ndcg": 0.541942129480027,
+      "relevance": 0.3333333333333333
+    },
+    {
+      "query": "سامسونگ تا ۲۰ میلیون",
+      "category": "budget",
+      "diversity": {
+        "brands": 1,
+        "priceSpread": 1300000,
+        "featureDistance": 6.545454545454546
+      },
+      "fields": [
+        {
+          "key": "budget",
+          "pass": true
+        },
+        {
+          "key": "brands",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 7.662399999999991,
+      "top": [
+        "Galaxy A26 5G",
+        "Galaxy A35 5G",
+        "Galaxy A25 5G"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "گوشی سبک برای استفاده روزمره",
+      "category": "useCases",
+      "diversity": {
+        "brands": 3,
+        "priceSpread": 12800000,
+        "featureDistance": 12.125
+      },
+      "fields": [
+        {
+          "key": "useCases",
+          "pass": true
+        },
+        {
+          "key": "priorities",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 34.341200000000015,
+      "top": [
+        "13T Pro",
+        "Pixel 8A",
+        "F6"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "گوشی میخوام حداقل ۴ سال نگه دارم",
+      "category": "constraints",
+      "diversity": {
+        "brands": 2,
+        "priceSpread": 20800000,
+        "featureDistance": 4.81578947368421
+      },
+      "fields": [
+        {
+          "key": "constraints",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 17.262399999999957,
+      "top": [
+        "Pixel 9 Pro",
+        "Galaxy S24+",
+        "Pixel 9 Pro Xl"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "تا ۳۵ میلیون، بازی مهم نیست ولی دوربین و باتری مهمه",
+      "category": "budget",
+      "diversity": {
+        "brands": 3,
+        "priceSpread": 7800000,
+        "featureDistance": 10.076923076923078
+      },
+      "fields": [
+        {
+          "key": "budget",
+          "pass": true
+        },
+        {
+          "key": "priorities",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 15.410599999999988,
+      "top": [
+        "13T",
+        "Pixel 8A",
+        "Note 13 Pro 5G"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "برای دانشجو تا ۱۸ میلیون",
+      "category": "budget",
+      "diversity": {
+        "brands": 1,
+        "priceSpread": 4700000,
+        "featureDistance": 9.35
+      },
+      "fields": [
+        {
+          "key": "budget",
+          "pass": true
+        },
+        {
+          "key": "useCases",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 6.487799999999993,
+      "top": [
+        "Galaxy A26 5G",
+        "Galaxy A15 5G",
+        "Galaxy A25 5G"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "آیفون نو تا ۵ میلیون",
+      "category": "budget",
+      "diversity": {
+        "brands": 0,
+        "priceSpread": 0,
+        "featureDistance": 0
+      },
+      "fields": [
+        {
+          "key": "budget",
+          "pass": true
+        },
+        {
+          "key": "brands",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 2.606200000000001,
+      "top": [],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "گوشی با باتری خوب تا ۲۵ میلیون",
+      "category": "budget",
+      "diversity": {
+        "brands": 3,
+        "priceSpread": 5000000,
+        "featureDistance": 5.25
+      },
+      "fields": [
+        {
+          "key": "budget",
+          "pass": true
+        },
+        {
+          "key": "priorities",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 7.727399999999989,
+      "top": [
+        "X6",
+        "Note 13 Pro 5G",
+        "Phone (2a)"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "گوشی تا 25 میلیون",
+      "category": "budget",
+      "diversity": {
+        "brands": 3,
+        "priceSpread": 5000000,
+        "featureDistance": 4.454545454545455
+      },
+      "fields": [
+        {
+          "key": "budget",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 7.7287000000000035,
+      "top": [
+        "Note 13 Pro 5G",
+        "X6",
+        "Phone (2a)"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "گوشي سامسونگ تا ٢٠ ميليون",
+      "category": "brands",
+      "diversity": {
+        "brands": 1,
+        "priceSpread": 1300000,
+        "featureDistance": 6.545454545454546
+      },
+      "fields": [
+        {
+          "key": "brands",
+          "pass": true
+        },
+        {
+          "key": "budget",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 7.172799999999995,
+      "top": [
+        "Galaxy A26 5G",
+        "Galaxy A35 5G",
+        "Galaxy A25 5G"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "بین ۱۵ تا ۲۵ میلیون",
+      "category": "budget",
+      "diversity": {
+        "brands": 3,
+        "priceSpread": 5000000,
+        "featureDistance": 4.454545454545455
+      },
+      "fields": [
+        {
+          "key": "budget",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 8.726200000000006,
+      "top": [
+        "Note 13 Pro 5G",
+        "X6",
+        "Phone (2a)"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "گوشی تا ۲۵۰۰۰۰۰۰ تومان",
+      "category": "budget",
+      "diversity": {
+        "brands": 3,
+        "priceSpread": 5000000,
+        "featureDistance": 4.454545454545455
+      },
+      "fields": [
+        {
+          "key": "budget",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 9.324200000000019,
+      "top": [
+        "Note 13 Pro 5G",
+        "X6",
+        "Phone (2a)"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "به جز سامسونگ تا ۳۰ میلیون",
+      "category": "excludedBrands",
+      "diversity": {
+        "brands": 2,
+        "priceSpread": 1000000,
+        "featureDistance": 7
+      },
+      "fields": [
+        {
+          "key": "excludedBrands",
+          "pass": true
+        },
+        {
+          "key": "budget",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 9.053800000000024,
+      "top": [
+        "Note 13 Pro+ 5G",
+        "Note 13 Pro 5G",
+        "X6 Pro"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "شیائومی نمیخوام",
+      "category": "excludedBrands",
+      "diversity": {
+        "brands": 2,
+        "priceSpread": 17000000,
+        "featureDistance": 11.181818181818182
+      },
+      "fields": [
+        {
+          "key": "excludedBrands",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 30.72860000000003,
+      "top": [
+        "Pixel 9 Pro",
+        "12",
+        "Pixel 8 Pro"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "گوشی ۲۵۶ گیگ",
+      "category": "constraints",
+      "diversity": {
+        "brands": 2,
+        "priceSpread": 22200000,
+        "featureDistance": 10.000000000000002
+      },
+      "fields": [
+        {
+          "key": "constraints",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 25.425700000000006,
+      "top": [
+        "13T Pro",
+        "Pixel 9 Pro",
+        "14"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "رم ۱۲ گیگ میخوام",
+      "category": "constraints",
+      "diversity": {
+        "brands": 2,
+        "priceSpread": 22200000,
+        "featureDistance": 10.000000000000002
+      },
+      "fields": [
+        {
+          "key": "constraints",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 15.479100000000017,
+      "top": [
+        "13T Pro",
+        "Pixel 9 Pro",
+        "14"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "گوشی زیر ۱۸۰ گرم",
+      "category": "constraints",
+      "diversity": {
+        "brands": 3,
+        "priceSpread": 15400000,
+        "featureDistance": 16.31818181818182
+      },
+      "fields": [
+        {
+          "key": "constraints",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 9.08890000000008,
+      "top": [
+        "F6",
+        "iPhone 13 mini",
+        "Galaxy S24"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "گوشی با 5G و NFC",
+      "category": "constraints",
+      "diversity": {
+        "brands": 2,
+        "priceSpread": 22200000,
+        "featureDistance": 10.000000000000002
+      },
+      "fields": [
+        {
+          "key": "constraints",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 23.53309999999999,
+      "top": [
+        "13T Pro",
+        "Pixel 9 Pro",
+        "14"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "موتورولا با صفحه بزرگ",
+      "category": "brands",
+      "diversity": {
+        "brands": 1,
+        "priceSpread": 10200000,
+        "featureDistance": 2.2857142857142856
+      },
+      "fields": [
+        {
+          "key": "brands",
+          "pass": true
+        },
+        {
+          "key": "constraints",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 6.681600000000003,
+      "top": [
+        "Edge 50 Fusion",
+        "Edge 40 Neo"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "ناتینگ تا ۳۰ میلیون",
+      "category": "brands",
+      "diversity": {
+        "brands": 1,
+        "priceSpread": 0,
+        "featureDistance": 0
+      },
+      "fields": [
+        {
+          "key": "brands",
+          "pass": true
+        },
+        {
+          "key": "budget",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 6.18119999999999,
+      "top": [
+        "Phone (2a)"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "آنر تا ۲۰ میلیون",
+      "category": "brands",
+      "diversity": {
+        "brands": 0,
+        "priceSpread": 0,
+        "featureDistance": 0
+      },
+      "fields": [
+        {
+          "key": "brands",
+          "pass": true
+        },
+        {
+          "key": "budget",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 4.279100000000085,
+      "top": [],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "برای پدرم گوشی بادوام",
+      "category": "recipient",
+      "diversity": {
+        "brands": 2,
+        "priceSpread": 34800000,
+        "featureDistance": 10.23913043478261
+      },
+      "fields": [
+        {
+          "key": "recipient",
+          "pass": true
+        },
+        {
+          "key": "priorities",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 31.665199999999913,
+      "top": [
+        "Pixel 9 Pro",
+        "13T Pro",
+        "Pixel 8 Pro"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "برای عکاسی گوشی میخوام",
+      "category": "useCases",
+      "diversity": {
+        "brands": 2,
+        "priceSpread": 22200000,
+        "featureDistance": 7.88235294117647
+      },
+      "fields": [
+        {
+          "key": "useCases",
+          "pass": true
+        },
+        {
+          "key": "priorities",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 28.477699999999913,
+      "top": [
+        "Pixel 9 Pro",
+        "13T Pro",
+        "Pixel 8 Pro"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "برای استفاده کاری",
+      "category": "useCases",
+      "diversity": {
+        "brands": 1,
+        "priceSpread": 24600000,
+        "featureDistance": 3.8000000000000007
+      },
+      "fields": [
+        {
+          "key": "useCases",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 28.518100000000004,
+      "top": [
+        "Pixel 9 Pro",
+        "Pixel 8 Pro",
+        "Pixel 9"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "دوربین خیلی مهم نیست",
+      "category": "priorities",
+      "diversity": {
+        "brands": 3,
+        "priceSpread": 33800000,
+        "featureDistance": 9.353658536585366
+      },
+      "fields": [
+        {
+          "key": "priorities",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 28.63519999999994,
+      "top": [
+        "13T Pro",
+        "Pixel 9 Pro",
+        "F6 Pro"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "گوشی باتری ۶۰۰۰",
+      "category": "constraints",
+      "diversity": {
+        "brands": 1,
+        "priceSpread": 0,
+        "featureDistance": 0
+      },
+      "fields": [
+        {
+          "key": "constraints",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 6.0388000000000375,
+      "top": [
+        "13"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "تا ۲۲٫۵ میلیون گوشی میخوام",
+      "category": "budget",
+      "diversity": {
+        "brands": 3,
+        "priceSpread": 2000000,
+        "featureDistance": 6.7272727272727275
+      },
+      "fields": [
+        {
+          "key": "budget",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 9.260599999999954,
+      "top": [
+        "Note 13 Pro 5G",
+        "X6",
+        "Galaxy A26 5G"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "گوشی اقتصادی برای دانشجو",
+      "category": "useCases",
+      "diversity": {
+        "brands": 3,
+        "priceSpread": 27400000,
+        "featureDistance": 11.65
+      },
+      "fields": [
+        {
+          "key": "useCases",
+          "pass": true
+        },
+        {
+          "key": "priorities",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 26.7337,
+      "top": [
+        "Pixel 8 Pro",
+        "14",
+        "13"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "یه گوشی خفن میخوام ارزون باشه",
+      "category": "ambiguity",
+      "diversity": {
+        "brands": 2,
+        "priceSpread": 12800000,
+        "featureDistance": 10.214285714285714
+      },
+      "fields": [],
+      "pass": true,
+      "note": "«خفن» معلوم نمی‌کند دوربین، عملکرد یا طراحی مهم است.",
+      "latency": 34.47199999999998,
+      "top": [
+        "13T Pro",
+        "Pixel 8A",
+        "14T"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "سبزتر از دیروز با طعم موسیقی",
+      "category": "ambiguity",
+      "diversity": {
+        "brands": 0,
+        "priceSpread": 0,
+        "featureDistance": 0
+      },
+      "fields": [],
+      "pass": true,
+      "note": "نیاز قابل استخراج به گوشی وجود ندارد.",
+      "latency": 4.4582000000000335,
+      "top": [],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "بودجه حدود بیست و پنج میلیون",
+      "category": "budget",
+      "diversity": {
+        "brands": 3,
+        "priceSpread": 5000000,
+        "featureDistance": 4.454545454545455
+      },
+      "fields": [
+        {
+          "key": "budget",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 9.499500000000012,
+      "top": [
+        "Note 13 Pro 5G",
+        "X6",
+        "Phone (2a)"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "۲۰ تومن",
+      "category": "budget",
+      "diversity": {
+        "brands": 2,
+        "priceSpread": 1300000,
+        "featureDistance": 10
+      },
+      "fields": [
+        {
+          "key": "budget",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 8.101400000000012,
+      "top": [
+        "Note 13 Pro 5G",
+        "Galaxy A26 5G",
+        "Galaxy A35 5G"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "بیست میلیون",
+      "category": "budget",
+      "diversity": {
+        "brands": 2,
+        "priceSpread": 1300000,
+        "featureDistance": 10
+      },
+      "fields": [
+        {
+          "key": "budget",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 6.863299999999981,
+      "top": [
+        "Note 13 Pro 5G",
+        "Galaxy A26 5G",
+        "Galaxy A35 5G"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "حدود ۲۵",
+      "category": "soft budget",
+      "diversity": {
+        "brands": 3,
+        "priceSpread": 5000000,
+        "featureDistance": 4.454545454545455
+      },
+      "fields": [
+        {
+          "key": "budget",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 9.185600000000022,
+      "top": [
+        "Note 13 Pro 5G",
+        "X6",
+        "Phone (2a)"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "زیر سی",
+      "category": "hard budget",
+      "diversity": {
+        "brands": 2,
+        "priceSpread": 1000000,
+        "featureDistance": 7
+      },
+      "fields": [
+        {
+          "key": "budget",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 11.239500000000021,
+      "top": [
+        "Note 13 Pro+ 5G",
+        "Note 13 Pro 5G",
+        "X6 Pro"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "تا ۳۰",
+      "category": "hard budget",
+      "diversity": {
+        "brands": 2,
+        "priceSpread": 1000000,
+        "featureDistance": 7
+      },
+      "fields": [
+        {
+          "key": "budget",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 11.083399999999983,
+      "top": [
+        "Note 13 Pro+ 5G",
+        "Note 13 Pro 5G",
+        "X6 Pro"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "بین ۲۰ تا ۳۰",
+      "category": "budget",
+      "diversity": {
+        "brands": 2,
+        "priceSpread": 1000000,
+        "featureDistance": 7
+      },
+      "fields": [
+        {
+          "key": "budget",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 8.551800000000071,
+      "top": [
+        "Note 13 Pro+ 5G",
+        "Note 13 Pro 5G",
+        "X6 Pro"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "نهایت ۳۵",
+      "category": "hard budget",
+      "diversity": {
+        "brands": 3,
+        "priceSpread": 3800000,
+        "featureDistance": 14.863636363636363
+      },
+      "fields": [
+        {
+          "key": "budget",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 12.775899999999979,
+      "top": [
+        "Pixel 8A",
+        "Note 13 Pro+ 5G",
+        "13T"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "۲۵-۳۰",
+      "category": "budget",
+      "diversity": {
+        "brands": 2,
+        "priceSpread": 1000000,
+        "featureDistance": 7
+      },
+      "fields": [
+        {
+          "key": "budget",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 9.372100000000046,
+      "top": [
+        "Note 13 Pro+ 5G",
+        "Note 13 Pro 5G",
+        "X6 Pro"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "حدوداً سی تومن",
+      "category": "soft budget",
+      "diversity": {
+        "brands": 2,
+        "priceSpread": 1000000,
+        "featureDistance": 7
+      },
+      "fields": [
+        {
+          "key": "budget",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 11.809500000000071,
+      "top": [
+        "Note 13 Pro+ 5G",
+        "Note 13 Pro 5G",
+        "X6 Pro"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "بیست و پنج میلیون",
+      "category": "budget",
+      "diversity": {
+        "brands": 3,
+        "priceSpread": 5000000,
+        "featureDistance": 4.454545454545455
+      },
+      "fields": [
+        {
+          "key": "budget",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 9.619400000000041,
+      "top": [
+        "Note 13 Pro 5G",
+        "X6",
+        "Phone (2a)"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "چهل و دو میلیون",
+      "category": "budget",
+      "diversity": {
+        "brands": 2,
+        "priceSpread": 7200000,
+        "featureDistance": 10.863636363636363
+      },
+      "fields": [
+        {
+          "key": "budget",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 14.91210000000001,
+      "top": [
+        "13T Pro",
+        "Pixel 8A",
+        "14T"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "بودجه ۶۰",
+      "category": "budget",
+      "diversity": {
+        "brands": 2,
+        "priceSpread": 12800000,
+        "featureDistance": 11.5
+      },
+      "fields": [
+        {
+          "key": "budget",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 17.68979999999999,
+      "top": [
+        "13T Pro",
+        "Pixel 8A",
+        "14T"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "پوکو میخوام",
+      "category": "brand",
+      "diversity": {
+        "brands": 1,
+        "priceSpread": 14600000,
+        "featureDistance": 6.090909090909092
+      },
+      "fields": [
+        {
+          "key": "brands",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 7.8478000000000065,
+      "top": [
+        "F6 Pro",
+        "F6",
+        "X6 Pro"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "ردمی میخوام",
+      "category": "brand",
+      "diversity": {
+        "brands": 1,
+        "priceSpread": 7000000,
+        "featureDistance": 5.090909090909091
+      },
+      "fields": [
+        {
+          "key": "brands",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 6.877700000000004,
+      "top": [
+        "Note 13 Pro+ 5G",
+        "Note 13 Pro 5G",
+        "Note 14 Pro 5G"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "پیکسل برای عکاسی",
+      "category": "brand",
+      "diversity": {
+        "brands": 1,
+        "priceSpread": 24600000,
+        "featureDistance": 5.529411764705882
+      },
+      "fields": [
+        {
+          "key": "brands",
+          "pass": true
+        },
+        {
+          "key": "useCases",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 7.6843000000000075,
+      "top": [
+        "Pixel 9 Pro",
+        "Pixel 8 Pro",
+        "Pixel 9"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "وان پلاس برای بازی",
+      "category": "brand",
+      "diversity": {
+        "brands": 1,
+        "priceSpread": 51000000,
+        "featureDistance": 4.722222222222222
+      },
+      "fields": [
+        {
+          "key": "brands",
+          "pass": true
+        },
+        {
+          "key": "useCases",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 5.408999999999992,
+      "top": [
+        "12",
+        "13",
+        "12R"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "OnePlus تا ۷۰ میلیون",
+      "category": "brand",
+      "diversity": {
+        "brands": 1,
+        "priceSpread": 28000000,
+        "featureDistance": 7.136363636363636
+      },
+      "fields": [
+        {
+          "key": "brands",
+          "pass": true
+        },
+        {
+          "key": "budget",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 7.014400000000023,
+      "top": [
+        "12",
+        "12R",
+        "Nord 4"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "غیر از اپل",
+      "category": "brand exclusion",
+      "diversity": {
+        "brands": 2,
+        "priceSpread": 22200000,
+        "featureDistance": 10.000000000000002
+      },
+      "fields": [
+        {
+          "key": "excludedBrands",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 19.490499999999997,
+      "top": [
+        "13T Pro",
+        "Pixel 9 Pro",
+        "14"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "پوکو نباشه",
+      "category": "brand exclusion",
+      "diversity": {
+        "brands": 2,
+        "priceSpread": 22200000,
+        "featureDistance": 10.000000000000002
+      },
+      "fields": [
+        {
+          "key": "excludedBrands",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 27.00559999999996,
+      "top": [
+        "13T Pro",
+        "Pixel 9 Pro",
+        "14"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "شیائومی رو حذف کن",
+      "category": "brand exclusion",
+      "diversity": {
+        "brands": 2,
+        "priceSpread": 17000000,
+        "featureDistance": 11.181818181818182
+      },
+      "fields": [
+        {
+          "key": "excludedBrands",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 26.472499999999854,
+      "top": [
+        "Pixel 9 Pro",
+        "12",
+        "Pixel 8 Pro"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "بدون سامسونگ",
+      "category": "brand exclusion",
+      "diversity": {
+        "brands": 2,
+        "priceSpread": 22200000,
+        "featureDistance": 10.000000000000002
+      },
+      "fields": [
+        {
+          "key": "excludedBrands",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 23.534200000000055,
+      "top": [
+        "13T Pro",
+        "Pixel 9 Pro",
+        "14"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "برای گیم تا ۴۰",
+      "category": "gaming",
+      "diversity": {
+        "brands": 3,
+        "priceSpread": 6000000,
+        "featureDistance": 7.833333333333333
+      },
+      "fields": [
+        {
+          "key": "useCases",
+          "pass": true
+        },
+        {
+          "key": "budget",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 12.182600000000093,
+      "top": [
+        "14T",
+        "X6 Pro",
+        "Note 13 Pro+ 5G"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "پابجی ۹۰ فریم برام مهمه",
+      "category": "gaming",
+      "diversity": {
+        "brands": 2,
+        "priceSpread": 44400000,
+        "featureDistance": 6.166666666666666
+      },
+      "fields": [
+        {
+          "key": "useCases",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "note": "فریم تضمین‌شده بدون تست بازی ارائه نمی‌شود.",
+      "latency": 23.90969999999993,
+      "top": [
+        "13T Pro",
+        "13",
+        "14"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "گیم مهم نیست",
+      "category": "gaming",
+      "diversity": {
+        "brands": 2,
+        "priceSpread": 22200000,
+        "featureDistance": 14.987804878048781
+      },
+      "fields": [
+        {
+          "key": "priorities",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 28.8741,
+      "top": [
+        "13T Pro",
+        "Pixel 9 Pro",
+        "Pixel 8 Pro"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "دوربین شب خوب میخوام",
+      "category": "camera",
+      "diversity": {
+        "brands": 2,
+        "priceSpread": 22200000,
+        "featureDistance": 9.107142857142856
+      },
+      "fields": [
+        {
+          "key": "priorities",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "note": "کیفیت شب اندازه‌گیری نشده؛ امتیاز تنوع دوربین جایگزین تست نیست.",
+      "latency": 30.087600000000066,
+      "top": [
+        "Pixel 9 Pro",
+        "13T Pro",
+        "Pixel 8 Pro"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "دوربین اولویت نیست",
+      "category": "camera",
+      "diversity": {
+        "brands": 3,
+        "priceSpread": 33800000,
+        "featureDistance": 9.353658536585366
+      },
+      "fields": [
+        {
+          "key": "priorities",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 27.02040000000011,
+      "top": [
+        "13T Pro",
+        "Pixel 9 Pro",
+        "F6 Pro"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "تولید محتوا میخوام",
+      "category": "camera",
+      "diversity": {
+        "brands": 2,
+        "priceSpread": 33400000,
+        "featureDistance": 6.722222222222221
+      },
+      "fields": [
+        {
+          "key": "useCases",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 24.66220000000021,
+      "top": [
+        "Pixel 9 Pro",
+        "13T Pro",
+        "Pixel 8 Pro"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "فقط باتری مهمه",
+      "category": "battery",
+      "diversity": {
+        "brands": 2,
+        "priceSpread": 43400000,
+        "featureDistance": 5.911764705882353
+      },
+      "fields": [
+        {
+          "key": "useCases",
+          "pass": true
+        },
+        {
+          "key": "priorities",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 26.818300000000136,
+      "top": [
+        "13",
+        "12",
+        "F6 Pro"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "باتری حداقل ۵۰۰۰",
+      "category": "battery",
+      "diversity": {
+        "brands": 3,
+        "priceSpread": 43400000,
+        "featureDistance": 4.999999999999999
+      },
+      "fields": [
+        {
+          "key": "constraints",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 16.342399999999998,
+      "top": [
+        "13T Pro",
+        "F6 Pro",
+        "13"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "باتری مهم نیست",
+      "category": "battery",
+      "diversity": {
+        "brands": 2,
+        "priceSpread": 22200000,
+        "featureDistance": 9.963414634146341
+      },
+      "fields": [
+        {
+          "key": "priorities",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 26.88539999999989,
+      "top": [
+        "13T Pro",
+        "Pixel 9 Pro",
+        "14"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "برای مامانم واتساپ و اینستاگرام",
+      "category": "parents",
+      "diversity": {
+        "brands": 2,
+        "priceSpread": 34800000,
+        "featureDistance": 9.295454545454545
+      },
+      "fields": [
+        {
+          "key": "recipient",
+          "pass": true
+        },
+        {
+          "key": "useCases",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 26.506000000000085,
+      "top": [
+        "Pixel 9 Pro",
+        "13T Pro",
+        "Pixel 8 Pro"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "برای بابام باتری خوب",
+      "category": "parents",
+      "diversity": {
+        "brands": 2,
+        "priceSpread": 30600000,
+        "featureDistance": 12.82608695652174
+      },
+      "fields": [
+        {
+          "key": "recipient",
+          "pass": true
+        },
+        {
+          "key": "priorities",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 25.038699999999835,
+      "top": [
+        "13T Pro",
+        "Pixel 8A",
+        "Pixel 8 Pro"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "گوشی برای سالمند",
+      "category": "parents",
+      "diversity": {
+        "brands": 2,
+        "priceSpread": 29800000,
+        "featureDistance": 6.571428571428571
+      },
+      "fields": [
+        {
+          "key": "useCases",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 24.715099999999893,
+      "top": [
+        "14",
+        "14T",
+        "Pixel 8A"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "دانشجو هستم باتری مهمه",
+      "category": "student",
+      "diversity": {
+        "brands": 3,
+        "priceSpread": 27400000,
+        "featureDistance": 11.65
+      },
+      "fields": [
+        {
+          "key": "useCases",
+          "pass": true
+        },
+        {
+          "key": "priorities",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 24.35109999999986,
+      "top": [
+        "Pixel 8 Pro",
+        "14",
+        "13"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "برای دانشجو تا بیست میلیون",
+      "category": "student",
+      "diversity": {
+        "brands": 2,
+        "priceSpread": 1300000,
+        "featureDistance": 9.175
+      },
+      "fields": [
+        {
+          "key": "useCases",
+          "pass": true
+        },
+        {
+          "key": "budget",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 5.833000000000084,
+      "top": [
+        "Note 13 Pro 5G",
+        "Galaxy A26 5G",
+        "Galaxy A25 5G"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "چند سال نگه دارم",
+      "category": "longevity",
+      "diversity": {
+        "brands": 3,
+        "priceSpread": 22200000,
+        "featureDistance": 12.131578947368421
+      },
+      "fields": [
+        {
+          "key": "useCases",
+          "pass": true
+        },
+        {
+          "key": "priorities",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 26.064899999999852,
+      "top": [
+        "Pixel 9 Pro",
+        "13T Pro",
+        "Galaxy S24+"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "حداقل ۵ سال پشتیبانی",
+      "category": "longevity",
+      "diversity": {
+        "brands": 0,
+        "priceSpread": 0,
+        "featureDistance": 0
+      },
+      "fields": [
+        {
+          "key": "constraints",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 1.9018000000000939,
+      "top": [],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "گوشی کوچیک میخوام",
+      "category": "compact",
+      "diversity": {
+        "brands": 3,
+        "priceSpread": 10200000,
+        "featureDistance": 17.764705882352942
+      },
+      "fields": [
+        {
+          "key": "useCases",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 24.376800000000003,
+      "top": [
+        "iPhone 13 mini",
+        "14",
+        "Galaxy S24"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "گوشی جمع و جور",
+      "category": "compact",
+      "diversity": {
+        "brands": 3,
+        "priceSpread": 10200000,
+        "featureDistance": 17.764705882352942
+      },
+      "fields": [
+        {
+          "key": "useCases",
+          "pass": true
+        },
+        {
+          "key": "priorities",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 23.72120000000018,
+      "top": [
+        "iPhone 13 mini",
+        "14",
+        "Galaxy S24"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "سبک باشه",
+      "category": "compact",
+      "diversity": {
+        "brands": 3,
+        "priceSpread": 19600000,
+        "featureDistance": 20.357142857142854
+      },
+      "fields": [
+        {
+          "key": "priorities",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 27.358000000000175,
+      "top": [
+        "iPhone 13 mini",
+        "13T Pro",
+        "Pixel 8A"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "صفحه نمایش بزرگ میخوام",
+      "category": "large display",
+      "diversity": {
+        "brands": 2,
+        "priceSpread": 20800000,
+        "featureDistance": 7.4642857142857135
+      },
+      "fields": [
+        {
+          "key": "constraints",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 19.600400000000036,
+      "top": [
+        "13T Pro",
+        "14T",
+        "Pixel 8 Pro"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "نمایشگر بزرگ برای فیلم",
+      "category": "large display",
+      "diversity": {
+        "brands": 2,
+        "priceSpread": 20800000,
+        "featureDistance": 7.4642857142857135
+      },
+      "fields": [
+        {
+          "key": "constraints",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 20.7971,
+      "top": [
+        "13T Pro",
+        "14T",
+        "Pixel 8 Pro"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "حداقل ۵۱۲ گیگ میخوام",
+      "category": "storage",
+      "diversity": {
+        "brands": 2,
+        "priceSpread": 22200000,
+        "featureDistance": 10.000000000000002
+      },
+      "fields": [
+        {
+          "key": "constraints",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 13.490199999999959,
+      "top": [
+        "13T Pro",
+        "Pixel 9 Pro",
+        "14"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "۸ گیگ رم",
+      "category": "storage",
+      "diversity": {
+        "brands": 2,
+        "priceSpread": 22200000,
+        "featureDistance": 10.000000000000002
+      },
+      "fields": [
+        {
+          "key": "constraints",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 20.347000000000207,
+      "top": [
+        "13T Pro",
+        "Pixel 9 Pro",
+        "14"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "۲۵۶ گیگ میخوام",
+      "category": "storage",
+      "diversity": {
+        "brands": 2,
+        "priceSpread": 22200000,
+        "featureDistance": 10.000000000000002
+      },
+      "fields": [
+        {
+          "key": "constraints",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 24.385999999999967,
+      "top": [
+        "13T Pro",
+        "Pixel 9 Pro",
+        "14"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "شارژ سریع خیلی مهمه",
+      "category": "charging",
+      "diversity": {
+        "brands": 2,
+        "priceSpread": 8800000,
+        "featureDistance": 4.3
+      },
+      "fields": [
+        {
+          "key": "priorities",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 32.134199999999964,
+      "top": [
+        "12",
+        "13T Pro",
+        "14"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "شارژ حداقل ۶۷ وات",
+      "category": "charging",
+      "diversity": {
+        "brands": 2,
+        "priceSpread": 16000000,
+        "featureDistance": 3.2272727272727275
+      },
+      "fields": [
+        {
+          "key": "constraints",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 10.303700000000163,
+      "top": [
+        "13T Pro",
+        "14",
+        "F6 Pro"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "باتری و دوربین برای سفر",
+      "category": "multiple preferences",
+      "diversity": {
+        "brands": 1,
+        "priceSpread": 38600000,
+        "featureDistance": 5.659090909090909
+      },
+      "fields": [
+        {
+          "key": "priorities",
+          "pass": true
+        },
+        {
+          "key": "useCases",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 26.932400000000143,
+      "top": [
+        "Pixel 9 Pro",
+        "Pixel 8 Pro",
+        "Pixel 8"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "برای کسب و کار با nfc",
+      "category": "multiple preferences",
+      "diversity": {
+        "brands": 1,
+        "priceSpread": 24600000,
+        "featureDistance": 3.8000000000000007
+      },
+      "fields": [
+        {
+          "key": "useCases",
+          "pass": true
+        },
+        {
+          "key": "constraints",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 19.84479999999985,
+      "top": [
+        "Pixel 9 Pro",
+        "Pixel 8 Pro",
+        "Pixel 9"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "اینستاگرام و عکاسی تا ۴۵ میلیون",
+      "category": "multiple preferences",
+      "diversity": {
+        "brands": 1,
+        "priceSpread": 13600000,
+        "featureDistance": 4.371428571428572
+      },
+      "fields": [
+        {
+          "key": "useCases",
+          "pass": true
+        },
+        {
+          "key": "budget",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 15.632500000000164,
+      "top": [
+        "13T Pro",
+        "14T",
+        "13T"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "آیفون تا ۱ میلیون",
+      "category": "no-results",
+      "diversity": {
+        "brands": 0,
+        "priceSpread": 0,
+        "featureDistance": 0
+      },
+      "fields": [
+        {
+          "key": "brands",
+          "pass": true
+        },
+        {
+          "key": "noResults",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 2.516300000000001,
+      "top": [],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "گوشی حداقل ۲۰۴۸ گیگ",
+      "category": "no-results",
+      "diversity": {
+        "brands": 0,
+        "priceSpread": 0,
+        "featureDistance": 0
+      },
+      "fields": [
+        {
+          "key": "constraints",
+          "pass": true
+        },
+        {
+          "key": "noResults",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 1.922900000000027,
+      "top": [],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "گوشی باتری ۸۰۰۰ زیر ۱۵۰ گرم",
+      "category": "conflicting constraints",
+      "diversity": {
+        "brands": 0,
+        "priceSpread": 0,
+        "featureDistance": 0
+      },
+      "fields": [
+        {
+          "key": "constraints",
+          "pass": true
+        },
+        {
+          "key": "noResults",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 1.7200000000000273,
+      "top": [],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "بازی رو بیخیال",
+      "category": "follow-ups",
+      "diversity": {
+        "brands": 2,
+        "priceSpread": 3000000,
+        "featureDistance": 5.012195121951219
+      },
+      "fields": [
+        {
+          "key": "budget",
+          "pass": true
+        },
+        {
+          "key": "priorities",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 10.385800000000017,
+      "top": [
+        "Note 13 Pro 5G",
+        "Note 13 Pro+ 5G",
+        "X6"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "نه دوربین مهم‌تره",
+      "category": "follow-ups",
+      "diversity": {
+        "brands": 3,
+        "priceSpread": 5000000,
+        "featureDistance": 5.352941176470589
+      },
+      "fields": [
+        {
+          "key": "budget",
+          "pass": true
+        },
+        {
+          "key": "priorities",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 7.44399999999996,
+      "top": [
+        "Note 13 Pro 5G",
+        "Phone (2a)",
+        "X6"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "سامسونگاشو نشون بده",
+      "category": "follow-ups",
+      "diversity": {
+        "brands": 1,
+        "priceSpread": 6100000,
+        "featureDistance": 6.636363636363636
+      },
+      "fields": [
+        {
+          "key": "brands",
+          "pass": true
+        },
+        {
+          "key": "budget",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 6.41170000000011,
+      "top": [
+        "Galaxy A26 5G",
+        "Galaxy A55 5G",
+        "Galaxy A25 5G"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "تا ۳۵ میتونم برم",
+      "category": "follow-ups",
+      "diversity": {
+        "brands": 3,
+        "priceSpread": 3000000,
+        "featureDistance": 8.694444444444445
+      },
+      "fields": [
+        {
+          "key": "budget",
+          "pass": true
+        },
+        {
+          "key": "useCases",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 10.60109999999986,
+      "top": [
+        "X6 Pro",
+        "13T",
+        "Note 13 Pro+ 5G"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "شیائومی رو حذف کن",
+      "category": "follow-ups",
+      "diversity": {
+        "brands": 3,
+        "priceSpread": 1800000,
+        "featureDistance": 16.318181818181817
+      },
+      "fields": [
+        {
+          "key": "excludedBrands",
+          "pass": true
+        },
+        {
+          "key": "budget",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 13.40379999999982,
+      "top": [
+        "Pixel 8A",
+        "Note 13 Pro+ 5G",
+        "X6 Pro"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "یکم ارزون‌تر",
+      "category": "follow-ups",
+      "diversity": {
+        "brands": 3,
+        "priceSpread": 10200000,
+        "featureDistance": 6.911764705882353
+      },
+      "fields": [
+        {
+          "key": "action",
+          "pass": true
+        },
+        {
+          "key": "priorities",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 11.38390000000004,
+      "top": [
+        "Note 13 Pro 5G",
+        "X6",
+        "Galaxy A25 5G"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "۲۵۶ گیگ میخوام",
+      "category": "follow-ups",
+      "diversity": {
+        "brands": 3,
+        "priceSpread": 3000000,
+        "featureDistance": 8.694444444444445
+      },
+      "fields": [
+        {
+          "key": "constraints",
+          "pass": true
+        },
+        {
+          "key": "useCases",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 9.262000000000171,
+      "top": [
+        "X6 Pro",
+        "13T",
+        "Note 13 Pro+ 5G"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "بین اولی و دومی کدوم؟",
+      "category": "follow-ups",
+      "diversity": {
+        "brands": 3,
+        "priceSpread": 3800000,
+        "featureDistance": 10.785714285714285
+      },
+      "fields": [
+        {
+          "key": "action",
+          "pass": true
+        },
+        {
+          "key": "priorities",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 11.466699999999946,
+      "top": [
+        "13T",
+        "Pixel 8A",
+        "Note 13 Pro+ 5G"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "حافظه بیشتر میخوام",
+      "category": "follow-ups",
+      "diversity": {
+        "brands": 2,
+        "priceSpread": 22200000,
+        "featureDistance": 10.000000000000002
+      },
+      "fields": [
+        {
+          "key": "constraints",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 13.6724999999999,
+      "top": [
+        "13T Pro",
+        "Pixel 9 Pro",
+        "14"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "برند مهم نیست",
+      "category": "follow-ups",
+      "diversity": {
+        "brands": 2,
+        "priceSpread": 44400000,
+        "featureDistance": 6.166666666666666
+      },
+      "fields": [
+        {
+          "key": "brands",
+          "pass": true
+        },
+        {
+          "key": "useCases",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 22.44010000000003,
+      "top": [
+        "13T Pro",
+        "13",
+        "14"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "تا ۲۵ میلیون بیشتر نشه",
+      "category": "hard budget",
+      "diversity": {
+        "brands": 3,
+        "priceSpread": 5000000,
+        "featureDistance": 4.454545454545455
+      },
+      "fields": [
+        {
+          "key": "budget",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 9.338999999999942,
+      "top": [
+        "Note 13 Pro 5G",
+        "X6",
+        "Phone (2a)"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "تقریبا ۳۰ میلیون",
+      "category": "soft budget",
+      "diversity": {
+        "brands": 2,
+        "priceSpread": 1000000,
+        "featureDistance": 7
+      },
+      "fields": [
+        {
+          "key": "budget",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 11.090799999999945,
+      "top": [
+        "Note 13 Pro+ 5G",
+        "Note 13 Pro 5G",
+        "X6 Pro"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "آیفون میخوام ولی دست دوم نه",
+      "category": "multiple preferences",
+      "diversity": {
+        "brands": 1,
+        "priceSpread": 53000000,
+        "featureDistance": 5.181818181818182
+      },
+      "fields": [
+        {
+          "key": "brands",
+          "pass": true
+        },
+        {
+          "key": "constraints",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 13.710299999999961,
+      "top": [
+        "iPhone 15 Pro",
+        "iPhone 13 mini",
+        "iPhone 13 Pro"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    },
+    {
+      "query": "بودجه رو ببر ۳۰",
+      "category": "follow-ups",
+      "diversity": {
+        "brands": 2,
+        "priceSpread": 1000000,
+        "featureDistance": 6.5
+      },
+      "fields": [
+        {
+          "key": "budget",
+          "pass": true
+        },
+        {
+          "key": "priorities",
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "latency": 14.243399999999838,
+      "top": [
+        "X6 Pro",
+        "Note 13 Pro+ 5G",
+        "Note 13 Pro 5G"
+      ],
+      "recall": null,
+      "ndcg": null,
+      "relevance": null
+    }
+  ]
+}
