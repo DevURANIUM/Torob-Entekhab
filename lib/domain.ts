@@ -46,15 +46,15 @@ export const intentSchema = z.object({
       min: z.number().min(0).max(1e10).optional(),
       max: z.number().min(0).max(1e10).optional(),
       target: z.number().positive().max(1e10).optional(),
-      flexibility: z.number().min(0).max(.3).optional(),
-      kind: z.enum(['hard','soft']).optional(),
+      flexibility: z.number().min(0).max(0.3).optional(),
+      kind: z.enum(["hard", "soft"]).optional(),
     })
     .optional(),
   brands: z.array(z.enum(brands)).max(10).default([]),
   excludedBrands: z.array(z.enum(brands)).max(10).default([]),
-  assumptions:z.array(z.string().max(250)).max(10).default([]),
-  warnings:z.array(z.string().max(250)).max(10).default([]),
-  action:z.enum(['refine','save','compare_first_two']).default('refine'),
+  assumptions: z.array(z.string().max(250)).max(10).default([]),
+  warnings: z.array(z.string().max(250)).max(10).default([]),
+  action: z.enum(["refine", "save", "compare_first_two"]).default("refine"),
   recipient: z.enum(["mother", "father", "self"]).optional(),
   useCases: z
     .array(
@@ -66,7 +66,11 @@ export const intentSchema = z.object({
         "student",
         "business",
         "long_term_use",
-        "social_media","content_creator","travel","battery_first","compact",
+        "social_media",
+        "content_creator",
+        "travel",
+        "battery_first",
+        "compact",
       ]),
     )
     .max(12)
@@ -80,7 +84,10 @@ export const intentSchema = z.object({
       longevity: weight.optional(),
       portability: weight.optional(),
       value: weight.optional(),
-      charging: weight.optional(),storage:weight.optional(),connectivity:weight.optional(),simplicity:weight.optional(),
+      charging: weight.optional(),
+      storage: weight.optional(),
+      connectivity: weight.optional(),
+      simplicity: weight.optional(),
     })
     .default({}),
   constraints: z
@@ -94,17 +101,17 @@ export const intentSchema = z.object({
       requires5G: z.boolean().optional(),
       requiresNfc: z.boolean().optional(),
       minSupportYears: z.number().min(0).max(10).optional(),
-      minCharging:z.number().min(0).max(300).optional(),
-      newOnly:z.boolean().optional(),
+      minCharging: z.number().min(0).max(300).optional(),
+      newOnly: z.boolean().optional(),
     })
     .default({}),
 });
 export type SearchIntent = z.infer<typeof intentSchema>;
 export type Phone = {
-  modelData: import('./data/schema').PhoneModel;
-  variant: import('./data/schema').PhoneVariant;
-  priceSnapshot: import('./data/schema').PriceSnapshot;
-  intelligence: import('./intelligence/features').ProductFeatures;
+  modelData: import("./data/schema").PhoneModel;
+  variant: import("./data/schema").PhoneVariant;
+  priceSnapshot: import("./data/schema").PriceSnapshot;
+  intelligence: import("./intelligence/features").ProductFeatures;
   id: string;
   slug: string;
   brand: (typeof brands)[number];
@@ -143,6 +150,8 @@ export type Phone = {
   tags: string[];
   useCases: Record<SearchIntent["useCases"][number], number>;
 };
-export const number = (n: number | null | undefined) => n == null ? 'نامشخص' :
-  new Intl.NumberFormat("fa-IR", { maximumFractionDigits: 1 }).format(n);
+export const number = (n: number | null | undefined) =>
+  n == null
+    ? "نامشخص"
+    : new Intl.NumberFormat("fa-IR", { maximumFractionDigits: 1 }).format(n);
 export const price = (n: number) => `${number(n)} تومان`;

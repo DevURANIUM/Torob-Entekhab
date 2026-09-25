@@ -1,14 +1,151 @@
-import { Facts } from './data/schema';
-export const specGroups:Record<string,(keyof Facts)[]>={
- 'طراحی':['dimensions','weightGrams','materials','ipRating','colors'],
- 'نمایشگر':['screenSizeInches','panel','resolution','pixelDensity','refreshRateHz','peakBrightnessNits','hdr','protection'],
- 'سخت‌افزار':['chipset','nodeNm','cpu','gpu','storageTechnology','expandableStorage'],
- 'دوربین':['mainCameraMp','mainAperture','ois','ultrawideMp','telephotoMp','opticalZoom','macroMp','rearVideo','frontCameraMp','frontVideo','reviewCameraScore'],
- 'باتری و شارژ':['batteryMah','wiredChargingW','wirelessChargingW','reverseCharging','chargerInBox','measuredBatteryHours','measuredThermalScore'],
- 'ارتباطات و صدا':['has5G','wifi','bluetooth','nfc','usb','esim','sim','stereo','headphoneJack'],
- 'نرم‌افزار و امنیت':['launchOs','majorUpgrades','securityYears','supportStartYear','fingerprint','faceUnlock','repairabilityScore','notableFeatures'],
+import { Facts } from "./data/schema";
+export const specGroups: Record<string, (keyof Facts)[]> = {
+  طراحی: ["dimensions", "weightGrams", "materials", "ipRating", "colors"],
+  نمایشگر: [
+    "screenSizeInches",
+    "panel",
+    "resolution",
+    "pixelDensity",
+    "refreshRateHz",
+    "peakBrightnessNits",
+    "hdr",
+    "protection",
+  ],
+  سخت‌افزار: [
+    "chipset",
+    "nodeNm",
+    "cpu",
+    "gpu",
+    "storageTechnology",
+    "expandableStorage",
+  ],
+  دوربین: [
+    "mainCameraMp",
+    "mainAperture",
+    "ois",
+    "ultrawideMp",
+    "telephotoMp",
+    "opticalZoom",
+    "macroMp",
+    "rearVideo",
+    "frontCameraMp",
+    "frontVideo",
+    "reviewCameraScore",
+  ],
+  "باتری و شارژ": [
+    "batteryMah",
+    "wiredChargingW",
+    "wirelessChargingW",
+    "reverseCharging",
+    "chargerInBox",
+    "measuredBatteryHours",
+    "measuredThermalScore",
+  ],
+  "ارتباطات و صدا": [
+    "has5G",
+    "wifi",
+    "bluetooth",
+    "nfc",
+    "usb",
+    "esim",
+    "sim",
+    "stereo",
+    "headphoneJack",
+  ],
+  "نرم‌افزار و امنیت": [
+    "launchOs",
+    "majorUpgrades",
+    "securityYears",
+    "supportStartYear",
+    "fingerprint",
+    "faceUnlock",
+    "repairabilityScore",
+    "notableFeatures",
+  ],
 };
-export const factLabels:Record<keyof Facts,string>={dimensions:'ابعاد (mm)',weightGrams:'وزن (g)',materials:'مواد بدنه',ipRating:'مقاومت IP',colors:'رنگ‌ها',screenSizeInches:'اندازه صفحه (اینچ)',panel:'پنل',resolution:'وضوح',pixelDensity:'تراکم (ppi)',refreshRateHz:'نوسازی (Hz)',peakBrightnessNits:'روشنایی اوج اعلامی (nit)',hdr:'HDR',protection:'محافظ صفحه',chipset:'تراشه',nodeNm:'فرایند ساخت (nm)',cpu:'CPU',gpu:'GPU',storageTechnology:'فناوری حافظه',expandableStorage:'کارت حافظه',mainCameraMp:'دوربین اصلی (MP)',mainAperture:'دیافراگم اصلی',ois:'لرزش‌گیر اپتیکال',ultrawideMp:'فوق عریض (MP)',telephotoMp:'تله‌فوتو (MP)',opticalZoom:'بزرگ‌نمایی اپتیکال',macroMp:'ماکرو (MP)',rearVideo:'ویدیوی پشت',frontCameraMp:'دوربین جلو (MP)',frontVideo:'ویدیوی جلو',reviewCameraScore:'امتیاز تست مستقل دوربین',batteryMah:'ظرفیت معمول باتری (mAh)',wiredChargingW:'شارژ سیمی (W)',wirelessChargingW:'شارژ بی‌سیم (W)',reverseCharging:'شارژ معکوس',chargerInBox:'شارژر داخل جعبه',measuredBatteryHours:'شارژدهی اندازه‌گیری‌شده (ساعت)',measuredThermalScore:'تست حرارتی',has5G:'5G',wifi:'Wi-Fi',bluetooth:'Bluetooth',nfc:'NFC',usb:'USB',esim:'eSIM',sim:'سیم‌کارت',stereo:'صدای استریو',headphoneJack:'جک هدفون',launchOs:'سیستم‌عامل عرضه',majorUpgrades:'نسل ارتقای وعده‌داده‌شده',securityYears:'سال تعهد امنیتی از عرضه',supportStartYear:'سال آغاز تعهد',fingerprint:'اثر انگشت',faceUnlock:'تشخیص چهره',repairabilityScore:'تعمیرپذیری اندازه‌گیری‌شده',notableFeatures:'قابلیت‌های دیگر'};
-export function factValue(v:Facts[keyof Facts]){return v===null?'نامشخص':typeof v==='boolean'?v?'دارد':'ندارد':String(v)}
-export const meaningfulThresholds:Partial<Record<keyof Facts,number>>={batteryMah:300,wiredChargingW:15,wirelessChargingW:10,weightGrams:15,screenSizeInches:.3,refreshRateHz:30,securityYears:1,pixelDensity:50};
-export function meaningfulDifference(key:keyof Facts,values:Facts[keyof Facts][]){const threshold=meaningfulThresholds[key];if(!threshold||values.some(v=>typeof v!=='number'))return false;return Math.max(...values as number[])-Math.min(...values as number[])>=threshold}
+export const factLabels: Record<keyof Facts, string> = {
+  dimensions: "ابعاد (mm)",
+  weightGrams: "وزن (g)",
+  materials: "مواد بدنه",
+  ipRating: "مقاومت IP",
+  colors: "رنگ‌ها",
+  screenSizeInches: "اندازه صفحه (اینچ)",
+  panel: "پنل",
+  resolution: "وضوح",
+  pixelDensity: "تراکم (ppi)",
+  refreshRateHz: "نوسازی (Hz)",
+  peakBrightnessNits: "روشنایی اوج اعلامی (nit)",
+  hdr: "HDR",
+  protection: "محافظ صفحه",
+  chipset: "تراشه",
+  nodeNm: "فرایند ساخت (nm)",
+  cpu: "CPU",
+  gpu: "GPU",
+  storageTechnology: "فناوری حافظه",
+  expandableStorage: "کارت حافظه",
+  mainCameraMp: "دوربین اصلی (MP)",
+  mainAperture: "دیافراگم اصلی",
+  ois: "لرزش‌گیر اپتیکال",
+  ultrawideMp: "فوق عریض (MP)",
+  telephotoMp: "تله‌فوتو (MP)",
+  opticalZoom: "بزرگ‌نمایی اپتیکال",
+  macroMp: "ماکرو (MP)",
+  rearVideo: "ویدیوی پشت",
+  frontCameraMp: "دوربین جلو (MP)",
+  frontVideo: "ویدیوی جلو",
+  reviewCameraScore: "امتیاز تست مستقل دوربین",
+  batteryMah: "ظرفیت معمول باتری (mAh)",
+  wiredChargingW: "شارژ سیمی (W)",
+  wirelessChargingW: "شارژ بی‌سیم (W)",
+  reverseCharging: "شارژ معکوس",
+  chargerInBox: "شارژر داخل جعبه",
+  measuredBatteryHours: "شارژدهی اندازه‌گیری‌شده (ساعت)",
+  measuredThermalScore: "تست حرارتی",
+  has5G: "5G",
+  wifi: "Wi-Fi",
+  bluetooth: "Bluetooth",
+  nfc: "NFC",
+  usb: "USB",
+  esim: "eSIM",
+  sim: "سیم‌کارت",
+  stereo: "صدای استریو",
+  headphoneJack: "جک هدفون",
+  launchOs: "سیستم‌عامل عرضه",
+  majorUpgrades: "نسل ارتقای وعده‌داده‌شده",
+  securityYears: "سال تعهد امنیتی از عرضه",
+  supportStartYear: "سال آغاز تعهد",
+  fingerprint: "اثر انگشت",
+  faceUnlock: "تشخیص چهره",
+  repairabilityScore: "تعمیرپذیری اندازه‌گیری‌شده",
+  notableFeatures: "قابلیت‌های دیگر",
+};
+export function factValue(v: Facts[keyof Facts]) {
+  return v === null
+    ? "نامشخص"
+    : typeof v === "boolean"
+      ? v
+        ? "دارد"
+        : "ندارد"
+      : String(v);
+}
+export const meaningfulThresholds: Partial<Record<keyof Facts, number>> = {
+  batteryMah: 300,
+  wiredChargingW: 15,
+  wirelessChargingW: 10,
+  weightGrams: 15,
+  screenSizeInches: 0.3,
+  refreshRateHz: 30,
+  securityYears: 1,
+  pixelDensity: 50,
+};
+export function meaningfulDifference(
+  key: keyof Facts,
+  values: Facts[keyof Facts][],
+) {
+  const threshold = meaningfulThresholds[key];
+  if (!threshold || values.some((v) => typeof v !== "number")) return false;
+  return (
+    Math.max(...(values as number[])) - Math.min(...(values as number[])) >=
+    threshold
+  );
+}

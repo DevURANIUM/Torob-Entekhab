@@ -42,8 +42,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             ترب انتخاب <span className="muted"> / تصمیم آگاهانه‌تر</span>
           </span>
           <p>
-            قیمت‌ها، مشخصات و امتیازهای این نسخه داده‌های نمایشی هستند؛ منبع
-            خرید یا مشخصات تأییدشده نیستند.
+            مشخصات با منبع ثبت شده‌اند؛ امتیازها تخمینی و قیمت‌ها نمونه برای دمو
+            هستند.
           </p>
           <span className="muted">پروژه مستقل؛ بدون وابستگی رسمی به ترب</span>
         </footer>

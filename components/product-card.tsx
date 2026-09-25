@@ -67,7 +67,10 @@ export function ProductCard({
         <p className="product-brand">
           {p.brand} <span> / {number(p.storage)} گیگابایت</span>
         </p>
-        <h3 dir="ltr">{p.model}</h3><small>نسخه پیشنهادی: {number(p.ram)} / {number(p.storage)}</small>
+        <h3 dir="ltr">{p.model}</h3>
+        <small>
+          نسخه پیشنهادی: {number(p.ram)} / {number(p.storage)}
+        </small>
         <div className="product-price">
           {price(p.price)} <small>قیمت نمونه برای دمو</small>
         </div>
@@ -87,12 +90,14 @@ export function ProductCard({
         </div>
         <h4>چرا به نیازت می‌خوره؟</h4>
         <ul className="reasons">
-          {explain(item).map(x=>x.split("؛")[0]).map((x) => (
-            <li key={x}>
-              <Check size={15} />
-              {x}
-            </li>
-          ))}
+          {explain(item)
+            .map((x) => x.split("؛")[0])
+            .map((x) => (
+              <li key={x}>
+                <Check size={15} />
+                {x}
+              </li>
+            ))}
         </ul>
         <details className="tradeoffs">
           <summary>با انتخاب این، از چی می‌گذری؟</summary>

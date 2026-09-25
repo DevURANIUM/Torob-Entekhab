@@ -2,8 +2,8 @@ import Link from "next/link";
 import { db, getProducts } from "@/lib/db";
 import { evaluate } from "@/lib/evaluation/run";
 import { number } from "@/lib/domain";
-import {dataQuality} from "@/lib/data/quality";
-import {factLabels} from "@/lib/specifications";
+import { dataQuality } from "@/lib/data/quality";
+import { factLabels } from "@/lib/specifications";
 import { Debugger } from "@/components/debugger";
 export const dynamic = "force-dynamic";
 export default async function Page() {
@@ -13,7 +13,7 @@ export default async function Page() {
     db.aiRun.findMany({ orderBy: { createdAt: "desc" }, take: 100 }),
   ]);
   const evaluation = evaluate(products);
- const quality=dataQuality(products);
+  const quality = dataQuality(products);
   return (
     <div className="wrap lab">
       <div className="eyebrow">BUILD → MEASURE → LEARN</div>
@@ -27,7 +27,8 @@ export default async function Page() {
         </Link>
       </div>
       <p className="notice">
-        {number(evaluation.count)} پرس‌وجو · {number(products.length)} نسخه مستند با قیمت نمونه · استخراج قاعده‌محور (mock) · زمان اجرا:{" "}
+        {number(evaluation.count)} پرس‌وجو · {number(products.length)} نسخه
+        مستند با قیمت نمونه · استخراج قاعده‌محور (mock) · زمان اجرا:{" "}
         <bdi>{evaluation.timestamp}</bdi>
         <br />
         کیفیت رتبه‌بندی فقط روی {number(evaluation.judgedCount)} پرس‌وجوی دارای
@@ -67,7 +68,7 @@ export default async function Page() {
           <h2>کجاها خراب می‌کنیم؟</h2>
           {evaluation.rows
             .filter((r) => !r.pass || r.note)
-            .map((r,index) => (
+            .map((r, index) => (
               <div className="failure" key={`${r.query}-${index}`}>
                 <strong>«{r.query}»</strong>
                 <p>
@@ -82,8 +83,61 @@ export default async function Page() {
             ))}
         </section>
       </div>
-      <details className="panel"><summary>Data Quality · کیفیت و منابع داده</summary><p>{number(quality.models)} مدل · {number(quality.variants)} نسخه · {quality.brands.join('، ')}</p><p>پوشش {number(quality.coverage*100)}٪ · نامشخص {number(quality.missing)} · با اطمینان بالا {number(quality.highConfidence)} · بدون تأیید {number(quality.unverified)} · قیمت قدیمی‌تر از ۳۰ روز {number(quality.stalePrices)} · قیمت نمونه {number(quality.demoPrices)}</p><div className="table-scroll"><table><thead><tr><th>فیلد</th><th>پوشش</th><th>نامشخص</th><th>اطمینان بالا</th></tr></thead><tbody>{quality.byField.map(f=><tr key={f.key}><th>{factLabels[f.key]}</th><td>{number(f.coverage*100)}٪</td><td>{number(f.missing)}</td><td>{number(f.highConfidence)}</td></tr>)}</tbody></table></div></details>
-      <section className="panel"><h2>ارزیابی به تفکیک دسته</h2><div className="event-grid">{Object.entries(evaluation.byCategory).map(([k,v])=><div key={k}><b>{k}</b><p>{number(v.passed)} / {number(v.count)}</p></div>)}</div><p>میانگین تنوع برند: {number(evaluation.diversity.brands)} · فاصله قیمت: {number(evaluation.diversity.priceSpread/1e6)} میلیون · فاصله شاخص‌ها: {number(evaluation.diversity.featureDistance)}</p></section>
+      <details className="panel">
+        <summary>Data Quality · کیفیت و منابع داده</summary>
+        <p>
+          {number(quality.models)} مدل · {number(quality.variants)} نسخه ·{" "}
+          {quality.brands.join("، ")}
+        </p>
+        <p>
+          پوشش {number(quality.coverage * 100)}٪ · نامشخص{" "}
+          {number(quality.missing)} · با اطمینان بالا{" "}
+          {number(quality.highConfidence)} · بدون تأیید{" "}
+          {number(quality.unverified)} · قیمت قدیمی‌تر از ۳۰ روز{" "}
+          {number(quality.stalePrices)} · قیمت نمونه{" "}
+          {number(quality.demoPrices)}
+        </p>
+        <div className="table-scroll">
+          <table>
+            <thead>
+              <tr>
+                <th>فیلد</th>
+                <th>پوشش</th>
+                <th>نامشخص</th>
+                <th>اطمینان بالا</th>
+              </tr>
+            </thead>
+            <tbody>
+              {quality.byField.map((f) => (
+                <tr key={f.key}>
+                  <th>{factLabels[f.key]}</th>
+                  <td>{number(f.coverage * 100)}٪</td>
+                  <td>{number(f.missing)}</td>
+                  <td>{number(f.highConfidence)}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </details>
+      <section className="panel">
+        <h2>ارزیابی به تفکیک دسته</h2>
+        <div className="event-grid">
+          {Object.entries(evaluation.byCategory).map(([k, v]) => (
+            <div key={k}>
+              <b>{k}</b>
+              <p>
+                {number(v.passed)} / {number(v.count)}
+              </p>
+            </div>
+          ))}
+        </div>
+        <p>
+          میانگین تنوع برند: {number(evaluation.diversity.brands)} · فاصله قیمت:{" "}
+          {number(evaluation.diversity.priceSpread / 1e6)} میلیون · فاصله
+          شاخص‌ها: {number(evaluation.diversity.featureDistance)}
+        </p>
+      </section>
       <Debugger products={products} />
       <section className="panel">
         <h2>عملکرد واقعی API</h2>
@@ -164,7 +218,7 @@ export default async function Page() {
               </tr>
             </thead>
             <tbody>
-              {evaluation.rows.map((r,index) => (
+              {evaluation.rows.map((r, index) => (
                 <tr key={`${r.query}-${index}`}>
                   <td>{r.query}</td>
                   <td>{r.pass ? "قبول" : "ناموفق"}</td>

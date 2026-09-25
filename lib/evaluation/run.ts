@@ -4,7 +4,11 @@ import { search } from "../search/engine";
 import { cases } from "./cases";
 export function subset(actual: unknown, expected: unknown): boolean {
   if (Array.isArray(expected))
-    return Array.isArray(actual) && (expected.length>0 || actual.length===0) && expected.every((x) => actual.includes(x));
+    return (
+      Array.isArray(actual) &&
+      (expected.length > 0 || actual.length === 0) &&
+      expected.every((x) => actual.includes(x))
+    );
   if (expected && typeof expected === "object")
     return (
       Boolean(actual) &&
@@ -22,13 +26,20 @@ export function ndcg(grades: number[], ideal: number[]) {
 export function evaluate(products: Phone[]) {
   const rows = cases.map((c) => {
     const start = performance.now();
-    const intent = extractIntent(c.query,c.previous?extractIntent(c.previous):undefined);
+    const intent = extractIntent(
+      c.query,
+      c.previous ? extractIntent(c.previous) : undefined,
+    );
     const result = search(products, intent);
     const fields = Object.entries(c.expected).map(([key, value]) => ({
       key,
       pass: subset(intent[key as keyof typeof intent], value),
     }));
-    if(c.noResults!==undefined)fields.push({key:'noResults',pass:(result.ranked.length===0)===c.noResults});
+    if (c.noResults !== undefined)
+      fields.push({
+        key: "noResults",
+        pass: (result.ranked.length === 0) === c.noResults,
+      });
     const relevance = c.relevance;
     const judged = relevance && Object.keys(relevance).length > 0;
     const grades = judged
@@ -36,8 +47,38 @@ export function evaluate(products: Phone[]) {
       : [];
     return {
       query: c.query,
-      category:c.category??Object.keys(c.expected)[0]??'ambiguity',
-      diversity:{brands:new Set(result.recommendations.map(r=>r.product.brand)).size,priceSpread:result.recommendations.length?Math.max(...result.recommendations.map(r=>r.product.price))-Math.min(...result.recommendations.map(r=>r.product.price)):0,featureDistance:result.recommendations.length>1?result.recommendations.slice(1).reduce((sum,r)=>sum+Object.keys(r.weights).reduce((s,k)=>s+Math.abs(r.product.scores[k as keyof typeof r.weights]-result.recommendations[0].product.scores[k as keyof typeof r.weights])*r.weights[k as keyof typeof r.weights],0),0)/(result.recommendations.length-1):0},
+      category: c.category ?? Object.keys(c.expected)[0] ?? "ambiguity",
+      diversity: {
+        brands: new Set(result.recommendations.map((r) => r.product.brand))
+          .size,
+        priceSpread: result.recommendations.length
+          ? Math.max(...result.recommendations.map((r) => r.product.price)) -
+            Math.min(...result.recommendations.map((r) => r.product.price))
+          : 0,
+        featureDistance:
+          result.recommendations.length > 1
+            ? result.recommendations
+                .slice(1)
+                .reduce(
+                  (sum, r) =>
+                    sum +
+                    Object.keys(r.weights).reduce(
+                      (s, k) =>
+                        s +
+                        Math.abs(
+                          r.product.scores[k as keyof typeof r.weights] -
+                            result.recommendations[0].product.scores[
+                              k as keyof typeof r.weights
+                            ],
+                        ) *
+                          r.weights[k as keyof typeof r.weights],
+                      0,
+                    ),
+                  0,
+                ) /
+              (result.recommendations.length - 1)
+            : 0,
+      },
       fields,
       pass: fields.every((f) => f.pass),
       note: c.note,
@@ -76,8 +117,24 @@ export function evaluate(products: Phone[]) {
       rows.flatMap((r) => r.fields).map((f) => Number(f.pass)),
     ),
     byField,
-    byCategory:Object.fromEntries([...new Set(rows.map(r=>r.category))].map(category=>{const group=rows.filter(r=>r.category===category);return [category,{count:group.length,passed:group.filter(r=>r.pass).length,accuracy:mean(group.map(r=>Number(r.pass)))}]})),
-    diversity:{brands:mean(rows.map(r=>r.diversity.brands)),priceSpread:mean(rows.map(r=>r.diversity.priceSpread)),featureDistance:mean(rows.map(r=>r.diversity.featureDistance))},
+    byCategory: Object.fromEntries(
+      [...new Set(rows.map((r) => r.category))].map((category) => {
+        const group = rows.filter((r) => r.category === category);
+        return [
+          category,
+          {
+            count: group.length,
+            passed: group.filter((r) => r.pass).length,
+            accuracy: mean(group.map((r) => Number(r.pass))),
+          },
+        ];
+      }),
+    ),
+    diversity: {
+      brands: mean(rows.map((r) => r.diversity.brands)),
+      priceSpread: mean(rows.map((r) => r.diversity.priceSpread)),
+      featureDistance: mean(rows.map((r) => r.diversity.featureDistance)),
+    },
     recall: mean(rows.flatMap((r) => (r.recall === null ? [] : [r.recall]))),
     ndcg: mean(rows.flatMap((r) => (r.ndcg === null ? [] : [r.ndcg]))),
     relevance: mean(

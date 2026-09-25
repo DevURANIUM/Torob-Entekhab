@@ -3,7 +3,12 @@ import { getProducts } from "@/lib/db";
 import { readIntent, encodeIntent } from "@/lib/state";
 import { score } from "@/lib/search/ranking";
 import { keys, labels, number, price } from "@/lib/domain";
-import {specGroups,factLabels,factValue,meaningfulDifference} from "@/lib/specifications";
+import {
+  specGroups,
+  factLabels,
+  factValue,
+  meaningfulDifference,
+} from "@/lib/specifications";
 import { PhoneArt } from "@/components/phone-art";
 export const dynamic = "force-dynamic";
 export default async function Page({
@@ -77,8 +82,11 @@ export default async function Page({
                       <td
                         key={x.product.id}
                         className={
-                          Math.max(...items.map(i=>i.breakdown[k]))-Math.min(...items.map(i=>i.breakdown[k]))>=8 && x.breakdown[k] ===
-                          Math.max(...items.map((i) => i.breakdown[k]))
+                          Math.max(...items.map((i) => i.breakdown[k])) -
+                            Math.min(...items.map((i) => i.breakdown[k])) >=
+                            8 &&
+                          x.breakdown[k] ===
+                            Math.max(...items.map((i) => i.breakdown[k]))
                             ? "highlight"
                             : ""
                         }
@@ -88,11 +96,63 @@ export default async function Page({
                     ))}
                   </tr>
                 ))}
-
               </tbody>
             </table>
           </div>
-          <section className="panel specifications"><h2>مشخصات کامل</h2><p>قیمت نمونه برای دمو؛ مزیت عددی فقط با عبور از آستانه معنادار مشخص می‌شود. مگاپیکسل مزیت کیفیت عکس نیست.</p>{Object.entries(specGroups).map(([group,fields])=><details key={group}><summary>{group}</summary><div className="table-scroll"><table><thead><tr><th>مشخصه</th>{items.map(x=><th key={x.product.id}>{x.product.displayName}</th>)}</tr></thead><tbody>{fields.map(k=><tr key={k}><th>{factLabels[k]}</th>{items.map(x=>{const values=items.map(i=>i.product.modelData.facts[k]);const value=x.product.modelData.facts[k];const best=k==='weightGrams'?Math.min(...values as number[]):Math.max(...values as number[]);return <td key={x.product.id} className={meaningfulDifference(k,values)&&value===best?'highlight':''}>{factValue(value)}</td>})}</tr>)}</tbody></table></div></details>)}</section>
+          <section className="panel specifications">
+            <h2>مشخصات کامل</h2>
+            <p>
+              قیمت نمونه برای دمو؛ مزیت عددی فقط با عبور از آستانه معنادار مشخص
+              می‌شود. مگاپیکسل مزیت کیفیت عکس نیست.
+            </p>
+            {Object.entries(specGroups).map(([group, fields]) => (
+              <details key={group}>
+                <summary>{group}</summary>
+                <div className="table-scroll">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>مشخصه</th>
+                        {items.map((x) => (
+                          <th key={x.product.id}>{x.product.displayName}</th>
+                        ))}
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {fields.map((k) => (
+                        <tr key={k}>
+                          <th>{factLabels[k]}</th>
+                          {items.map((x) => {
+                            const values = items.map(
+                              (i) => i.product.modelData.facts[k],
+                            );
+                            const value = x.product.modelData.facts[k];
+                            const best =
+                              k === "weightGrams"
+                                ? Math.min(...(values as number[]))
+                                : Math.max(...(values as number[]));
+                            return (
+                              <td
+                                key={x.product.id}
+                                className={
+                                  meaningfulDifference(k, values) &&
+                                  value === best
+                                    ? "highlight"
+                                    : ""
+                                }
+                              >
+                                {factValue(value)}
+                              </td>
+                            );
+                          })}
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </details>
+            ))}
+          </section>
         </>
       )}
     </div>

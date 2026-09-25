@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-25T03:16:04.528Z",
+  "timestamp": "2026-09-25T13:37:57.886Z",
   "mode": "mock",
   "count": 100,
   "judgedCount": 3,
@@ -143,23 +143,23 @@
     }
   },
   "diversity": {
-    "brands": 2,
-    "priceSpread": 14321000,
-    "featureDistance": 7.642181834707163
+    "brands": 1.96,
+    "priceSpread": 13785000,
+    "featureDistance": 7.600863152171229
   },
   "recall": 0.47222222222222215,
-  "ndcg": 0.5306925999883374,
-  "relevance": 0.4444444444444444,
-  "p50": 13.490199999999959,
-  "p95": 30.72860000000003,
+  "ndcg": 0.40516201590333517,
+  "relevance": 0.2222222222222222,
+  "p50": 14.446500000000015,
+  "p95": 33.230500000000006,
   "rows": [
     {
       "query": "برای مامانم گوشی تا ۲۵ میلیون میخوام، باتری خوب و صفحه بزرگ",
       "category": "budget",
       "diversity": {
-        "brands": 3,
-        "priceSpread": 3400000,
-        "featureDistance": 6.208333333333332
+        "brands": 2,
+        "priceSpread": 4700000,
+        "featureDistance": 7.774509803921568
       },
       "fields": [
         {
@@ -176,23 +176,23 @@
         }
       ],
       "pass": true,
-      "latency": 16.060600000000022,
+      "latency": 23.197600000000023,
       "top": [
-        "X6",
         "Galaxy A26 5G",
-        "Note 13 Pro 5G"
+        "Note 13 Pro 5G",
+        "Galaxy A36 5G"
       ],
       "recall": 0.5,
-      "ndcg": 0.2322609126342973,
-      "relevance": 0.3333333333333333
+      "ndcg": 0,
+      "relevance": 0
     },
     {
       "query": "برای پابجی گوشی تا ۳۰ میلیون میخوام",
       "category": "budget",
       "diversity": {
         "brands": 2,
-        "priceSpread": 3000000,
-        "featureDistance": 8.722222222222221
+        "priceSpread": 1000000,
+        "featureDistance": 9.13888888888889
       },
       "fields": [
         {
@@ -205,15 +205,15 @@
         }
       ],
       "pass": true,
-      "latency": 12.668999999999983,
+      "latency": 13.48320000000001,
       "top": [
         "X6 Pro",
         "Note 13 Pro+ 5G",
-        "X6"
+        "Note 13 Pro 5G"
       ],
       "recall": 0.6666666666666666,
-      "ndcg": 0.8178747578506881,
-      "relevance": 0.6666666666666666
+      "ndcg": 0.6735439182299785,
+      "relevance": 0.3333333333333333
     },
     {
       "query": "دوربین خیلی مهمه و تا ۴۰ میلیون بودجه دارم",
@@ -221,7 +221,7 @@
       "diversity": {
         "brands": 3,
         "priceSpread": 4600000,
-        "featureDistance": 12.642857142857142
+        "featureDistance": 13
       },
       "fields": [
         {
@@ -234,7 +234,7 @@
         }
       ],
       "pass": true,
-      "latency": 24.474400000000003,
+      "latency": 17.071900000000028,
       "top": [
         "200",
         "Pixel 8A",
@@ -250,7 +250,7 @@
       "diversity": {
         "brands": 1,
         "priceSpread": 1300000,
-        "featureDistance": 6.545454545454546
+        "featureDistance": 6.772727272727273
       },
       "fields": [
         {
@@ -263,7 +263,7 @@
         }
       ],
       "pass": true,
-      "latency": 7.662399999999991,
+      "latency": 9.361699999999985,
       "top": [
         "Galaxy A26 5G",
         "Galaxy A35 5G",
@@ -279,7 +279,7 @@
       "diversity": {
         "brands": 3,
         "priceSpread": 12800000,
-        "featureDistance": 12.125
+        "featureDistance": 12.25
       },
       "fields": [
         {
@@ -292,7 +292,7 @@
         }
       ],
       "pass": true,
-      "latency": 34.341200000000015,
+      "latency": 37.09620000000001,
       "top": [
         "13T Pro",
         "Pixel 8A",
@@ -317,7 +317,7 @@
         }
       ],
       "pass": true,
-      "latency": 17.262399999999957,
+      "latency": 12.055000000000007,
       "top": [
         "Pixel 9 Pro",
         "Galaxy S24+",
@@ -333,7 +333,7 @@
       "diversity": {
         "brands": 3,
         "priceSpread": 7800000,
-        "featureDistance": 10.076923076923078
+        "featureDistance": 10.16923076923077
       },
       "fields": [
         {
@@ -346,7 +346,7 @@
         }
       ],
       "pass": true,
-      "latency": 15.410599999999988,
+      "latency": 17.04079999999999,
       "top": [
         "13T",
         "Pixel 8A",
@@ -362,7 +362,7 @@
       "diversity": {
         "brands": 1,
         "priceSpread": 4700000,
-        "featureDistance": 9.35
+        "featureDistance": 9.85
       },
       "fields": [
         {
@@ -375,7 +375,7 @@
         }
       ],
       "pass": true,
-      "latency": 6.487799999999993,
+      "latency": 6.01479999999998,
       "top": [
         "Galaxy A26 5G",
         "Galaxy A15 5G",
@@ -404,7 +404,7 @@
         }
       ],
       "pass": true,
-      "latency": 2.606200000000001,
+      "latency": 2.5214999999999463,
       "top": [],
       "recall": null,
       "ndcg": null,
@@ -415,8 +415,8 @@
       "category": "budget",
       "diversity": {
         "brands": 3,
-        "priceSpread": 5000000,
-        "featureDistance": 5.25
+        "priceSpread": 3400000,
+        "featureDistance": 7.107142857142857
       },
       "fields": [
         {
@@ -429,11 +429,11 @@
         }
       ],
       "pass": true,
-      "latency": 7.727399999999989,
+      "latency": 8.087999999999965,
       "top": [
         "X6",
         "Note 13 Pro 5G",
-        "Phone (2a)"
+        "Galaxy A26 5G"
       ],
       "recall": null,
       "ndcg": null,
@@ -454,7 +454,7 @@
         }
       ],
       "pass": true,
-      "latency": 7.7287000000000035,
+      "latency": 8.263799999999947,
       "top": [
         "Note 13 Pro 5G",
         "X6",
@@ -470,7 +470,7 @@
       "diversity": {
         "brands": 1,
         "priceSpread": 1300000,
-        "featureDistance": 6.545454545454546
+        "featureDistance": 6.772727272727273
       },
       "fields": [
         {
@@ -483,7 +483,7 @@
         }
       ],
       "pass": true,
-      "latency": 7.172799999999995,
+      "latency": 9.348099999999931,
       "top": [
         "Galaxy A26 5G",
         "Galaxy A35 5G",
@@ -508,7 +508,7 @@
         }
       ],
       "pass": true,
-      "latency": 8.726200000000006,
+      "latency": 8.830799999999954,
       "top": [
         "Note 13 Pro 5G",
         "X6",
@@ -533,7 +533,7 @@
         }
       ],
       "pass": true,
-      "latency": 9.324200000000019,
+      "latency": 8.687400000000025,
       "top": [
         "Note 13 Pro 5G",
         "X6",
@@ -549,7 +549,7 @@
       "diversity": {
         "brands": 2,
         "priceSpread": 1000000,
-        "featureDistance": 7
+        "featureDistance": 7.090909090909091
       },
       "fields": [
         {
@@ -562,7 +562,7 @@
         }
       ],
       "pass": true,
-      "latency": 9.053800000000024,
+      "latency": 8.935500000000047,
       "top": [
         "Note 13 Pro+ 5G",
         "Note 13 Pro 5G",
@@ -578,7 +578,7 @@
       "diversity": {
         "brands": 2,
         "priceSpread": 17000000,
-        "featureDistance": 11.181818181818182
+        "featureDistance": 11.40909090909091
       },
       "fields": [
         {
@@ -587,7 +587,7 @@
         }
       ],
       "pass": true,
-      "latency": 30.72860000000003,
+      "latency": 30.680200000000013,
       "top": [
         "Pixel 9 Pro",
         "12",
@@ -612,7 +612,7 @@
         }
       ],
       "pass": true,
-      "latency": 25.425700000000006,
+      "latency": 27.498300000000086,
       "top": [
         "13T Pro",
         "Pixel 9 Pro",
@@ -637,7 +637,7 @@
         }
       ],
       "pass": true,
-      "latency": 15.479100000000017,
+      "latency": 16.187299999999937,
       "top": [
         "13T Pro",
         "Pixel 9 Pro",
@@ -653,7 +653,7 @@
       "diversity": {
         "brands": 3,
         "priceSpread": 15400000,
-        "featureDistance": 16.31818181818182
+        "featureDistance": 16.40909090909091
       },
       "fields": [
         {
@@ -662,11 +662,11 @@
         }
       ],
       "pass": true,
-      "latency": 9.08890000000008,
+      "latency": 11.415900000000079,
       "top": [
         "F6",
-        "iPhone 13 mini",
-        "Galaxy S24"
+        "Galaxy S24",
+        "iPhone 13 mini"
       ],
       "recall": null,
       "ndcg": null,
@@ -687,7 +687,7 @@
         }
       ],
       "pass": true,
-      "latency": 23.53309999999999,
+      "latency": 23.90700000000004,
       "top": [
         "13T Pro",
         "Pixel 9 Pro",
@@ -703,7 +703,7 @@
       "diversity": {
         "brands": 1,
         "priceSpread": 10200000,
-        "featureDistance": 2.2857142857142856
+        "featureDistance": 2.642857142857143
       },
       "fields": [
         {
@@ -716,7 +716,7 @@
         }
       ],
       "pass": true,
-      "latency": 6.681600000000003,
+      "latency": 8.367099999999937,
       "top": [
         "Edge 50 Fusion",
         "Edge 40 Neo"
@@ -744,7 +744,7 @@
         }
       ],
       "pass": true,
-      "latency": 6.18119999999999,
+      "latency": 6.621600000000058,
       "top": [
         "Phone (2a)"
       ],
@@ -771,7 +771,7 @@
         }
       ],
       "pass": true,
-      "latency": 4.279100000000085,
+      "latency": 3.4062999999999874,
       "top": [],
       "recall": null,
       "ndcg": null,
@@ -783,7 +783,7 @@
       "diversity": {
         "brands": 2,
         "priceSpread": 34800000,
-        "featureDistance": 10.23913043478261
+        "featureDistance": 10.355555555555556
       },
       "fields": [
         {
@@ -796,7 +796,7 @@
         }
       ],
       "pass": true,
-      "latency": 31.665199999999913,
+      "latency": 34.24980000000005,
       "top": [
         "Pixel 9 Pro",
         "13T Pro",
@@ -825,7 +825,7 @@
         }
       ],
       "pass": true,
-      "latency": 28.477699999999913,
+      "latency": 34.37250000000006,
       "top": [
         "Pixel 9 Pro",
         "13T Pro",
@@ -850,7 +850,7 @@
         }
       ],
       "pass": true,
-      "latency": 28.518100000000004,
+      "latency": 28.871399999999994,
       "top": [
         "Pixel 9 Pro",
         "Pixel 8 Pro",
@@ -866,7 +866,7 @@
       "diversity": {
         "brands": 3,
         "priceSpread": 33800000,
-        "featureDistance": 9.353658536585366
+        "featureDistance": 9.597560975609756
       },
       "fields": [
         {
@@ -875,7 +875,7 @@
         }
       ],
       "pass": true,
-      "latency": 28.63519999999994,
+      "latency": 29.276299999999992,
       "top": [
         "13T Pro",
         "Pixel 9 Pro",
@@ -900,7 +900,7 @@
         }
       ],
       "pass": true,
-      "latency": 6.0388000000000375,
+      "latency": 6.817700000000059,
       "top": [
         "13"
       ],
@@ -914,7 +914,7 @@
       "diversity": {
         "brands": 3,
         "priceSpread": 2000000,
-        "featureDistance": 6.7272727272727275
+        "featureDistance": 6.954545454545454
       },
       "fields": [
         {
@@ -923,7 +923,7 @@
         }
       ],
       "pass": true,
-      "latency": 9.260599999999954,
+      "latency": 8.627099999999928,
       "top": [
         "Note 13 Pro 5G",
         "X6",
@@ -937,9 +937,9 @@
       "query": "گوشی اقتصادی برای دانشجو",
       "category": "useCases",
       "diversity": {
-        "brands": 3,
-        "priceSpread": 27400000,
-        "featureDistance": 11.65
+        "brands": 2,
+        "priceSpread": 37800000,
+        "featureDistance": 9.4
       },
       "fields": [
         {
@@ -952,11 +952,11 @@
         }
       ],
       "pass": true,
-      "latency": 26.7337,
+      "latency": 33.230500000000006,
       "top": [
-        "Pixel 8 Pro",
-        "14",
-        "13"
+        "13T Pro",
+        "Pixel 9 Pro",
+        "14T"
       ],
       "recall": null,
       "ndcg": null,
@@ -973,7 +973,7 @@
       "fields": [],
       "pass": true,
       "note": "«خفن» معلوم نمی‌کند دوربین، عملکرد یا طراحی مهم است.",
-      "latency": 34.47199999999998,
+      "latency": 32.620900000000006,
       "top": [
         "13T Pro",
         "Pixel 8A",
@@ -994,7 +994,7 @@
       "fields": [],
       "pass": true,
       "note": "نیاز قابل استخراج به گوشی وجود ندارد.",
-      "latency": 4.4582000000000335,
+      "latency": 5.176800000000071,
       "top": [],
       "recall": null,
       "ndcg": null,
@@ -1015,7 +1015,7 @@
         }
       ],
       "pass": true,
-      "latency": 9.499500000000012,
+      "latency": 14.903299999999945,
       "top": [
         "Note 13 Pro 5G",
         "X6",
@@ -1031,7 +1031,7 @@
       "diversity": {
         "brands": 2,
         "priceSpread": 1300000,
-        "featureDistance": 10
+        "featureDistance": 10.454545454545453
       },
       "fields": [
         {
@@ -1040,7 +1040,7 @@
         }
       ],
       "pass": true,
-      "latency": 8.101400000000012,
+      "latency": 13.771400000000085,
       "top": [
         "Note 13 Pro 5G",
         "Galaxy A26 5G",
@@ -1056,7 +1056,7 @@
       "diversity": {
         "brands": 2,
         "priceSpread": 1300000,
-        "featureDistance": 10
+        "featureDistance": 10.454545454545453
       },
       "fields": [
         {
@@ -1065,7 +1065,7 @@
         }
       ],
       "pass": true,
-      "latency": 6.863299999999981,
+      "latency": 7.478199999999902,
       "top": [
         "Note 13 Pro 5G",
         "Galaxy A26 5G",
@@ -1090,7 +1090,7 @@
         }
       ],
       "pass": true,
-      "latency": 9.185600000000022,
+      "latency": 10.360300000000052,
       "top": [
         "Note 13 Pro 5G",
         "X6",
@@ -1106,7 +1106,7 @@
       "diversity": {
         "brands": 2,
         "priceSpread": 1000000,
-        "featureDistance": 7
+        "featureDistance": 7.090909090909091
       },
       "fields": [
         {
@@ -1115,7 +1115,7 @@
         }
       ],
       "pass": true,
-      "latency": 11.239500000000021,
+      "latency": 15.754400000000032,
       "top": [
         "Note 13 Pro+ 5G",
         "Note 13 Pro 5G",
@@ -1131,7 +1131,7 @@
       "diversity": {
         "brands": 2,
         "priceSpread": 1000000,
-        "featureDistance": 7
+        "featureDistance": 7.090909090909091
       },
       "fields": [
         {
@@ -1140,7 +1140,7 @@
         }
       ],
       "pass": true,
-      "latency": 11.083399999999983,
+      "latency": 18.577800000000025,
       "top": [
         "Note 13 Pro+ 5G",
         "Note 13 Pro 5G",
@@ -1156,7 +1156,7 @@
       "diversity": {
         "brands": 2,
         "priceSpread": 1000000,
-        "featureDistance": 7
+        "featureDistance": 7.090909090909091
       },
       "fields": [
         {
@@ -1165,7 +1165,7 @@
         }
       ],
       "pass": true,
-      "latency": 8.551800000000071,
+      "latency": 9.780500000000075,
       "top": [
         "Note 13 Pro+ 5G",
         "Note 13 Pro 5G",
@@ -1190,7 +1190,7 @@
         }
       ],
       "pass": true,
-      "latency": 12.775899999999979,
+      "latency": 13.524499999999989,
       "top": [
         "Pixel 8A",
         "Note 13 Pro+ 5G",
@@ -1206,7 +1206,7 @@
       "diversity": {
         "brands": 2,
         "priceSpread": 1000000,
-        "featureDistance": 7
+        "featureDistance": 7.090909090909091
       },
       "fields": [
         {
@@ -1215,7 +1215,7 @@
         }
       ],
       "pass": true,
-      "latency": 9.372100000000046,
+      "latency": 8.84030000000007,
       "top": [
         "Note 13 Pro+ 5G",
         "Note 13 Pro 5G",
@@ -1231,7 +1231,7 @@
       "diversity": {
         "brands": 2,
         "priceSpread": 1000000,
-        "featureDistance": 7
+        "featureDistance": 7.090909090909091
       },
       "fields": [
         {
@@ -1240,7 +1240,7 @@
         }
       ],
       "pass": true,
-      "latency": 11.809500000000071,
+      "latency": 12.128100000000131,
       "top": [
         "Note 13 Pro+ 5G",
         "Note 13 Pro 5G",
@@ -1265,7 +1265,7 @@
         }
       ],
       "pass": true,
-      "latency": 9.619400000000041,
+      "latency": 16.463300000000118,
       "top": [
         "Note 13 Pro 5G",
         "X6",
@@ -1290,7 +1290,7 @@
         }
       ],
       "pass": true,
-      "latency": 14.91210000000001,
+      "latency": 14.548600000000079,
       "top": [
         "13T Pro",
         "Pixel 8A",
@@ -1315,7 +1315,7 @@
         }
       ],
       "pass": true,
-      "latency": 17.68979999999999,
+      "latency": 22.021999999999935,
       "top": [
         "13T Pro",
         "Pixel 8A",
@@ -1340,7 +1340,7 @@
         }
       ],
       "pass": true,
-      "latency": 7.8478000000000065,
+      "latency": 6.3680000000001655,
       "top": [
         "F6 Pro",
         "F6",
@@ -1356,7 +1356,7 @@
       "diversity": {
         "brands": 1,
         "priceSpread": 7000000,
-        "featureDistance": 5.090909090909091
+        "featureDistance": 5.318181818181818
       },
       "fields": [
         {
@@ -1365,7 +1365,7 @@
         }
       ],
       "pass": true,
-      "latency": 6.877700000000004,
+      "latency": 8.773500000000013,
       "top": [
         "Note 13 Pro+ 5G",
         "Note 13 Pro 5G",
@@ -1380,8 +1380,8 @@
       "category": "brand",
       "diversity": {
         "brands": 1,
-        "priceSpread": 24600000,
-        "featureDistance": 5.529411764705882
+        "priceSpread": 26000000,
+        "featureDistance": 2.4411764705882355
       },
       "fields": [
         {
@@ -1394,11 +1394,11 @@
         }
       ],
       "pass": true,
-      "latency": 7.6843000000000075,
+      "latency": 8.025300000000016,
       "top": [
         "Pixel 9 Pro",
         "Pixel 8 Pro",
-        "Pixel 9"
+        "Pixel 9 Pro Xl"
       ],
       "recall": null,
       "ndcg": null,
@@ -1423,7 +1423,7 @@
         }
       ],
       "pass": true,
-      "latency": 5.408999999999992,
+      "latency": 6.141599999999926,
       "top": [
         "12",
         "13",
@@ -1452,7 +1452,7 @@
         }
       ],
       "pass": true,
-      "latency": 7.014400000000023,
+      "latency": 6.973999999999933,
       "top": [
         "12",
         "12R",
@@ -1477,7 +1477,7 @@
         }
       ],
       "pass": true,
-      "latency": 19.490499999999997,
+      "latency": 28.11389999999983,
       "top": [
         "13T Pro",
         "Pixel 9 Pro",
@@ -1502,7 +1502,7 @@
         }
       ],
       "pass": true,
-      "latency": 27.00559999999996,
+      "latency": 27.992099999999937,
       "top": [
         "13T Pro",
         "Pixel 9 Pro",
@@ -1518,7 +1518,7 @@
       "diversity": {
         "brands": 2,
         "priceSpread": 17000000,
-        "featureDistance": 11.181818181818182
+        "featureDistance": 11.40909090909091
       },
       "fields": [
         {
@@ -1527,7 +1527,7 @@
         }
       ],
       "pass": true,
-      "latency": 26.472499999999854,
+      "latency": 28.728399999999965,
       "top": [
         "Pixel 9 Pro",
         "12",
@@ -1552,7 +1552,7 @@
         }
       ],
       "pass": true,
-      "latency": 23.534200000000055,
+      "latency": 23.30820000000017,
       "top": [
         "13T Pro",
         "Pixel 9 Pro",
@@ -1568,7 +1568,7 @@
       "diversity": {
         "brands": 3,
         "priceSpread": 6000000,
-        "featureDistance": 7.833333333333333
+        "featureDistance": 7.861111111111111
       },
       "fields": [
         {
@@ -1581,7 +1581,7 @@
         }
       ],
       "pass": true,
-      "latency": 12.182600000000093,
+      "latency": 12.786399999999958,
       "top": [
         "14T",
         "X6 Pro",
@@ -1596,8 +1596,8 @@
       "category": "gaming",
       "diversity": {
         "brands": 2,
-        "priceSpread": 44400000,
-        "featureDistance": 6.166666666666666
+        "priceSpread": 16000000,
+        "featureDistance": 3.4166666666666665
       },
       "fields": [
         {
@@ -1607,10 +1607,10 @@
       ],
       "pass": true,
       "note": "فریم تضمین‌شده بدون تست بازی ارائه نمی‌شود.",
-      "latency": 23.90969999999993,
+      "latency": 30.725599999999986,
       "top": [
         "13T Pro",
-        "13",
+        "F6 Pro",
         "14"
       ],
       "recall": null,
@@ -1632,7 +1632,7 @@
         }
       ],
       "pass": true,
-      "latency": 28.8741,
+      "latency": 30.82510000000002,
       "top": [
         "13T Pro",
         "Pixel 9 Pro",
@@ -1658,7 +1658,7 @@
       ],
       "pass": true,
       "note": "کیفیت شب اندازه‌گیری نشده؛ امتیاز تنوع دوربین جایگزین تست نیست.",
-      "latency": 30.087600000000066,
+      "latency": 42.70450000000005,
       "top": [
         "Pixel 9 Pro",
         "13T Pro",
@@ -1674,7 +1674,7 @@
       "diversity": {
         "brands": 3,
         "priceSpread": 33800000,
-        "featureDistance": 9.353658536585366
+        "featureDistance": 9.597560975609756
       },
       "fields": [
         {
@@ -1683,7 +1683,7 @@
         }
       ],
       "pass": true,
-      "latency": 27.02040000000011,
+      "latency": 26.612099999999828,
       "top": [
         "13T Pro",
         "Pixel 9 Pro",
@@ -1708,7 +1708,7 @@
         }
       ],
       "pass": true,
-      "latency": 24.66220000000021,
+      "latency": 28.303300000000036,
       "top": [
         "Pixel 9 Pro",
         "13T Pro",
@@ -1722,9 +1722,9 @@
       "query": "فقط باتری مهمه",
       "category": "battery",
       "diversity": {
-        "brands": 2,
-        "priceSpread": 43400000,
-        "featureDistance": 5.911764705882353
+        "brands": 3,
+        "priceSpread": 41000000,
+        "featureDistance": 6.882352941176469
       },
       "fields": [
         {
@@ -1737,11 +1737,11 @@
         }
       ],
       "pass": true,
-      "latency": 26.818300000000136,
+      "latency": 26.241999999999962,
       "top": [
+        "13T Pro",
         "13",
-        "12",
-        "F6 Pro"
+        "200 Pro"
       ],
       "recall": null,
       "ndcg": null,
@@ -1752,8 +1752,8 @@
       "category": "battery",
       "diversity": {
         "brands": 3,
-        "priceSpread": 43400000,
-        "featureDistance": 4.999999999999999
+        "priceSpread": 44400000,
+        "featureDistance": 9.928571428571427
       },
       "fields": [
         {
@@ -1762,11 +1762,11 @@
         }
       ],
       "pass": true,
-      "latency": 16.342399999999998,
+      "latency": 16.684600000000046,
       "top": [
         "13T Pro",
-        "F6 Pro",
-        "13"
+        "13",
+        "Pixel 8 Pro"
       ],
       "recall": null,
       "ndcg": null,
@@ -1787,7 +1787,7 @@
         }
       ],
       "pass": true,
-      "latency": 26.88539999999989,
+      "latency": 30.563000000000102,
       "top": [
         "13T Pro",
         "Pixel 9 Pro",
@@ -1801,9 +1801,9 @@
       "query": "برای مامانم واتساپ و اینستاگرام",
       "category": "parents",
       "diversity": {
-        "brands": 2,
-        "priceSpread": 34800000,
-        "featureDistance": 9.295454545454545
+        "brands": 1,
+        "priceSpread": 26000000,
+        "featureDistance": 3.33
       },
       "fields": [
         {
@@ -1816,11 +1816,11 @@
         }
       ],
       "pass": true,
-      "latency": 26.506000000000085,
+      "latency": 31.003200000000106,
       "top": [
         "Pixel 9 Pro",
-        "13T Pro",
-        "Pixel 8 Pro"
+        "Pixel 8 Pro",
+        "Pixel 9 Pro Xl"
       ],
       "recall": null,
       "ndcg": null,
@@ -1830,9 +1830,9 @@
       "query": "برای بابام باتری خوب",
       "category": "parents",
       "diversity": {
-        "brands": 2,
-        "priceSpread": 30600000,
-        "featureDistance": 12.82608695652174
+        "brands": 1,
+        "priceSpread": 24600000,
+        "featureDistance": 4.153061224489796
       },
       "fields": [
         {
@@ -1845,11 +1845,11 @@
         }
       ],
       "pass": true,
-      "latency": 25.038699999999835,
+      "latency": 26.972800000000007,
       "top": [
-        "13T Pro",
-        "Pixel 8A",
-        "Pixel 8 Pro"
+        "Pixel 9 Pro",
+        "Pixel 8 Pro",
+        "Pixel 9"
       ],
       "recall": null,
       "ndcg": null,
@@ -1860,8 +1860,8 @@
       "category": "parents",
       "diversity": {
         "brands": 2,
-        "priceSpread": 29800000,
-        "featureDistance": 6.571428571428571
+        "priceSpread": 15600000,
+        "featureDistance": 7.428571428571429
       },
       "fields": [
         {
@@ -1870,11 +1870,11 @@
         }
       ],
       "pass": true,
-      "latency": 24.715099999999893,
+      "latency": 27.782600000000002,
       "top": [
-        "14",
-        "14T",
-        "Pixel 8A"
+        "13T Pro",
+        "Pixel 9",
+        "14T"
       ],
       "recall": null,
       "ndcg": null,
@@ -1884,9 +1884,9 @@
       "query": "دانشجو هستم باتری مهمه",
       "category": "student",
       "diversity": {
-        "brands": 3,
-        "priceSpread": 27400000,
-        "featureDistance": 11.65
+        "brands": 2,
+        "priceSpread": 37800000,
+        "featureDistance": 9.4
       },
       "fields": [
         {
@@ -1899,11 +1899,11 @@
         }
       ],
       "pass": true,
-      "latency": 24.35109999999986,
+      "latency": 32.37850000000003,
       "top": [
-        "Pixel 8 Pro",
-        "14",
-        "13"
+        "13T Pro",
+        "Pixel 9 Pro",
+        "14T"
       ],
       "recall": null,
       "ndcg": null,
@@ -1915,7 +1915,7 @@
       "diversity": {
         "brands": 2,
         "priceSpread": 1300000,
-        "featureDistance": 9.175
+        "featureDistance": 9.425
       },
       "fields": [
         {
@@ -1928,7 +1928,7 @@
         }
       ],
       "pass": true,
-      "latency": 5.833000000000084,
+      "latency": 7.1784999999999854,
       "top": [
         "Note 13 Pro 5G",
         "Galaxy A26 5G",
@@ -1957,7 +1957,7 @@
         }
       ],
       "pass": true,
-      "latency": 26.064899999999852,
+      "latency": 28.369500000000016,
       "top": [
         "Pixel 9 Pro",
         "13T Pro",
@@ -1982,7 +1982,7 @@
         }
       ],
       "pass": true,
-      "latency": 1.9018000000000939,
+      "latency": 3.5687000000000353,
       "top": [],
       "recall": null,
       "ndcg": null,
@@ -2003,7 +2003,7 @@
         }
       ],
       "pass": true,
-      "latency": 24.376800000000003,
+      "latency": 29.976499999999987,
       "top": [
         "iPhone 13 mini",
         "14",
@@ -2032,7 +2032,7 @@
         }
       ],
       "pass": true,
-      "latency": 23.72120000000018,
+      "latency": 27.75630000000001,
       "top": [
         "iPhone 13 mini",
         "14",
@@ -2047,8 +2047,8 @@
       "category": "compact",
       "diversity": {
         "brands": 3,
-        "priceSpread": 19600000,
-        "featureDistance": 20.357142857142854
+        "priceSpread": 29800000,
+        "featureDistance": 17.857142857142854
       },
       "fields": [
         {
@@ -2057,10 +2057,10 @@
         }
       ],
       "pass": true,
-      "latency": 27.358000000000175,
+      "latency": 27.622299999999996,
       "top": [
         "iPhone 13 mini",
-        "13T Pro",
+        "14",
         "Pixel 8A"
       ],
       "recall": null,
@@ -2073,7 +2073,7 @@
       "diversity": {
         "brands": 2,
         "priceSpread": 20800000,
-        "featureDistance": 7.4642857142857135
+        "featureDistance": 7.535714285714286
       },
       "fields": [
         {
@@ -2082,7 +2082,7 @@
         }
       ],
       "pass": true,
-      "latency": 19.600400000000036,
+      "latency": 21.648699999999963,
       "top": [
         "13T Pro",
         "14T",
@@ -2098,7 +2098,7 @@
       "diversity": {
         "brands": 2,
         "priceSpread": 20800000,
-        "featureDistance": 7.4642857142857135
+        "featureDistance": 7.535714285714286
       },
       "fields": [
         {
@@ -2107,7 +2107,7 @@
         }
       ],
       "pass": true,
-      "latency": 20.7971,
+      "latency": 21.525700000000143,
       "top": [
         "13T Pro",
         "14T",
@@ -2132,7 +2132,7 @@
         }
       ],
       "pass": true,
-      "latency": 13.490199999999959,
+      "latency": 13.684300000000121,
       "top": [
         "13T Pro",
         "Pixel 9 Pro",
@@ -2157,7 +2157,7 @@
         }
       ],
       "pass": true,
-      "latency": 20.347000000000207,
+      "latency": 19.844699999999875,
       "top": [
         "13T Pro",
         "Pixel 9 Pro",
@@ -2182,7 +2182,7 @@
         }
       ],
       "pass": true,
-      "latency": 24.385999999999967,
+      "latency": 24.219100000000026,
       "top": [
         "13T Pro",
         "Pixel 9 Pro",
@@ -2197,8 +2197,8 @@
       "category": "charging",
       "diversity": {
         "brands": 2,
-        "priceSpread": 8800000,
-        "featureDistance": 4.3
+        "priceSpread": 21400000,
+        "featureDistance": 4.8
       },
       "fields": [
         {
@@ -2207,7 +2207,7 @@
         }
       ],
       "pass": true,
-      "latency": 32.134199999999964,
+      "latency": 29.389499999999998,
       "top": [
         "12",
         "13T Pro",
@@ -2221,9 +2221,9 @@
       "query": "شارژ حداقل ۶۷ وات",
       "category": "charging",
       "diversity": {
-        "brands": 2,
-        "priceSpread": 16000000,
-        "featureDistance": 3.2272727272727275
+        "brands": 1,
+        "priceSpread": 20000000,
+        "featureDistance": 4.090909090909091
       },
       "fields": [
         {
@@ -2232,11 +2232,11 @@
         }
       ],
       "pass": true,
-      "latency": 10.303700000000163,
+      "latency": 11.633400000000165,
       "top": [
         "13T Pro",
         "14",
-        "F6 Pro"
+        "14T"
       ],
       "recall": null,
       "ndcg": null,
@@ -2261,7 +2261,7 @@
         }
       ],
       "pass": true,
-      "latency": 26.932400000000143,
+      "latency": 27.51409999999987,
       "top": [
         "Pixel 9 Pro",
         "Pixel 8 Pro",
@@ -2290,7 +2290,7 @@
         }
       ],
       "pass": true,
-      "latency": 19.84479999999985,
+      "latency": 20.402000000000044,
       "top": [
         "Pixel 9 Pro",
         "Pixel 8 Pro",
@@ -2304,9 +2304,9 @@
       "query": "اینستاگرام و عکاسی تا ۴۵ میلیون",
       "category": "multiple preferences",
       "diversity": {
-        "brands": 1,
-        "priceSpread": 13600000,
-        "featureDistance": 4.371428571428572
+        "brands": 2,
+        "priceSpread": 9800000,
+        "featureDistance": 9.357142857142858
       },
       "fields": [
         {
@@ -2319,11 +2319,11 @@
         }
       ],
       "pass": true,
-      "latency": 15.632500000000164,
+      "latency": 14.088899999999967,
       "top": [
         "13T Pro",
         "14T",
-        "13T"
+        "Pixel 8A"
       ],
       "recall": null,
       "ndcg": null,
@@ -2348,7 +2348,7 @@
         }
       ],
       "pass": true,
-      "latency": 2.516300000000001,
+      "latency": 2.58829999999989,
       "top": [],
       "recall": null,
       "ndcg": null,
@@ -2373,7 +2373,7 @@
         }
       ],
       "pass": true,
-      "latency": 1.922900000000027,
+      "latency": 1.7355000000000018,
       "top": [],
       "recall": null,
       "ndcg": null,
@@ -2398,7 +2398,7 @@
         }
       ],
       "pass": true,
-      "latency": 1.7200000000000273,
+      "latency": 1.822300000000041,
       "top": [],
       "recall": null,
       "ndcg": null,
@@ -2410,7 +2410,7 @@
       "diversity": {
         "brands": 2,
         "priceSpread": 3000000,
-        "featureDistance": 5.012195121951219
+        "featureDistance": 8.512195121951219
       },
       "fields": [
         {
@@ -2423,10 +2423,10 @@
         }
       ],
       "pass": true,
-      "latency": 10.385800000000017,
+      "latency": 10.50260000000003,
       "top": [
-        "Note 13 Pro 5G",
         "Note 13 Pro+ 5G",
+        "Note 13 Pro 5G",
         "X6"
       ],
       "recall": null,
@@ -2452,7 +2452,7 @@
         }
       ],
       "pass": true,
-      "latency": 7.44399999999996,
+      "latency": 8.415899999999965,
       "top": [
         "Note 13 Pro 5G",
         "Phone (2a)",
@@ -2467,8 +2467,8 @@
       "category": "follow-ups",
       "diversity": {
         "brands": 1,
-        "priceSpread": 6100000,
-        "featureDistance": 6.636363636363636
+        "priceSpread": 3200000,
+        "featureDistance": 4.13265306122449
       },
       "fields": [
         {
@@ -2481,11 +2481,11 @@
         }
       ],
       "pass": true,
-      "latency": 6.41170000000011,
+      "latency": 7.031500000000051,
       "top": [
         "Galaxy A26 5G",
-        "Galaxy A55 5G",
-        "Galaxy A25 5G"
+        "Galaxy A36 5G",
+        "Galaxy A35 5G"
       ],
       "recall": null,
       "ndcg": null,
@@ -2497,7 +2497,7 @@
       "diversity": {
         "brands": 3,
         "priceSpread": 3000000,
-        "featureDistance": 8.694444444444445
+        "featureDistance": 8.527777777777779
       },
       "fields": [
         {
@@ -2510,7 +2510,7 @@
         }
       ],
       "pass": true,
-      "latency": 10.60109999999986,
+      "latency": 11.253500000000031,
       "top": [
         "X6 Pro",
         "13T",
@@ -2526,7 +2526,7 @@
       "diversity": {
         "brands": 3,
         "priceSpread": 1800000,
-        "featureDistance": 16.318181818181817
+        "featureDistance": 16.545454545454547
       },
       "fields": [
         {
@@ -2539,7 +2539,7 @@
         }
       ],
       "pass": true,
-      "latency": 13.40379999999982,
+      "latency": 15.186699999999973,
       "top": [
         "Pixel 8A",
         "Note 13 Pro+ 5G",
@@ -2554,8 +2554,8 @@
       "category": "follow-ups",
       "diversity": {
         "brands": 3,
-        "priceSpread": 10200000,
-        "featureDistance": 6.911764705882353
+        "priceSpread": 3800000,
+        "featureDistance": 9.678571428571427
       },
       "fields": [
         {
@@ -2568,11 +2568,11 @@
         }
       ],
       "pass": true,
-      "latency": 11.38390000000004,
+      "latency": 14.446500000000015,
       "top": [
-        "Note 13 Pro 5G",
-        "X6",
-        "Galaxy A25 5G"
+        "13T",
+        "Pixel 8A",
+        "X6 Pro"
       ],
       "recall": null,
       "ndcg": null,
@@ -2584,7 +2584,7 @@
       "diversity": {
         "brands": 3,
         "priceSpread": 3000000,
-        "featureDistance": 8.694444444444445
+        "featureDistance": 8.527777777777779
       },
       "fields": [
         {
@@ -2597,7 +2597,7 @@
         }
       ],
       "pass": true,
-      "latency": 9.262000000000171,
+      "latency": 10.21569999999997,
       "top": [
         "X6 Pro",
         "13T",
@@ -2626,7 +2626,7 @@
         }
       ],
       "pass": true,
-      "latency": 11.466699999999946,
+      "latency": 12.990800000000036,
       "top": [
         "13T",
         "Pixel 8A",
@@ -2651,7 +2651,7 @@
         }
       ],
       "pass": true,
-      "latency": 13.6724999999999,
+      "latency": 14.243000000000166,
       "top": [
         "13T Pro",
         "Pixel 9 Pro",
@@ -2666,8 +2666,8 @@
       "category": "follow-ups",
       "diversity": {
         "brands": 2,
-        "priceSpread": 44400000,
-        "featureDistance": 6.166666666666666
+        "priceSpread": 16000000,
+        "featureDistance": 3.4166666666666665
       },
       "fields": [
         {
@@ -2680,10 +2680,10 @@
         }
       ],
       "pass": true,
-      "latency": 22.44010000000003,
+      "latency": 27.05399999999986,
       "top": [
         "13T Pro",
-        "13",
+        "F6 Pro",
         "14"
       ],
       "recall": null,
@@ -2705,7 +2705,7 @@
         }
       ],
       "pass": true,
-      "latency": 9.338999999999942,
+      "latency": 9.011399999999867,
       "top": [
         "Note 13 Pro 5G",
         "X6",
@@ -2721,7 +2721,7 @@
       "diversity": {
         "brands": 2,
         "priceSpread": 1000000,
-        "featureDistance": 7
+        "featureDistance": 7.090909090909091
       },
       "fields": [
         {
@@ -2730,7 +2730,7 @@
         }
       ],
       "pass": true,
-      "latency": 11.090799999999945,
+      "latency": 10.771500000000287,
       "top": [
         "Note 13 Pro+ 5G",
         "Note 13 Pro 5G",
@@ -2759,7 +2759,7 @@
         }
       ],
       "pass": true,
-      "latency": 13.710299999999961,
+      "latency": 14.26870000000008,
       "top": [
         "iPhone 15 Pro",
         "iPhone 13 mini",
@@ -2775,7 +2775,7 @@
       "diversity": {
         "brands": 2,
         "priceSpread": 1000000,
-        "featureDistance": 6.5
+        "featureDistance": 6.535714285714285
       },
       "fields": [
         {
@@ -2788,7 +2788,7 @@
         }
       ],
       "pass": true,
-      "latency": 14.243399999999838,
+      "latency": 10.92300000000023,
       "top": [
         "X6 Pro",
         "Note 13 Pro+ 5G",

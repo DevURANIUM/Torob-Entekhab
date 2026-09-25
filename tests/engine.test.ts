@@ -94,7 +94,9 @@ describe("retrieval and ranking", () => {
     ));
   it("keeps distinct model families", () => {
     const r = rank(catalog, extractIntent("گوشی"));
-    expect(new Set(r.map((x) => x.product.variant.modelId)).size).toBe(r.length);
+    expect(new Set(r.map((x) => x.product.variant.modelId)).size).toBe(
+      r.length,
+    );
   });
   it("normalizes weights", () =>
     expect(
@@ -115,7 +117,9 @@ describe("retrieval and ranking", () => {
   it("score is auditable", () => {
     const r = rank(catalog, extractIntent("تا ۳۰ میلیون باتری"))[0];
     const total =
-      keys.reduce((s, k) => s + r.contributions[k], 0) - r.uncertaintyPenalty - r.budgetPenalty;
+      keys.reduce((s, k) => s + r.contributions[k], 0) -
+      r.uncertaintyPenalty -
+      r.budgetPenalty;
     expect(r.total).toBeCloseTo(total, 0);
   });
   it("handles empty database", () =>

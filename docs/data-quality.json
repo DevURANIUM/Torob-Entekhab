@@ -14,10 +14,10 @@
     "Google"
   ],
   "fields": 54,
-  "populated": 1307,
-  "missing": 1987,
-  "coverage": 0.3967820279295689,
-  "highConfidence": 1307,
+  "populated": 1306,
+  "missing": 1988,
+  "coverage": 0.39647844565877355,
+  "highConfidence": 1306,
   "unverified": 0,
   "stalePrices": 0,
   "demoPrices": 163,
@@ -64,10 +64,10 @@
     },
     {
       "key": "panel",
-      "populated": 61,
-      "missing": 0,
-      "coverage": 1,
-      "highConfidence": 61,
+      "populated": 60,
+      "missing": 1,
+      "coverage": 0.9836065573770492,
+      "highConfidence": 60,
       "unverified": 0
     },
     {

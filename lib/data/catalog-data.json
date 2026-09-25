@@ -7566,7 +7566,7 @@
           "sourceUrl": "https://www.mi.com/global/product/xiaomi-14/specs/",
           "verifiedAt": "2026-09-25T00:00:00.000Z",
           "confidence": "high",
-          "note": "Manufacturer specification; regional configuration. Not a local availability claim."
+          "note": "50 MP total sensor pixels in portrait mode; manufacturer specifies 32 MP actual pixels in ordinary photo mode."
         },
         "ois": {
           "source": "manufacturer",
@@ -8572,7 +8572,6 @@
         "mainCameraMp": 108,
         "macroMp": 2,
         "frontCameraMp": 13,
-        "panel": "LCD",
         "has5G": false,
         "resolution": "2460x1080",
         "storageTechnology": "eMMC 5.1",
@@ -8638,13 +8637,6 @@
           "note": "Manufacturer specification; regional configuration. Not a local availability claim."
         },
         "frontCameraMp": {
-          "source": "manufacturer",
-          "sourceUrl": "https://www.mi.com/global/product/redmi-13/specs/",
-          "verifiedAt": "2026-09-25T00:00:00.000Z",
-          "confidence": "high",
-          "note": "Manufacturer specification; regional configuration. Not a local availability claim."
-        },
-        "panel": {
           "source": "manufacturer",
           "sourceUrl": "https://www.mi.com/global/product/redmi-13/specs/",
           "verifiedAt": "2026-09-25T00:00:00.000Z",

@@ -77,7 +77,11 @@ export default function SearchExperience({
       }
       setResult(data);
       setUpgrade(null);
-      setSelected(data.intent.action==='compare_first_two'?data.recommendations.slice(0,2).map((r:Ranked)=>r.product.id):[]);
+      setSelected(
+        data.intent.action === "compare_first_two"
+          ? data.recommendations.slice(0, 2).map((r: Ranked) => r.product.id)
+          : [],
+      );
       setUpdated(Boolean(previous || edited));
       setFeedback(false);
       window.history.replaceState(
@@ -248,7 +252,16 @@ export default function SearchExperience({
                   result.confidence
                 ]
               }
-              <details><summary>این اطمینان از کجا آمده؟</summary><p>{result.confidenceDetails.explanation}</p><p>فاصله: {number(result.confidenceDetails.gap)} · پوشش داده: {number(result.confidenceDetails.coverage*100)}٪ · کامل بودن نیاز: {number(result.confidenceDetails.completeness*100)}٪ · مدل‌ها: {number(result.confidenceDetails.candidates)}</p></details>
+              <details>
+                <summary>این اطمینان از کجا آمده؟</summary>
+                <p>{result.confidenceDetails.explanation}</p>
+                <p>
+                  فاصله: {number(result.confidenceDetails.gap)} · پوشش داده:{" "}
+                  {number(result.confidenceDetails.coverage * 100)}٪ · کامل بودن
+                  نیاز: {number(result.confidenceDetails.completeness * 100)}٪ ·
+                  مدل‌ها: {number(result.confidenceDetails.candidates)}
+                </p>
+              </details>
             </div>
           </div>
           {updated && (
@@ -376,16 +389,24 @@ export default function SearchExperience({
                   <summary>
                     گزینه‌های جایگزین ({number(result.ranked.length - 3)})
                   </summary>
-                  {result.ranked.filter(r=>!result.recommendations.some(s=>s.product.id===r.product.id)).slice(0,6).map((x) => (
-                    <Link
-                      key={x.product.id}
-                      href={`/product/${x.product.slug}?state=${state}`}
-                    >
-                      <bdi>{x.product.displayName}</bdi>
-                      <span>{price(x.product.price)}</span>
-                      <strong>{number(x.total)}٪</strong>
-                    </Link>
-                  ))}
+                  {result.ranked
+                    .filter(
+                      (r) =>
+                        !result.recommendations.some(
+                          (s) => s.product.id === r.product.id,
+                        ),
+                    )
+                    .slice(0, 6)
+                    .map((x) => (
+                      <Link
+                        key={x.product.id}
+                        href={`/product/${x.product.slug}?state=${state}`}
+                      >
+                        <bdi>{x.product.displayName}</bdi>
+                        <span>{price(x.product.price)}</span>
+                        <strong>{number(x.total)}٪</strong>
+                      </Link>
+                    ))}
                 </details>
               )}
               <section className="refinement panel">

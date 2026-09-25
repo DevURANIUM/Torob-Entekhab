@@ -53,7 +53,11 @@ export default async function Page({
             {number(product.storage)} گیگابایت · {number(product.ram)} گیگابایت
             رم
           </p>
-          <h2>{price(product.price)}</h2><p className="muted">قیمت نمونه برای دمو · {product.priceSnapshot.observedAt.slice(0,10)}</p>
+          <h2>{price(product.price)}</h2>
+          <p className="muted">
+            قیمت نمونه برای دمو ·{" "}
+            {product.priceSnapshot.observedAt.slice(0, 10)}
+          </p>
           <p>امتیاز برای نیاز تو: {number(item.total)} از ۱۰۰</p>
           <SelectProduct id={product.id} />
         </div>
@@ -98,8 +102,26 @@ export default async function Page({
           <ScorePanel item={item} />
         </section>
       </div>
-      <section className="panel"><h2>نسخه‌های موجود در کاتالوگ</h2><div className="variant-options">{products.filter(x=>x.variant.modelId===product.variant.modelId).map(x=><Link key={x.id} aria-current={x.id===product.id?'page':undefined} href={`/product/${x.slug}?state=${state}`}>{number(x.ram)} / {number(x.storage)} · {price(x.price)}</Link>)}</div><p className="muted">این‌ها پیکربندی مستندند؛ موجودی فروشگاه یا رجیستری تضمین نشده.</p></section>
-      <Specifications product={product}/>
+      <section className="panel">
+        <h2>نسخه‌های موجود در کاتالوگ</h2>
+        <div className="variant-options">
+          {products
+            .filter((x) => x.variant.modelId === product.variant.modelId)
+            .map((x) => (
+              <Link
+                key={x.id}
+                aria-current={x.id === product.id ? "page" : undefined}
+                href={`/product/${x.slug}?state=${state}`}
+              >
+                {number(x.ram)} / {number(x.storage)} · {price(x.price)}
+              </Link>
+            ))}
+        </div>
+        <p className="muted">
+          این‌ها پیکربندی مستندند؛ موجودی فروشگاه یا رجیستری تضمین نشده.
+        </p>
+      </section>
+      <Specifications product={product} />
       <div className="detail-columns">
         {[
           [cheaper, "جایگزین ارزان‌تر"],

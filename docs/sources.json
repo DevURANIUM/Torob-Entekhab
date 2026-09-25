@@ -1,0 +1,2290 @@
+{
+  "verifiedAt": "2026-09-25",
+  "models": [
+    {
+      "modelId": "apple-iphone-13",
+      "brand": "Apple",
+      "model": "iPhone 13",
+      "region": "US specification; eSIM and SIM availability differ elsewhere",
+      "sources": [
+        {
+          "url": "https://support.apple.com/en-us/111872",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "weightGrams",
+            "mainCameraMp",
+            "ultrawideMp",
+            "panel",
+            "resolution",
+            "ipRating",
+            "ois",
+            "has5G",
+            "nfc",
+            "faceUnlock",
+            "esim",
+            "rearVideo",
+            "frontCameraMp",
+            "frontVideo",
+            "usb",
+            "bluetooth",
+            "wifi",
+            "identity",
+            "variants",
+            "dimensions",
+            "pixelDensity",
+            "hdr",
+            "protection"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "apple-iphone-13mini",
+      "brand": "Apple",
+      "model": "iPhone 13 mini",
+      "region": "US specification; eSIM and SIM availability differ elsewhere",
+      "sources": [
+        {
+          "url": "https://support.apple.com/en-us/111873",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "weightGrams",
+            "mainCameraMp",
+            "ultrawideMp",
+            "panel",
+            "resolution",
+            "ipRating",
+            "ois",
+            "has5G",
+            "nfc",
+            "faceUnlock",
+            "esim",
+            "rearVideo",
+            "frontCameraMp",
+            "frontVideo",
+            "usb",
+            "bluetooth",
+            "wifi",
+            "identity",
+            "variants",
+            "dimensions",
+            "pixelDensity",
+            "hdr",
+            "protection"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "apple-iphone-13pro",
+      "brand": "Apple",
+      "model": "iPhone 13 Pro",
+      "region": "US specification; eSIM and SIM availability differ elsewhere",
+      "sources": [
+        {
+          "url": "https://support.apple.com/en-us/111871",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "refreshRateHz",
+            "weightGrams",
+            "mainCameraMp",
+            "ultrawideMp",
+            "telephotoMp",
+            "panel",
+            "resolution",
+            "ipRating",
+            "ois",
+            "has5G",
+            "nfc",
+            "faceUnlock",
+            "esim",
+            "rearVideo",
+            "frontCameraMp",
+            "frontVideo",
+            "usb",
+            "opticalZoom",
+            "bluetooth",
+            "wifi",
+            "identity",
+            "variants",
+            "dimensions",
+            "pixelDensity",
+            "hdr",
+            "protection"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "apple-iphone-13promax",
+      "brand": "Apple",
+      "model": "iPhone 13 Pro Max",
+      "region": "US specification; eSIM and SIM availability differ elsewhere",
+      "sources": [
+        {
+          "url": "https://support.apple.com/en-us/111870",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "refreshRateHz",
+            "weightGrams",
+            "mainCameraMp",
+            "ultrawideMp",
+            "telephotoMp",
+            "panel",
+            "resolution",
+            "ipRating",
+            "ois",
+            "has5G",
+            "nfc",
+            "faceUnlock",
+            "esim",
+            "rearVideo",
+            "frontCameraMp",
+            "frontVideo",
+            "usb",
+            "opticalZoom",
+            "bluetooth",
+            "wifi",
+            "identity",
+            "variants",
+            "dimensions",
+            "pixelDensity",
+            "hdr",
+            "protection"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "apple-iphone-14",
+      "brand": "Apple",
+      "model": "iPhone 14",
+      "region": "US specification; eSIM and SIM availability differ elsewhere",
+      "sources": [
+        {
+          "url": "https://support.apple.com/en-us/111850",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "weightGrams",
+            "mainCameraMp",
+            "ultrawideMp",
+            "panel",
+            "resolution",
+            "ipRating",
+            "ois",
+            "has5G",
+            "nfc",
+            "faceUnlock",
+            "esim",
+            "rearVideo",
+            "frontCameraMp",
+            "frontVideo",
+            "usb",
+            "bluetooth",
+            "wifi",
+            "identity",
+            "variants",
+            "dimensions",
+            "pixelDensity",
+            "hdr",
+            "protection"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "apple-iphone-14plus",
+      "brand": "Apple",
+      "model": "iPhone 14 Plus",
+      "region": "US specification; eSIM and SIM availability differ elsewhere",
+      "sources": [
+        {
+          "url": "https://support.apple.com/en-us/111854",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "weightGrams",
+            "mainCameraMp",
+            "ultrawideMp",
+            "panel",
+            "resolution",
+            "ipRating",
+            "ois",
+            "has5G",
+            "nfc",
+            "faceUnlock",
+            "esim",
+            "rearVideo",
+            "frontCameraMp",
+            "frontVideo",
+            "usb",
+            "bluetooth",
+            "wifi",
+            "identity",
+            "variants",
+            "pixelDensity",
+            "hdr",
+            "protection"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "apple-iphone-14pro",
+      "brand": "Apple",
+      "model": "iPhone 14 Pro",
+      "region": "US specification; eSIM and SIM availability differ elsewhere",
+      "sources": [
+        {
+          "url": "https://support.apple.com/en-us/111849",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "refreshRateHz",
+            "weightGrams",
+            "mainCameraMp",
+            "ultrawideMp",
+            "telephotoMp",
+            "panel",
+            "resolution",
+            "ipRating",
+            "ois",
+            "has5G",
+            "nfc",
+            "faceUnlock",
+            "esim",
+            "rearVideo",
+            "frontCameraMp",
+            "frontVideo",
+            "usb",
+            "opticalZoom",
+            "bluetooth",
+            "wifi",
+            "identity",
+            "variants",
+            "dimensions",
+            "pixelDensity",
+            "hdr",
+            "protection"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "apple-iphone-14promax",
+      "brand": "Apple",
+      "model": "iPhone 14 Pro Max",
+      "region": "US specification; eSIM and SIM availability differ elsewhere",
+      "sources": [
+        {
+          "url": "https://support.apple.com/en-us/111846",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "refreshRateHz",
+            "weightGrams",
+            "mainCameraMp",
+            "ultrawideMp",
+            "telephotoMp",
+            "panel",
+            "resolution",
+            "ipRating",
+            "ois",
+            "has5G",
+            "nfc",
+            "faceUnlock",
+            "esim",
+            "rearVideo",
+            "frontCameraMp",
+            "frontVideo",
+            "usb",
+            "opticalZoom",
+            "bluetooth",
+            "wifi",
+            "identity",
+            "variants",
+            "dimensions",
+            "pixelDensity",
+            "hdr",
+            "protection"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "apple-iphone-15",
+      "brand": "Apple",
+      "model": "iPhone 15",
+      "region": "US specification; eSIM and SIM availability differ elsewhere",
+      "sources": [
+        {
+          "url": "https://support.apple.com/en-us/111831",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "weightGrams",
+            "mainCameraMp",
+            "ultrawideMp",
+            "panel",
+            "resolution",
+            "ipRating",
+            "ois",
+            "has5G",
+            "nfc",
+            "faceUnlock",
+            "esim",
+            "rearVideo",
+            "frontCameraMp",
+            "frontVideo",
+            "usb",
+            "bluetooth",
+            "wifi",
+            "identity",
+            "variants",
+            "dimensions",
+            "pixelDensity",
+            "hdr",
+            "protection"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "apple-iphone-15plus",
+      "brand": "Apple",
+      "model": "iPhone 15 Plus",
+      "region": "US specification; eSIM and SIM availability differ elsewhere",
+      "sources": [
+        {
+          "url": "https://support.apple.com/en-us/111830",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "weightGrams",
+            "mainCameraMp",
+            "ultrawideMp",
+            "panel",
+            "resolution",
+            "ipRating",
+            "ois",
+            "has5G",
+            "nfc",
+            "faceUnlock",
+            "esim",
+            "rearVideo",
+            "frontCameraMp",
+            "frontVideo",
+            "usb",
+            "bluetooth",
+            "wifi",
+            "identity",
+            "variants",
+            "dimensions",
+            "pixelDensity",
+            "hdr",
+            "protection"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "apple-iphone-15pro",
+      "brand": "Apple",
+      "model": "iPhone 15 Pro",
+      "region": "US specification; eSIM and SIM availability differ elsewhere",
+      "sources": [
+        {
+          "url": "https://support.apple.com/en-us/111829",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "refreshRateHz",
+            "weightGrams",
+            "mainCameraMp",
+            "ultrawideMp",
+            "telephotoMp",
+            "panel",
+            "resolution",
+            "ipRating",
+            "ois",
+            "has5G",
+            "nfc",
+            "faceUnlock",
+            "esim",
+            "rearVideo",
+            "frontCameraMp",
+            "frontVideo",
+            "usb",
+            "opticalZoom",
+            "bluetooth",
+            "wifi",
+            "identity",
+            "variants",
+            "dimensions",
+            "pixelDensity",
+            "hdr",
+            "protection"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "apple-iphone-15promax",
+      "brand": "Apple",
+      "model": "iPhone 15 Pro Max",
+      "region": "US specification; eSIM and SIM availability differ elsewhere",
+      "sources": [
+        {
+          "url": "https://support.apple.com/en-us/111828",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "refreshRateHz",
+            "weightGrams",
+            "mainCameraMp",
+            "ultrawideMp",
+            "telephotoMp",
+            "panel",
+            "resolution",
+            "ipRating",
+            "ois",
+            "has5G",
+            "nfc",
+            "faceUnlock",
+            "esim",
+            "rearVideo",
+            "frontCameraMp",
+            "frontVideo",
+            "usb",
+            "opticalZoom",
+            "bluetooth",
+            "wifi",
+            "identity",
+            "variants",
+            "dimensions",
+            "pixelDensity",
+            "hdr",
+            "protection"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "apple-iphone-16",
+      "brand": "Apple",
+      "model": "iPhone 16",
+      "region": "US specification; eSIM and SIM availability differ elsewhere",
+      "sources": [
+        {
+          "url": "https://support.apple.com/en-us/121029",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "weightGrams",
+            "mainCameraMp",
+            "ultrawideMp",
+            "panel",
+            "resolution",
+            "ipRating",
+            "ois",
+            "has5G",
+            "nfc",
+            "faceUnlock",
+            "esim",
+            "rearVideo",
+            "frontCameraMp",
+            "frontVideo",
+            "usb",
+            "bluetooth",
+            "wifi",
+            "identity",
+            "variants",
+            "dimensions",
+            "hdr",
+            "protection"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "apple-iphone-16plus",
+      "brand": "Apple",
+      "model": "iPhone 16 Plus",
+      "region": "US specification; eSIM and SIM availability differ elsewhere",
+      "sources": [
+        {
+          "url": "https://support.apple.com/en-us/121030",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "weightGrams",
+            "mainCameraMp",
+            "ultrawideMp",
+            "panel",
+            "resolution",
+            "ipRating",
+            "ois",
+            "has5G",
+            "nfc",
+            "faceUnlock",
+            "esim",
+            "rearVideo",
+            "frontCameraMp",
+            "frontVideo",
+            "usb",
+            "bluetooth",
+            "wifi",
+            "identity",
+            "variants",
+            "dimensions",
+            "hdr",
+            "protection"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "apple-iphone-16pro",
+      "brand": "Apple",
+      "model": "iPhone 16 Pro",
+      "region": "US specification; eSIM and SIM availability differ elsewhere",
+      "sources": [
+        {
+          "url": "https://support.apple.com/en-us/121031",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "refreshRateHz",
+            "weightGrams",
+            "mainCameraMp",
+            "ultrawideMp",
+            "telephotoMp",
+            "panel",
+            "resolution",
+            "ipRating",
+            "ois",
+            "has5G",
+            "nfc",
+            "faceUnlock",
+            "esim",
+            "rearVideo",
+            "frontCameraMp",
+            "frontVideo",
+            "usb",
+            "opticalZoom",
+            "bluetooth",
+            "wifi",
+            "identity",
+            "variants",
+            "dimensions",
+            "hdr",
+            "protection"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "apple-iphone-16promax",
+      "brand": "Apple",
+      "model": "iPhone 16 Pro Max",
+      "region": "US specification; eSIM and SIM availability differ elsewhere",
+      "sources": [
+        {
+          "url": "https://support.apple.com/en-us/121032",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "refreshRateHz",
+            "weightGrams",
+            "mainCameraMp",
+            "ultrawideMp",
+            "telephotoMp",
+            "panel",
+            "resolution",
+            "ipRating",
+            "ois",
+            "has5G",
+            "nfc",
+            "faceUnlock",
+            "esim",
+            "rearVideo",
+            "frontCameraMp",
+            "frontVideo",
+            "usb",
+            "opticalZoom",
+            "bluetooth",
+            "wifi",
+            "identity",
+            "variants",
+            "dimensions",
+            "hdr",
+            "protection"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "samsung-a15",
+      "brand": "Samsung",
+      "model": "Galaxy A15 5G",
+      "region": "India",
+      "sources": [
+        {
+          "url": "https://news.samsung.com/in/samsung-galaxy-a25-5g-galaxy-a15-5g-with-awesome-camera-and-new-editing-features-launched-in-india",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "refreshRateHz",
+            "batteryMah",
+            "wiredChargingW",
+            "mainCameraMp",
+            "panel",
+            "has5G",
+            "majorUpgrades",
+            "securityYears",
+            "supportStartYear",
+            "identity",
+            "variants",
+            "year"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "samsung-a25",
+      "brand": "Samsung",
+      "model": "Galaxy A25 5G",
+      "region": "India",
+      "sources": [
+        {
+          "url": "https://news.samsung.com/in/samsung-galaxy-a25-5g-galaxy-a15-5g-with-awesome-camera-and-new-editing-features-launched-in-india",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "refreshRateHz",
+            "batteryMah",
+            "wiredChargingW",
+            "mainCameraMp",
+            "ois",
+            "nodeNm",
+            "panel",
+            "has5G",
+            "majorUpgrades",
+            "securityYears",
+            "supportStartYear",
+            "identity",
+            "variants",
+            "year"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "samsung-a35",
+      "brand": "Samsung",
+      "model": "Galaxy A35 5G",
+      "region": "Global table; S24/S24+ Exynos region",
+      "sources": [
+        {
+          "url": "https://news.samsung.com/fr/galaxy_a55_5g_galaxy_a35_5g",
+          "fields": [
+            "chipset",
+            "wiredChargingW",
+            "macroMp",
+            "frontCameraMp",
+            "rearVideo",
+            "protection",
+            "materials",
+            "chargerInBox"
+          ]
+        },
+        {
+          "url": "https://news.samsung.com/global/samsung-galaxy-a55-5g-and-galaxy-a35-5g-awesome-innovations-and-security-engineered-for-everyone",
+          "fields": [
+            "screenSizeInches",
+            "refreshRateHz",
+            "weightGrams",
+            "batteryMah",
+            "mainCameraMp",
+            "ultrawideMp",
+            "ois",
+            "ipRating",
+            "panel",
+            "has5G",
+            "majorUpgrades",
+            "securityYears",
+            "supportStartYear",
+            "identity",
+            "variants",
+            "year"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "samsung-a55",
+      "brand": "Samsung",
+      "model": "Galaxy A55 5G",
+      "region": "Global table; S24/S24+ Exynos region",
+      "sources": [
+        {
+          "url": "https://news.samsung.com/fr/galaxy_a55_5g_galaxy_a35_5g",
+          "fields": [
+            "chipset",
+            "wiredChargingW",
+            "macroMp",
+            "frontCameraMp",
+            "rearVideo",
+            "protection",
+            "materials",
+            "chargerInBox"
+          ]
+        },
+        {
+          "url": "https://news.samsung.com/global/samsung-galaxy-a55-5g-and-galaxy-a35-5g-awesome-innovations-and-security-engineered-for-everyone",
+          "fields": [
+            "screenSizeInches",
+            "refreshRateHz",
+            "weightGrams",
+            "batteryMah",
+            "mainCameraMp",
+            "ultrawideMp",
+            "ois",
+            "ipRating",
+            "panel",
+            "has5G",
+            "majorUpgrades",
+            "securityYears",
+            "supportStartYear",
+            "identity",
+            "variants",
+            "year"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "samsung-a56",
+      "brand": "Samsung",
+      "model": "Galaxy A56 5G",
+      "region": "Global table; S24/S24+ Exynos region",
+      "sources": [
+        {
+          "url": "https://news.samsung.com/global/samsung-marks-a-step-forward-with-ai-for-everyone-by-introducing-new-galaxy-a56-5g-galaxy-a36-5g-and-galaxy-a26-5g",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "refreshRateHz",
+            "weightGrams",
+            "batteryMah",
+            "wiredChargingW",
+            "mainCameraMp",
+            "ultrawideMp",
+            "ois",
+            "ipRating",
+            "panel",
+            "has5G",
+            "majorUpgrades",
+            "securityYears",
+            "supportStartYear",
+            "launchOs",
+            "identity",
+            "variants",
+            "year"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "samsung-a36",
+      "brand": "Samsung",
+      "model": "Galaxy A36 5G",
+      "region": "Global table; S24/S24+ Exynos region",
+      "sources": [
+        {
+          "url": "https://news.samsung.com/global/samsung-marks-a-step-forward-with-ai-for-everyone-by-introducing-new-galaxy-a56-5g-galaxy-a36-5g-and-galaxy-a26-5g",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "refreshRateHz",
+            "weightGrams",
+            "batteryMah",
+            "wiredChargingW",
+            "mainCameraMp",
+            "ultrawideMp",
+            "ois",
+            "ipRating",
+            "panel",
+            "has5G",
+            "majorUpgrades",
+            "securityYears",
+            "supportStartYear",
+            "launchOs",
+            "identity",
+            "variants",
+            "year"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "samsung-a26",
+      "brand": "Samsung",
+      "model": "Galaxy A26 5G",
+      "region": "Global table; S24/S24+ Exynos region",
+      "sources": [
+        {
+          "url": "https://news.samsung.com/global/samsung-marks-a-step-forward-with-ai-for-everyone-by-introducing-new-galaxy-a56-5g-galaxy-a36-5g-and-galaxy-a26-5g",
+          "fields": [
+            "screenSizeInches",
+            "refreshRateHz",
+            "weightGrams",
+            "batteryMah",
+            "mainCameraMp",
+            "ultrawideMp",
+            "ois",
+            "ipRating",
+            "panel",
+            "has5G",
+            "majorUpgrades",
+            "securityYears",
+            "supportStartYear",
+            "launchOs",
+            "identity",
+            "variants",
+            "year"
+          ]
+        },
+        {
+          "url": "https://www.samsung.com/uk/smartphones/galaxy-a/galaxy-a26-5g-black-256gb-sm-a266bzkceub/",
+          "fields": [
+            "chipset"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "samsung-s23-fe",
+      "brand": "Samsung",
+      "model": "Galaxy S23 FE",
+      "region": "Global table; S24/S24+ Exynos region",
+      "sources": [
+        {
+          "url": "https://www.samsung.com/sg/support/mobile-devices/specifications-for-the-new-galaxy-s23-fe/",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "refreshRateHz",
+            "weightGrams",
+            "batteryMah",
+            "mainCameraMp",
+            "ultrawideMp",
+            "telephotoMp",
+            "panel",
+            "has5G",
+            "identity",
+            "variants",
+            "ois",
+            "ipRating",
+            "frontCameraMp",
+            "usb",
+            "fingerprint",
+            "expandableStorage"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "samsung-s24",
+      "brand": "Samsung",
+      "model": "Galaxy S24",
+      "region": "Global table; S24/S24+ Exynos region",
+      "sources": [
+        {
+          "url": "https://news.samsung.com/global/enter-the-new-era-of-mobile-ai-with-samsung-galaxy-s24-series",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "refreshRateHz",
+            "weightGrams",
+            "batteryMah",
+            "wiredChargingW",
+            "mainCameraMp",
+            "ultrawideMp",
+            "telephotoMp",
+            "ois",
+            "opticalZoom",
+            "ipRating",
+            "panel",
+            "has5G",
+            "majorUpgrades",
+            "securityYears",
+            "supportStartYear",
+            "launchOs",
+            "identity",
+            "variants",
+            "year"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "samsung-s24-plus",
+      "brand": "Samsung",
+      "model": "Galaxy S24+",
+      "region": "Global table; S24/S24+ Exynos region",
+      "sources": [
+        {
+          "url": "https://news.samsung.com/global/enter-the-new-era-of-mobile-ai-with-samsung-galaxy-s24-series",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "refreshRateHz",
+            "weightGrams",
+            "batteryMah",
+            "wiredChargingW",
+            "mainCameraMp",
+            "ultrawideMp",
+            "telephotoMp",
+            "ois",
+            "opticalZoom",
+            "ipRating",
+            "panel",
+            "has5G",
+            "majorUpgrades",
+            "securityYears",
+            "supportStartYear",
+            "launchOs",
+            "identity",
+            "variants",
+            "year"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "samsung-s24-ultra",
+      "brand": "Samsung",
+      "model": "Galaxy S24 Ultra",
+      "region": "Global table; S24/S24+ Exynos region",
+      "sources": [
+        {
+          "url": "https://news.samsung.com/global/enter-the-new-era-of-mobile-ai-with-samsung-galaxy-s24-series",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "refreshRateHz",
+            "weightGrams",
+            "batteryMah",
+            "wiredChargingW",
+            "mainCameraMp",
+            "ultrawideMp",
+            "telephotoMp",
+            "ois",
+            "opticalZoom",
+            "ipRating",
+            "notableFeatures",
+            "panel",
+            "has5G",
+            "majorUpgrades",
+            "securityYears",
+            "supportStartYear",
+            "launchOs",
+            "identity",
+            "variants",
+            "year"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "samsung-s24-fe",
+      "brand": "Samsung",
+      "model": "Galaxy S24 FE",
+      "region": "Global table; S24/S24+ Exynos region",
+      "sources": [
+        {
+          "url": "https://news.samsung.com/global/galaxy-s24-series-expands-with-s24-fe-a-premium-experience-that-makes-full-galaxy-ai-capabilities-attainable-for-more-users",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "refreshRateHz",
+            "weightGrams",
+            "batteryMah",
+            "wiredChargingW",
+            "mainCameraMp",
+            "ultrawideMp",
+            "telephotoMp",
+            "ois",
+            "opticalZoom",
+            "ipRating",
+            "nodeNm",
+            "panel",
+            "has5G",
+            "majorUpgrades",
+            "securityYears",
+            "supportStartYear",
+            "launchOs",
+            "identity",
+            "variants",
+            "year"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "samsung-z-flip6",
+      "brand": "Samsung",
+      "model": "Galaxy Z Flip6",
+      "region": "Global table; S24/S24+ Exynos region",
+      "sources": [
+        {
+          "url": "https://news.samsung.com/sg/samsung-galaxy-z-fold6-and-galaxy-z-flip6-elevate-galaxy-ai-to-new-heights",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "refreshRateHz",
+            "weightGrams",
+            "batteryMah",
+            "wiredChargingW",
+            "mainCameraMp",
+            "ultrawideMp",
+            "ipRating",
+            "ois",
+            "panel",
+            "has5G",
+            "majorUpgrades",
+            "securityYears",
+            "supportStartYear",
+            "launchOs",
+            "identity",
+            "variants",
+            "year"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "samsung-z-fold6",
+      "brand": "Samsung",
+      "model": "Galaxy Z Fold6",
+      "region": "Global table; S24/S24+ Exynos region",
+      "sources": [
+        {
+          "url": "https://news.samsung.com/sg/samsung-galaxy-z-fold6-and-galaxy-z-flip6-elevate-galaxy-ai-to-new-heights",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "refreshRateHz",
+            "weightGrams",
+            "batteryMah",
+            "wiredChargingW",
+            "mainCameraMp",
+            "ultrawideMp",
+            "telephotoMp",
+            "ipRating",
+            "ois",
+            "opticalZoom",
+            "panel",
+            "has5G",
+            "majorUpgrades",
+            "securityYears",
+            "supportStartYear",
+            "launchOs",
+            "identity",
+            "variants",
+            "year"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "poco-x6",
+      "brand": "Poco",
+      "model": "X6",
+      "region": "Global; finish-dependent weight uses glass/plastic version",
+      "sources": [
+        {
+          "url": "https://www.mi.com/global/product/poco-x6/specs/",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "refreshRateHz",
+            "weightGrams",
+            "batteryMah",
+            "wiredChargingW",
+            "mainCameraMp",
+            "ultrawideMp",
+            "macroMp",
+            "nodeNm",
+            "ipRating",
+            "panel",
+            "has5G",
+            "resolution",
+            "storageTechnology",
+            "bluetooth",
+            "nfc",
+            "identity",
+            "variants",
+            "pixelDensity",
+            "peakBrightnessNits",
+            "frontCameraMp",
+            "rearVideo",
+            "protection"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "poco-x6-pro",
+      "brand": "Poco",
+      "model": "X6 Pro",
+      "region": "Global; finish-dependent weight uses glass/plastic version",
+      "sources": [
+        {
+          "url": "https://www.mi.com/global/product/poco-x6-pro/specs/",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "refreshRateHz",
+            "weightGrams",
+            "batteryMah",
+            "wiredChargingW",
+            "mainCameraMp",
+            "ultrawideMp",
+            "macroMp",
+            "nodeNm",
+            "ipRating",
+            "panel",
+            "has5G",
+            "resolution",
+            "storageTechnology",
+            "bluetooth",
+            "nfc",
+            "identity",
+            "variants",
+            "pixelDensity",
+            "peakBrightnessNits",
+            "frontCameraMp",
+            "rearVideo",
+            "hdr",
+            "protection"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "poco-f6",
+      "brand": "Poco",
+      "model": "F6",
+      "region": "Global; finish-dependent weight uses glass/plastic version",
+      "sources": [
+        {
+          "url": "https://www.mi.com/global/product/poco-f6/specs/",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "refreshRateHz",
+            "weightGrams",
+            "batteryMah",
+            "wiredChargingW",
+            "mainCameraMp",
+            "ultrawideMp",
+            "nodeNm",
+            "panel",
+            "has5G",
+            "resolution",
+            "storageTechnology",
+            "bluetooth",
+            "nfc",
+            "identity",
+            "variants",
+            "pixelDensity",
+            "peakBrightnessNits",
+            "frontCameraMp",
+            "rearVideo",
+            "protection"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "poco-f6-pro",
+      "brand": "Poco",
+      "model": "F6 Pro",
+      "region": "Global; finish-dependent weight uses glass/plastic version",
+      "sources": [
+        {
+          "url": "https://www.mi.com/global/product/poco-f6-pro/specs/",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "refreshRateHz",
+            "weightGrams",
+            "batteryMah",
+            "wiredChargingW",
+            "mainCameraMp",
+            "ultrawideMp",
+            "macroMp",
+            "nodeNm",
+            "ois",
+            "panel",
+            "has5G",
+            "resolution",
+            "storageTechnology",
+            "bluetooth",
+            "nfc",
+            "identity",
+            "variants",
+            "pixelDensity",
+            "peakBrightnessNits",
+            "frontCameraMp",
+            "rearVideo",
+            "stereo",
+            "hdr"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "xiaomi-13t",
+      "brand": "Xiaomi",
+      "model": "13T",
+      "region": "UK",
+      "sources": [
+        {
+          "url": "https://www.mi.com/global/product/xiaomi-13t/specs/",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "refreshRateHz",
+            "weightGrams",
+            "batteryMah",
+            "wiredChargingW",
+            "mainCameraMp",
+            "ultrawideMp",
+            "telephotoMp",
+            "ois",
+            "nodeNm",
+            "ipRating",
+            "panel",
+            "has5G",
+            "resolution",
+            "storageTechnology",
+            "bluetooth",
+            "nfc",
+            "identity",
+            "variants",
+            "pixelDensity",
+            "peakBrightnessNits",
+            "frontCameraMp",
+            "rearVideo",
+            "hdr",
+            "protection"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "xiaomi-13t-pro",
+      "brand": "Xiaomi",
+      "model": "13T Pro",
+      "region": "UK",
+      "sources": [
+        {
+          "url": "https://www.mi.com/global/product/xiaomi-13t-pro/specs/",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "refreshRateHz",
+            "weightGrams",
+            "batteryMah",
+            "wiredChargingW",
+            "mainCameraMp",
+            "ultrawideMp",
+            "telephotoMp",
+            "ois",
+            "nodeNm",
+            "ipRating",
+            "panel",
+            "has5G",
+            "resolution",
+            "storageTechnology",
+            "bluetooth",
+            "nfc",
+            "identity",
+            "variants",
+            "pixelDensity",
+            "peakBrightnessNits",
+            "frontCameraMp",
+            "rearVideo",
+            "hdr",
+            "protection"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "xiaomi-14",
+      "brand": "Xiaomi",
+      "model": "14",
+      "region": "Global; finish-dependent weight uses glass/plastic version",
+      "sources": [
+        {
+          "url": "https://www.mi.com/global/product/xiaomi-14/specs/",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "refreshRateHz",
+            "weightGrams",
+            "batteryMah",
+            "wiredChargingW",
+            "mainCameraMp",
+            "ultrawideMp",
+            "telephotoMp",
+            "ois",
+            "wirelessChargingW",
+            "ipRating",
+            "panel",
+            "has5G",
+            "resolution",
+            "storageTechnology",
+            "bluetooth",
+            "nfc",
+            "identity",
+            "variants",
+            "pixelDensity",
+            "peakBrightnessNits",
+            "frontCameraMp",
+            "rearVideo",
+            "stereo",
+            "hdr"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "xiaomi-14t",
+      "brand": "Xiaomi",
+      "model": "14T",
+      "region": "Global; finish-dependent weight uses glass/plastic version",
+      "sources": [
+        {
+          "url": "https://www.mi.com/global/product/xiaomi-14t/specs/",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "refreshRateHz",
+            "weightGrams",
+            "batteryMah",
+            "wiredChargingW",
+            "mainCameraMp",
+            "ultrawideMp",
+            "telephotoMp",
+            "ois",
+            "ipRating",
+            "panel",
+            "has5G",
+            "resolution",
+            "storageTechnology",
+            "bluetooth",
+            "nfc",
+            "identity",
+            "variants",
+            "pixelDensity",
+            "frontCameraMp",
+            "rearVideo",
+            "stereo",
+            "hdr"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "redmi-note-13-pro-5g",
+      "brand": "Redmi",
+      "model": "Note 13 Pro 5G",
+      "region": "Global; finish-dependent weight uses glass/plastic version",
+      "sources": [
+        {
+          "url": "https://www.mi.com/global/product/redmi-note-13-pro-5g/specs/",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "refreshRateHz",
+            "weightGrams",
+            "batteryMah",
+            "wiredChargingW",
+            "mainCameraMp",
+            "ultrawideMp",
+            "ois",
+            "macroMp",
+            "panel",
+            "has5G",
+            "resolution",
+            "storageTechnology",
+            "bluetooth",
+            "nfc",
+            "identity",
+            "variants",
+            "pixelDensity",
+            "peakBrightnessNits",
+            "frontCameraMp",
+            "rearVideo",
+            "protection",
+            "ipRating"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "redmi-note-13-pro-plus-5g",
+      "brand": "Redmi",
+      "model": "Note 13 Pro+ 5G",
+      "region": "Global; finish-dependent weight uses glass/plastic version",
+      "sources": [
+        {
+          "url": "https://www.mi.com/global/product/redmi-note-13-pro-plus-5g/specs/",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "refreshRateHz",
+            "weightGrams",
+            "batteryMah",
+            "wiredChargingW",
+            "mainCameraMp",
+            "ultrawideMp",
+            "ois",
+            "macroMp",
+            "ipRating",
+            "panel",
+            "has5G",
+            "resolution",
+            "storageTechnology",
+            "bluetooth",
+            "nfc",
+            "identity",
+            "variants",
+            "pixelDensity",
+            "peakBrightnessNits",
+            "frontCameraMp",
+            "rearVideo",
+            "hdr",
+            "protection"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "redmi-note-14-pro-5g",
+      "brand": "Redmi",
+      "model": "Note 14 Pro 5G",
+      "region": "Global; finish-dependent weight uses glass/plastic version",
+      "sources": [
+        {
+          "url": "https://www.mi.com/global/product/redmi-note-14-pro-5g/specs/",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "refreshRateHz",
+            "weightGrams",
+            "batteryMah",
+            "wiredChargingW",
+            "mainCameraMp",
+            "ultrawideMp",
+            "ois",
+            "macroMp",
+            "panel",
+            "has5G",
+            "resolution",
+            "storageTechnology",
+            "bluetooth",
+            "nfc",
+            "identity",
+            "variants",
+            "peakBrightnessNits",
+            "frontCameraMp",
+            "rearVideo",
+            "hdr",
+            "protection",
+            "ipRating"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "redmi-13",
+      "brand": "Redmi",
+      "model": "13",
+      "region": "Global; finish-dependent weight uses glass/plastic version",
+      "sources": [
+        {
+          "url": "https://www.mi.com/global/product/redmi-13/specs/",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "refreshRateHz",
+            "weightGrams",
+            "batteryMah",
+            "wiredChargingW",
+            "mainCameraMp",
+            "macroMp",
+            "frontCameraMp",
+            "has5G",
+            "resolution",
+            "storageTechnology",
+            "bluetooth",
+            "nfc",
+            "identity",
+            "variants",
+            "pixelDensity"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "honor-90",
+      "brand": "Honor",
+      "model": "90",
+      "region": "Global; availability varies by market",
+      "sources": [
+        {
+          "url": "https://www.honor.com/global/phones/honor-90/spec/",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "weightGrams",
+            "batteryMah",
+            "wiredChargingW",
+            "mainCameraMp",
+            "ultrawideMp",
+            "frontCameraMp",
+            "launchOs",
+            "panel",
+            "has5G",
+            "nfc",
+            "rearVideo",
+            "frontVideo",
+            "identity",
+            "variants"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "honor-200",
+      "brand": "Honor",
+      "model": "200",
+      "region": "Global; availability varies by market",
+      "sources": [
+        {
+          "url": "https://www.honor.com/global/phones/honor-200/spec/",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "weightGrams",
+            "batteryMah",
+            "wiredChargingW",
+            "mainCameraMp",
+            "ultrawideMp",
+            "telephotoMp",
+            "ois",
+            "frontCameraMp",
+            "launchOs",
+            "panel",
+            "has5G",
+            "nfc",
+            "rearVideo",
+            "frontVideo",
+            "identity",
+            "variants"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "honor-200-pro",
+      "brand": "Honor",
+      "model": "200 Pro",
+      "region": "Global; availability varies by market",
+      "sources": [
+        {
+          "url": "https://www.honor.com/global/phones/honor-200-pro/spec/",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "weightGrams",
+            "batteryMah",
+            "wiredChargingW",
+            "mainCameraMp",
+            "ultrawideMp",
+            "telephotoMp",
+            "ois",
+            "wirelessChargingW",
+            "frontCameraMp",
+            "launchOs",
+            "panel",
+            "has5G",
+            "nfc",
+            "rearVideo",
+            "frontVideo",
+            "identity",
+            "variants"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "honor-magic6-pro",
+      "brand": "Honor",
+      "model": "Magic6 Pro",
+      "region": "Global; availability varies by market",
+      "sources": [
+        {
+          "url": "https://www.honor.com/global/phones/honor-magic6-pro/spec/",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "weightGrams",
+            "batteryMah",
+            "wiredChargingW",
+            "mainCameraMp",
+            "ultrawideMp",
+            "telephotoMp",
+            "ois",
+            "opticalZoom",
+            "wirelessChargingW",
+            "frontCameraMp",
+            "ipRating",
+            "launchOs",
+            "panel",
+            "has5G",
+            "nfc",
+            "rearVideo",
+            "frontVideo",
+            "identity",
+            "variants"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "nothing-phone-2",
+      "brand": "Nothing",
+      "model": "Phone (2)",
+      "region": "EU",
+      "sources": [
+        {
+          "url": "https://checkout-eu.nothing.tech/pages/phone-2",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "refreshRateHz",
+            "weightGrams",
+            "batteryMah",
+            "wiredChargingW",
+            "mainCameraMp",
+            "ultrawideMp",
+            "ois",
+            "wirelessChargingW",
+            "majorUpgrades",
+            "securityYears",
+            "panel",
+            "identity",
+            "variants",
+            "nfc",
+            "has5G",
+            "frontCameraMp"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "nothing-phone-2a",
+      "brand": "Nothing",
+      "model": "Phone (2a)",
+      "region": "EU",
+      "sources": [
+        {
+          "url": "https://checkout-eu.nothing.tech/pages/phone-2a",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "refreshRateHz",
+            "weightGrams",
+            "batteryMah",
+            "wiredChargingW",
+            "mainCameraMp",
+            "ultrawideMp",
+            "ois",
+            "majorUpgrades",
+            "securityYears",
+            "nodeNm",
+            "panel",
+            "identity",
+            "variants",
+            "nfc",
+            "has5G",
+            "frontCameraMp",
+            "mainAperture",
+            "rearVideo",
+            "frontVideo",
+            "resolution",
+            "pixelDensity",
+            "peakBrightnessNits",
+            "protection",
+            "ipRating",
+            "dimensions"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "nothing-phone-3a",
+      "brand": "Nothing",
+      "model": "Phone (3a)",
+      "region": "EU",
+      "sources": [
+        {
+          "url": "https://checkout-eu.nothing.tech/pages/phone-3a",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "refreshRateHz",
+            "weightGrams",
+            "batteryMah",
+            "wiredChargingW",
+            "mainCameraMp",
+            "ultrawideMp",
+            "telephotoMp",
+            "ois",
+            "opticalZoom",
+            "majorUpgrades",
+            "securityYears",
+            "ipRating",
+            "nodeNm",
+            "panel",
+            "identity",
+            "variants",
+            "nfc",
+            "has5G",
+            "frontCameraMp"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "oneplus-12",
+      "brand": "OnePlus",
+      "model": "12",
+      "region": "UK; glass finish",
+      "sources": [
+        {
+          "url": "https://www.oneplus.com/uk/12/specs",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "refreshRateHz",
+            "weightGrams",
+            "batteryMah",
+            "wiredChargingW",
+            "wirelessChargingW",
+            "launchOs",
+            "panel",
+            "identity",
+            "variants",
+            "pixelDensity",
+            "bluetooth",
+            "storageTechnology",
+            "nfc",
+            "has5G",
+            "mainCameraMp",
+            "ultrawideMp",
+            "telephotoMp",
+            "frontCameraMp",
+            "ois",
+            "opticalZoom",
+            "rearVideo"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "oneplus-12r",
+      "brand": "OnePlus",
+      "model": "12R",
+      "region": "UK; glass finish",
+      "sources": [
+        {
+          "url": "https://www.oneplus.com/uk/12r/specs",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "refreshRateHz",
+            "weightGrams",
+            "batteryMah",
+            "wiredChargingW",
+            "mainCameraMp",
+            "ultrawideMp",
+            "ois",
+            "macroMp",
+            "launchOs",
+            "panel",
+            "identity",
+            "variants",
+            "pixelDensity",
+            "resolution",
+            "bluetooth",
+            "storageTechnology",
+            "nfc",
+            "has5G",
+            "stereo",
+            "rearVideo"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "oneplus-nord-4",
+      "brand": "OnePlus",
+      "model": "Nord 4",
+      "region": "UK; glass finish",
+      "sources": [
+        {
+          "url": "https://www.oneplus.com/uk/nord-4/specs",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "refreshRateHz",
+            "weightGrams",
+            "batteryMah",
+            "wiredChargingW",
+            "launchOs",
+            "panel",
+            "identity",
+            "variants",
+            "pixelDensity",
+            "resolution",
+            "bluetooth",
+            "storageTechnology",
+            "nfc",
+            "has5G",
+            "stereo",
+            "mainCameraMp",
+            "ultrawideMp",
+            "frontCameraMp",
+            "majorUpgrades",
+            "securityYears"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "oneplus-13",
+      "brand": "OnePlus",
+      "model": "13",
+      "region": "UK; glass finish",
+      "sources": [
+        {
+          "url": "https://www.oneplus.com/uk/13/specs",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "refreshRateHz",
+            "weightGrams",
+            "batteryMah",
+            "wiredChargingW",
+            "wirelessChargingW",
+            "launchOs",
+            "panel",
+            "identity",
+            "variants",
+            "pixelDensity",
+            "bluetooth",
+            "storageTechnology",
+            "nfc",
+            "mainCameraMp",
+            "ultrawideMp",
+            "telephotoMp",
+            "frontCameraMp",
+            "ois",
+            "opticalZoom"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "motorola-edge50fusion",
+      "brand": "Motorola",
+      "model": "Edge 50 Fusion",
+      "region": "India",
+      "sources": [
+        {
+          "url": "https://motorola-mobility-en-in--dev3.custhelp.com/app/answers/detail/a_id/187366",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "refreshRateHz",
+            "weightGrams",
+            "batteryMah",
+            "wiredChargingW",
+            "nodeNm",
+            "panel",
+            "resolution",
+            "pixelDensity",
+            "peakBrightnessNits",
+            "ipRating",
+            "has5G",
+            "nfc",
+            "usb",
+            "bluetooth",
+            "wifi",
+            "stereo",
+            "headphoneJack",
+            "fingerprint",
+            "launchOs",
+            "identity",
+            "variants"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "motorola-edge40neo",
+      "brand": "Motorola",
+      "model": "Edge 40 Neo",
+      "region": "EMEA; PMMA finish",
+      "sources": [
+        {
+          "url": "https://motorola-mobility-en-in--dev3.custhelp.com/app/answers/detail/a_id/176257",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "refreshRateHz",
+            "weightGrams",
+            "batteryMah",
+            "wiredChargingW",
+            "panel",
+            "wifi",
+            "dimensions",
+            "identity",
+            "variants"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "google-pixel-8",
+      "brand": "Google",
+      "model": "Pixel 8",
+      "region": "US; storage and connectivity availability vary by region",
+      "sources": [
+        {
+          "url": "https://support.google.com/pixelphone/answer/15738422",
+          "fields": [
+            "supportStartYear",
+            "year"
+          ]
+        },
+        {
+          "url": "https://support.google.com/pixelphone/answer/7158570?hl=en",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "refreshRateHz",
+            "weightGrams",
+            "batteryMah",
+            "mainCameraMp",
+            "ultrawideMp",
+            "panel",
+            "ois",
+            "securityYears",
+            "has5G",
+            "nfc",
+            "esim",
+            "sim",
+            "stereo",
+            "usb",
+            "bluetooth",
+            "wifi",
+            "rearVideo",
+            "frontVideo",
+            "ipRating",
+            "launchOs",
+            "frontCameraMp",
+            "identity",
+            "variants",
+            "pixelDensity",
+            "resolution",
+            "hdr",
+            "faceUnlock",
+            "fingerprint",
+            "wiredChargingW"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "google-pixel-8-pro",
+      "brand": "Google",
+      "model": "Pixel 8 Pro",
+      "region": "US; storage and connectivity availability vary by region",
+      "sources": [
+        {
+          "url": "https://support.google.com/pixelphone/answer/15738422",
+          "fields": [
+            "supportStartYear",
+            "year"
+          ]
+        },
+        {
+          "url": "https://support.google.com/pixelphone/answer/7158570?hl=en",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "refreshRateHz",
+            "weightGrams",
+            "batteryMah",
+            "mainCameraMp",
+            "ultrawideMp",
+            "telephotoMp",
+            "panel",
+            "ois",
+            "opticalZoom",
+            "securityYears",
+            "has5G",
+            "nfc",
+            "esim",
+            "sim",
+            "stereo",
+            "usb",
+            "bluetooth",
+            "wifi",
+            "rearVideo",
+            "frontVideo",
+            "ipRating",
+            "launchOs",
+            "frontCameraMp",
+            "identity",
+            "variants",
+            "pixelDensity",
+            "resolution",
+            "hdr",
+            "faceUnlock",
+            "fingerprint",
+            "wiredChargingW"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "google-pixel-8a",
+      "brand": "Google",
+      "model": "Pixel 8A",
+      "region": "US; storage and connectivity availability vary by region",
+      "sources": [
+        {
+          "url": "https://support.google.com/pixelphone/answer/15738422",
+          "fields": [
+            "supportStartYear",
+            "year"
+          ]
+        },
+        {
+          "url": "https://support.google.com/pixelphone/answer/7158570?hl=en",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "refreshRateHz",
+            "weightGrams",
+            "batteryMah",
+            "mainCameraMp",
+            "ultrawideMp",
+            "panel",
+            "ois",
+            "securityYears",
+            "has5G",
+            "nfc",
+            "esim",
+            "sim",
+            "stereo",
+            "usb",
+            "bluetooth",
+            "wifi",
+            "rearVideo",
+            "frontVideo",
+            "ipRating",
+            "launchOs",
+            "frontCameraMp",
+            "identity",
+            "variants",
+            "pixelDensity",
+            "resolution",
+            "hdr",
+            "faceUnlock",
+            "fingerprint"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "google-pixel-9",
+      "brand": "Google",
+      "model": "Pixel 9",
+      "region": "US; storage and connectivity availability vary by region",
+      "sources": [
+        {
+          "url": "https://support.google.com/pixelphone/answer/15738422",
+          "fields": [
+            "supportStartYear",
+            "year"
+          ]
+        },
+        {
+          "url": "https://support.google.com/pixelphone/answer/7158570?hl=en",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "refreshRateHz",
+            "weightGrams",
+            "batteryMah",
+            "mainCameraMp",
+            "ultrawideMp",
+            "panel",
+            "ois",
+            "securityYears",
+            "has5G",
+            "nfc",
+            "esim",
+            "sim",
+            "stereo",
+            "usb",
+            "bluetooth",
+            "wifi",
+            "rearVideo",
+            "frontVideo",
+            "ipRating",
+            "launchOs",
+            "frontCameraMp",
+            "identity",
+            "variants",
+            "pixelDensity",
+            "resolution",
+            "hdr",
+            "faceUnlock",
+            "fingerprint"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "google-pixel-9-pro",
+      "brand": "Google",
+      "model": "Pixel 9 Pro",
+      "region": "US; storage and connectivity availability vary by region",
+      "sources": [
+        {
+          "url": "https://support.google.com/pixelphone/answer/15738422",
+          "fields": [
+            "supportStartYear",
+            "year"
+          ]
+        },
+        {
+          "url": "https://support.google.com/pixelphone/answer/7158570?hl=en",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "refreshRateHz",
+            "weightGrams",
+            "batteryMah",
+            "mainCameraMp",
+            "ultrawideMp",
+            "telephotoMp",
+            "panel",
+            "ois",
+            "opticalZoom",
+            "securityYears",
+            "has5G",
+            "nfc",
+            "esim",
+            "sim",
+            "stereo",
+            "usb",
+            "bluetooth",
+            "wifi",
+            "rearVideo",
+            "frontVideo",
+            "ipRating",
+            "launchOs",
+            "frontCameraMp",
+            "identity",
+            "variants",
+            "pixelDensity",
+            "resolution",
+            "hdr",
+            "faceUnlock",
+            "fingerprint"
+          ]
+        }
+      ]
+    },
+    {
+      "modelId": "google-pixel-9-pro-xl",
+      "brand": "Google",
+      "model": "Pixel 9 Pro Xl",
+      "region": "US; storage and connectivity availability vary by region",
+      "sources": [
+        {
+          "url": "https://support.google.com/pixelphone/answer/15738422",
+          "fields": [
+            "supportStartYear",
+            "year"
+          ]
+        },
+        {
+          "url": "https://support.google.com/pixelphone/answer/7158570?hl=en",
+          "fields": [
+            "chipset",
+            "screenSizeInches",
+            "refreshRateHz",
+            "weightGrams",
+            "batteryMah",
+            "mainCameraMp",
+            "ultrawideMp",
+            "telephotoMp",
+            "panel",
+            "ois",
+            "opticalZoom",
+            "securityYears",
+            "has5G",
+            "nfc",
+            "esim",
+            "sim",
+            "stereo",
+            "usb",
+            "bluetooth",
+            "wifi",
+            "rearVideo",
+            "frontVideo",
+            "ipRating",
+            "launchOs",
+            "frontCameraMp",
+            "identity",
+            "variants",
+            "pixelDensity",
+            "resolution",
+            "hdr",
+            "faceUnlock",
+            "fingerprint"
+          ]
+        }
+      ]
+    }
+  ]
+}

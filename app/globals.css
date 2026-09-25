@@ -1775,4 +1775,97 @@ thead p {
     font-size: 13px;
   }
 }
-.decision-tools {display:grid;gap:12px;margin:24px 0}.decision-tools .panel{margin:0}.decision-tools summary,.specifications summary{cursor:pointer;font-weight:700}.decision-tools label{display:block;margin:12px 0}.decision-tools input,.decision-tools select{display:block;width:100%;padding:10px;border:1px solid var(--border,#ddd);border-radius:10px;margin-top:6px}.utility-chart{width:100%;height:auto;max-height:250px;overflow:visible}.utility-chart text{font-size:12px;fill:currentColor}.specifications details{margin:12px 0}.specifications dd{overflow-wrap:anywhere}.variant-options{display:flex;gap:8px;flex-wrap:wrap}.variant-options a{padding:10px;border:1px solid #ddd;border-radius:10px}.variant-options [aria-current=page]{border-color:#d72e37;background:#fff4f4}.confidence details{max-width:340px;white-space:normal}.debug-columns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.debug-columns pre{max-height:500px;overflow:auto}.debug-columns select{max-width:100%}@media(max-width:600px){.debug-columns{grid-template-columns:1fr}.utility-chart text{font-size:13px}}
+.decision-tools {
+  display: grid;
+  gap: 12px;
+  margin: 24px 0;
+}
+.decision-tools .panel {
+  margin: 0;
+}
+.decision-tools summary,
+.specifications summary {
+  cursor: pointer;
+  font-weight: 700;
+}
+.decision-tools label {
+  display: block;
+  margin: 12px 0;
+}
+.decision-tools input,
+.decision-tools select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--border, #ddd);
+  border-radius: 10px;
+  margin-top: 6px;
+}
+.utility-chart {
+  width: 100%;
+  height: auto;
+  max-height: 250px;
+  overflow: visible;
+}
+.utility-chart text {
+  font-size: 12px;
+  fill: currentColor;
+}
+.specifications details {
+  margin: 12px 0;
+}
+.specifications dd {
+  overflow-wrap: anywhere;
+}
+.variant-options {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.variant-options a {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+.variant-options [aria-current="page"] {
+  border-color: #d72e37;
+  background: #fff4f4;
+}
+.confidence details {
+  max-width: 340px;
+  white-space: normal;
+}
+.debug-columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+.debug-columns pre {
+  max-height: 500px;
+  overflow: auto;
+}
+.debug-columns select {
+  max-width: 100%;
+}
+@media (max-width: 600px) {
+  .debug-columns {
+    grid-template-columns: 1fr;
+  }
+  .utility-chart text {
+    font-size: 13px;
+  }
+}
+.decision-tools,
+.decision-tools .panel,
+.decision-tools details {
+  min-width: 0;
+  max-width: 100%;
+}
+.decision-tools select {
+  min-width: 0;
+  max-width: 100%;
+}
+.decision-tools p,
+.decision-tools bdi {
+  overflow-wrap: anywhere;
+}

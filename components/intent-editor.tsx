@@ -5,7 +5,10 @@ const constraintLabels = {
   minStorage: "حداقل حافظه (گیگ)",
   minRam: "حداقل رم (گیگ)",
   minBattery: "حداقل باتری (mAh)",
-  minScreenSize: "حداقل صفحه (اینچ)", maxScreenSize:"حداکثر صفحه (اینچ)", minCharging:"حداقل شارژ (وات)", newOnly:"فقط نو",
+  minScreenSize: "حداقل صفحه (اینچ)",
+  maxScreenSize: "حداکثر صفحه (اینچ)",
+  minCharging: "حداقل شارژ (وات)",
+  newOnly: "فقط نو",
   maxWeight: "حداکثر وزن (گرم)",
   minSupportYears: "حداقل سال پشتیبانی",
   requires5G: "نسل پنجم",
@@ -15,7 +18,9 @@ const limits: Record<string, number> = {
   minStorage: 2048,
   minRam: 64,
   minBattery: 20000,
-  minScreenSize: 10, maxScreenSize:10, minCharging:300,
+  minScreenSize: 10,
+  maxScreenSize: 10,
+  minCharging: 300,
   maxWeight: 1000,
   minSupportYears: 10,
 };
@@ -26,7 +31,12 @@ const useLabels = {
   elderly: "خانواده",
   student: "دانشجو",
   business: "کاری",
-  long_term_use: "بلندمدت", social_media:"شبکه اجتماعی", content_creator:"تولید محتوا", travel:"سفر", battery_first:"باتری‌محور", compact:"جمع‌وجور",
+  long_term_use: "بلندمدت",
+  social_media: "شبکه اجتماعی",
+  content_creator: "تولید محتوا",
+  travel: "سفر",
+  battery_first: "باتری‌محور",
+  compact: "جمع‌وجور",
 };
 export function IntentEditor({
   intent,
@@ -43,10 +53,35 @@ export function IntentEditor({
         <h2>از حرفت این‌ها رو فهمیدم</h2>
         <span className="muted">هر کدوم رو خواستی تغییر بده</span>
       </div>
-      {intent.warnings.map(w=><p className="notice" key={w}>{w}</p>)}
-      {intent.assumptions.map(a=><p className="notice" key={a}>{a}</p>)}
+      {intent.warnings.map((w) => (
+        <p className="notice" key={w}>
+          {w}
+        </p>
+      ))}
+      {intent.assumptions.map((a) => (
+        <p className="notice" key={a}>
+          {a}
+        </p>
+      ))}
       <div className="intent-chips">
-      <label>نوع بودجه<select value={intent.budget?.kind??'hard'} onChange={e=>update({budget:{...intent.budget,kind:e.target.value as 'hard'|'soft',flexibility:e.target.value==='soft'?.1:0}})}><option value="hard">سقف قطعی</option><option value="soft">حدودی؛ بررسی تا ۱۰٪ بیشتر</option></select></label>
+        <label>
+          نوع بودجه
+          <select
+            value={intent.budget?.kind ?? "hard"}
+            onChange={(e) =>
+              update({
+                budget: {
+                  ...intent.budget,
+                  kind: e.target.value as "hard" | "soft",
+                  flexibility: e.target.value === "soft" ? 0.1 : 0,
+                },
+              })
+            }
+          >
+            <option value="hard">سقف قطعی</option>
+            <option value="soft">حدودی؛ بررسی تا ۱۰٪ بیشتر</option>
+          </select>
+        </label>
         <label>
           بودجه تا (میلیون)
           <NumericField
