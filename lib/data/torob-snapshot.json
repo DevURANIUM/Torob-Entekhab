@@ -1,0 +1,653 @@
+{
+  "fetchedAt": "2026-10-18T08:29:54.009Z",
+  "endpoint": "http://127.0.0.1:3333/mcp",
+  "models": {
+    "apple-iphone-13": {
+      "image": "https://image.torob.com/base/images/Z0/nW/Z0nW4uduDDWeZMDU.jpg",
+      "query": "گوشی اپل iPhone 13"
+    },
+    "apple-iphone-13mini": {
+      "image": null,
+      "query": "گوشی اپل iPhone 13 mini"
+    },
+    "apple-iphone-13pro": {
+      "image": "https://image.torob.com/base/images/Uo/_f/Uo_fRkEOzt0ZEcab.jpg",
+      "query": "گوشی اپل iPhone 13 Pro"
+    },
+    "apple-iphone-13promax": {
+      "image": "https://image.torob.com/base/images/k2/mE/k2mEdb5YrM1FlrJB.webp",
+      "query": "گوشی اپل iPhone 13 Pro Max"
+    },
+    "apple-iphone-14": {
+      "image": "https://image.torob.com/base/images/7w/EB/7wEB9Vj666q41pqD.jpg",
+      "query": "گوشی اپل iPhone 14"
+    },
+    "apple-iphone-14plus": {
+      "image": null,
+      "query": "گوشی اپل iPhone 14 Plus"
+    },
+    "apple-iphone-14pro": {
+      "image": "https://image.torob.com/base/images/DQ/iq/DQiqkx3fKJ_rW3B2.jpg",
+      "query": "گوشی اپل iPhone 14 Pro"
+    },
+    "apple-iphone-14promax": {
+      "image": "https://image.torob.com/base/images/71/IB/71IBt4KA5-6VxB8y.jpg",
+      "query": "گوشی اپل iPhone 14 Pro Max"
+    },
+    "apple-iphone-15": {
+      "image": "https://image.torob.com/base/images/c1/c3/c1c30z4aSt4bzZVS.jpg",
+      "query": "گوشی اپل iPhone 15"
+    },
+    "apple-iphone-15plus": {
+      "image": null,
+      "query": "گوشی اپل iPhone 15 Plus"
+    },
+    "apple-iphone-15pro": {
+      "image": "https://image.torob.com/base/images/_k/c8/_kc8FC5ONwxSkcdJ.webp",
+      "query": "گوشی اپل iPhone 15 Pro"
+    },
+    "apple-iphone-15promax": {
+      "image": "https://image.torob.com/base/images/BG/tS/BGtSFDpKTzbh5m-y.jpg",
+      "query": "گوشی اپل iPhone 15 Pro Max"
+    },
+    "apple-iphone-16": {
+      "image": "https://image.torob.com/base/images/Ma/XS/MaXSNWRSNEAFsbv5.jpg",
+      "query": "گوشی اپل iPhone 16"
+    },
+    "apple-iphone-16plus": {
+      "image": null,
+      "query": "گوشی اپل iPhone 16 Plus"
+    },
+    "apple-iphone-16pro": {
+      "image": "https://image.torob.com/base/images/yk/d9/ykd9WsQM9wx0XOmr.webp",
+      "query": "گوشی اپل iPhone 16 Pro"
+    },
+    "apple-iphone-16promax": {
+      "image": "https://image.torob.com/base/images/Fo/lG/FolG4WILmrViZmvO.jpg",
+      "query": "گوشی اپل iPhone 16 Pro Max"
+    },
+    "samsung-a15": {
+      "image": null,
+      "query": "گوشی سامسونگ Galaxy A15 5G"
+    },
+    "samsung-a25": {
+      "image": "https://image.torob.com/base/images/Uo/rh/Uorhk2tmLwG1x4N9.webp",
+      "query": "گوشی سامسونگ Galaxy A25 5G"
+    },
+    "samsung-a35": {
+      "image": "https://image.torob.com/base/images/lb/02/lb028dRSs4zDgv5R.jpg",
+      "query": "گوشی سامسونگ Galaxy A35 5G"
+    },
+    "samsung-a55": {
+      "image": "https://image.torob.com/base/images/KQ/p0/KQp0j5DCQavr8V2q.webp",
+      "query": "گوشی سامسونگ Galaxy A55 5G"
+    },
+    "samsung-a56": {
+      "image": "https://image.torob.com/base/images/6g/7k/6g7kT51j7RmWc6WW.webp",
+      "query": "گوشی سامسونگ Galaxy A56 5G"
+    },
+    "samsung-a36": {
+      "image": "https://image.torob.com/base/images/BR/0A/BR0A8lO9gSKChcEz.webp",
+      "query": "گوشی سامسونگ Galaxy A36 5G"
+    },
+    "samsung-a26": {
+      "image": "https://image.torob.com/base/images/_M/MH/_MMHIpXsKL6MrcwM.jpg",
+      "query": "گوشی سامسونگ Galaxy A26 5G"
+    },
+    "samsung-s23-fe": {
+      "image": "https://image.torob.com/base/images/A6/Pc/A6Pcn4-fPj0d0s6V.jpg",
+      "query": "گوشی سامسونگ Galaxy S23 FE"
+    },
+    "samsung-s24": {
+      "image": null,
+      "query": "گوشی سامسونگ Galaxy S24"
+    },
+    "samsung-s24-plus": {
+      "image": null,
+      "query": "گوشی سامسونگ Galaxy S24+"
+    },
+    "samsung-s24-ultra": {
+      "image": "https://image.torob.com/base/images/bb/CV/bbCVIyIXfJ1svY8t.jpg",
+      "query": "گوشی سامسونگ Galaxy S24 Ultra"
+    },
+    "samsung-s24-fe": {
+      "image": "https://image.torob.com/base/images/Ck/lv/CklvCDhqNAu-JepO.webp",
+      "query": "گوشی سامسونگ Galaxy S24 FE"
+    },
+    "samsung-z-flip6": {
+      "image": null,
+      "query": "گوشی سامسونگ Galaxy Z Flip6"
+    },
+    "samsung-z-fold6": {
+      "image": "https://image.torob.com/base/images/9G/9D/9G9DVhPDteLMiYCd.webp",
+      "query": "گوشی سامسونگ Galaxy Z Fold6"
+    },
+    "poco-x6": {
+      "image": null,
+      "query": "گوشی شیائومی Poco X6"
+    },
+    "poco-x6-pro": {
+      "image": "https://image.torob.com/base/images/AE/ER/AEERXdJtY_Tt71L8.webp",
+      "query": "گوشی شیائومی Poco X6 Pro"
+    },
+    "poco-f6": {
+      "image": "https://image.torob.com/base/images/eg/aR/egaRG7YB9DGi1GYt.webp",
+      "query": "گوشی شیائومی Poco F6"
+    },
+    "poco-f6-pro": {
+      "image": "https://image.torob.com/base/images/ie/do/iedoHGXcG2kt-vEz.webp",
+      "query": "گوشی شیائومی Poco F6 Pro"
+    },
+    "xiaomi-13t": {
+      "image": null,
+      "query": "گوشی شیائومی 13T"
+    },
+    "xiaomi-13t-pro": {
+      "image": null,
+      "query": "گوشی شیائومی 13T Pro"
+    },
+    "xiaomi-14": {
+      "image": null,
+      "query": "گوشی شیائومی 14"
+    },
+    "xiaomi-14t": {
+      "image": "https://image.torob.com/base/images/Ss/xC/SsxCpl8XXmCj4k-R.webp",
+      "query": "گوشی شیائومی 14T"
+    },
+    "redmi-note-13-pro-5g": {
+      "image": "https://image.torob.com/base/images/wi/ny/winylm_2mFK__dvk.webp",
+      "query": "گوشی شیائومی Redmi Note 13 Pro 5G"
+    },
+    "redmi-note-13-pro-plus-5g": {
+      "image": "https://image.torob.com/base/images/H4/YW/H4YWEnR948IJuQOc.jpg",
+      "query": "گوشی شیائومی Redmi Note 13 Pro+ 5G"
+    },
+    "redmi-note-14-pro-5g": {
+      "image": "https://image.torob.com/base/images/lK/gg/lKggvasTZR51TV5_.webp",
+      "query": "گوشی شیائومی Redmi Note 14 Pro 5G"
+    },
+    "redmi-13": {
+      "image": "https://image.torob.com/base/images/aE/3W/aE3WTZ_n9TS8_-Ls.webp",
+      "query": "گوشی شیائومی Redmi 13"
+    },
+    "honor-90": {
+      "image": "https://image.torob.com/base/images/E5/Hv/E5Hv_0CWgMYWiIFs.jpg",
+      "query": "گوشی آنر 90"
+    },
+    "honor-200": {
+      "image": null,
+      "query": "گوشی آنر 200"
+    },
+    "honor-200-pro": {
+      "image": null,
+      "query": "گوشی آنر 200 Pro"
+    },
+    "honor-magic6-pro": {
+      "image": null,
+      "query": "گوشی آنر Magic6 Pro"
+    },
+    "nothing-phone-2": {
+      "image": null,
+      "query": "گوشی ناتینگ Phone (2)"
+    },
+    "nothing-phone-2a": {
+      "image": "https://image.torob.com/base/images/k0/Rv/k0Rvvv6T_8SOsW9N.webp",
+      "query": "گوشی ناتینگ Phone (2a)"
+    },
+    "nothing-phone-3a": {
+      "image": "https://image.torob.com/base/images/hH/g_/hHg_nqXjLw-PP7pa.jpg",
+      "query": "گوشی ناتینگ Phone (3a)"
+    },
+    "oneplus-12": {
+      "image": "https://image.torob.com/base/images/1L/G9/1LG9P8tZGH-zgBlG.jpg",
+      "query": "گوشی وان پلاس 12"
+    },
+    "oneplus-12r": {
+      "image": null,
+      "query": "گوشی وان پلاس 12R"
+    }
+  },
+  "variants": {
+    "apple-iphone-13-unknown-128": {
+      "prk": "41040d92-b410-43cf-ab56-1e0da9bd3645",
+      "url": "https://torob.com/p/41040d92-b410-43cf-ab56-1e0da9bd3645/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=&suid=01a14dcfedac73799f44af44c50da79b&search_id=01a14dcfedac73799f44af44c50da79b&cities=&province=&init_suid=01a14dcfedac73799f44af44c50da79b&algorithm=text_similarity&prk=41040d92-b410-43cf-ab56-1e0da9bd3645&rank=9",
+      "name": "گوشی اپل دو سیم iPhone 13 (Not Active) | حافظه 128 گیگابایت",
+      "priceToman": 185000000,
+      "shops": 4,
+      "image": "https://image.torob.com/base/images/Z0/nW/Z0nW4uduDDWeZMDU.jpg"
+    },
+    "apple-iphone-13-unknown-256": {
+      "prk": "dbf76876-e160-4cdb-96ef-2bece615fb6a",
+      "url": "https://torob.com/p/dbf76876-e160-4cdb-96ef-2bece615fb6a/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=&suid=01a14dcfedac73799f44af44c50da79b&search_id=01a14dcfedac73799f44af44c50da79b&cities=&province=&init_suid=01a14dcfedac73799f44af44c50da79b&algorithm=text_similarity&prk=dbf76876-e160-4cdb-96ef-2bece615fb6a&rank=14",
+      "name": "گوشی اپل دو سیم iPhone 13 (Not Active) | حافظه 256 گیگابایت",
+      "priceToman": 155500000,
+      "shops": 1,
+      "image": "https://image.torob.com/base/images/Dc/LB/DcLBhqrmebIymJxF.jpg"
+    },
+    "apple-iphone-13pro-unknown-128": {
+      "prk": "8b4372c8-c84d-4708-8013-0c0e8d2a024c",
+      "url": "https://torob.com/p/8b4372c8-c84d-4708-8013-0c0e8d2a024c/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=sir34__a&suid=01a14dd2091e74a69235fd815866927a&search_id=01a14dd2091e74a69235fd815866927a&cities=&province=&init_suid=01a14dd2091e74a69235fd815866927a&algorithm=embedding&prk=8b4372c8-c84d-4708-8013-0c0e8d2a024c&rank=14",
+      "name": "گوشی اپل دو سیم iPhone 13 Pro (Not Active) | حافظه 128 گیگابایت",
+      "priceToman": 259720020,
+      "shops": 1,
+      "image": "https://image.torob.com/base/images/Uo/_f/Uo_fRkEOzt0ZEcab.jpg"
+    },
+    "apple-iphone-13pro-unknown-256": {
+      "prk": "d783140d-5cf9-4c47-84ae-836be72a7906",
+      "url": "https://torob.com/p/d783140d-5cf9-4c47-84ae-836be72a7906/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=sir34__a&suid=01a14dd2091e74a69235fd815866927a&search_id=01a14dd2091e74a69235fd815866927a&cities=&province=&init_suid=01a14dd2091e74a69235fd815866927a&algorithm=embedding&prk=d783140d-5cf9-4c47-84ae-836be72a7906&rank=12",
+      "name": "گوشی اپل دو سیم iPhone 13 Pro (Not Active) | حافظه 256 گیگابایت",
+      "priceToman": 189000000,
+      "shops": 1,
+      "image": "https://image.torob.com/base/images/Yj/H0/YjH0wEa5ggNqTaUU.jpg"
+    },
+    "apple-iphone-13promax-unknown-256": {
+      "prk": "80de6bd2-a162-4b99-84e0-0b9fe9119180",
+      "url": "https://torob.com/p/80de6bd2-a162-4b99-84e0-0b9fe9119180/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=&suid=01a14dd21f4a7431a4f7424571b82c12&search_id=01a14dd21f4a7431a4f7424571b82c12&cities=&province=&init_suid=01a14dd21f4a7431a4f7424571b82c12&algorithm=text_similarity&prk=80de6bd2-a162-4b99-84e0-0b9fe9119180&rank=3",
+      "name": "گوشی اپل دو سیم iPhone 13 Pro Max (Not Active) | حافظه 256 گیگابایت",
+      "priceToman": 179000000,
+      "shops": 1,
+      "image": "https://image.torob.com/base/images/k2/mE/k2mEdb5YrM1FlrJB.webp"
+    },
+    "apple-iphone-14-unknown-128": {
+      "prk": "b17e9258-00b8-4194-860a-a7ce480a1f64",
+      "url": "https://torob.com/p/b17e9258-00b8-4194-860a-a7ce480a1f64/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=&suid=01a14dd244b773a79ee359f067a58669&search_id=01a14dd244b773a79ee359f067a58669&cities=&province=&init_suid=01a14dd244b773a79ee359f067a58669&algorithm=text_similarity&prk=b17e9258-00b8-4194-860a-a7ce480a1f64&rank=7",
+      "name": "گوشی اپل دو سیم iPhone 14 (Not Active) | حافظه 128 گیگابایت",
+      "priceToman": 169000000,
+      "shops": 14,
+      "image": "https://image.torob.com/base/images/7w/EB/7wEB9Vj666q41pqD.jpg"
+    },
+    "apple-iphone-14pro-unknown-512": {
+      "prk": "60b41b87-3c71-46c2-bbe1-7b4dc5c5658e",
+      "url": "https://torob.com/p/60b41b87-3c71-46c2-bbe1-7b4dc5c5658e/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=&suid=01a14dd27c3a74ddb971605a15e3184c&search_id=01a14dd27c3a74ddb971605a15e3184c&cities=&province=&init_suid=01a14dd27c3a74ddb971605a15e3184c&algorithm=text_similarity&prk=60b41b87-3c71-46c2-bbe1-7b4dc5c5658e&rank=9",
+      "name": "گوشی اپل iPhone 14 Pro (Not Active) | حافظه 512 گیگابای",
+      "priceToman": 259900000,
+      "shops": 1,
+      "image": "https://image.torob.com/base/images/DQ/iq/DQiqkx3fKJ_rW3B2.jpg"
+    },
+    "apple-iphone-14promax-unknown-256": {
+      "prk": "7c4b7ab7-ccb0-4cce-9360-8e6b189aa8a4",
+      "url": "https://torob.com/p/7c4b7ab7-ccb0-4cce-9360-8e6b189aa8a4/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=&suid=01a14dd29bc57173a4b14cad8a41e46c&search_id=01a14dd29bc57173a4b14cad8a41e46c&cities=&province=&init_suid=01a14dd29bc57173a4b14cad8a41e46c&algorithm=text_similarity&prk=7c4b7ab7-ccb0-4cce-9360-8e6b189aa8a4&rank=3",
+      "name": "گوشی اپل دو سیم iPhone 14 Pro Max (Not Active) | حافظه 256 گیگابایت",
+      "priceToman": 248000000,
+      "shops": 2,
+      "image": "https://image.torob.com/base/images/71/IB/71IBt4KA5-6VxB8y.jpg"
+    },
+    "apple-iphone-15-unknown-128": {
+      "prk": "9da90981-288a-413c-ae91-5309bb063c28",
+      "url": "https://torob.com/p/9da90981-288a-413c-ae91-5309bb063c28/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=&suid=01a14dd2bcb47550816627f7823593ed&search_id=01a14dd2bcb47550816627f7823593ed&cities=&province=&init_suid=01a14dd2bcb47550816627f7823593ed&algorithm=text_similarity&prk=9da90981-288a-413c-ae91-5309bb063c28&rank=4",
+      "name": "گوشی اپل دو سیم iPhone 15 (Not Active) | حافظه 128 گیگابایت",
+      "priceToman": 269999000,
+      "shops": 17,
+      "image": "https://image.torob.com/base/images/c1/c3/c1c30z4aSt4bzZVS.jpg"
+    },
+    "apple-iphone-15promax-unknown-256": {
+      "prk": "0e51ea61-b236-433b-b7f9-57f06f9c5381",
+      "url": "https://torob.com/p/0e51ea61-b236-433b-b7f9-57f06f9c5381/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=&suid=01a14dd328b0766a8859d7af35e96379&search_id=01a14dd328b0766a8859d7af35e96379&cities=&province=&init_suid=01a14dd328b0766a8859d7af35e96379&algorithm=text_similarity&prk=0e51ea61-b236-433b-b7f9-57f06f9c5381&rank=2",
+      "name": "گوشی اپل دو سیم iPhone 15 Pro Max (Not Active) | حافظه 256 گیگابایت",
+      "priceToman": 349000000,
+      "shops": 2,
+      "image": "https://image.torob.com/base/images/BG/tS/BGtSFDpKTzbh5m-y.jpg"
+    },
+    "apple-iphone-16-unknown-128": {
+      "prk": "935d1506-022e-43b8-b94e-b2543158bcd5",
+      "url": "https://torob.com/p/935d1506-022e-43b8-b94e-b2543158bcd5/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=sir34__a&suid=01a14dd7d5da7390b922579ed3a27158&search_id=01a14dd7d5da7390b922579ed3a27158&cities=&province=&init_suid=01a14dd7d5da7390b922579ed3a27158&algorithm=embedding&prk=935d1506-022e-43b8-b94e-b2543158bcd5&rank=1",
+      "name": "گوشی آیفون 16 | حافظه 128 گیگابایت دو سیم‌کارت نات اکتیو",
+      "priceToman": 216480000,
+      "shops": 45,
+      "image": "https://image.torob.com/base/images/Ma/XS/MaXSNWRSNEAFsbv5.jpg"
+    },
+    "apple-iphone-16-unknown-256": {
+      "prk": "6eee065d-3055-463f-bbee-22748ac59546",
+      "url": "https://torob.com/p/6eee065d-3055-463f-bbee-22748ac59546/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=sir34__a&suid=01a14dd7d5da7390b922579ed3a27158&search_id=01a14dd7d5da7390b922579ed3a27158&cities=&province=&init_suid=01a14dd7d5da7390b922579ed3a27158&algorithm=embedding&prk=6eee065d-3055-463f-bbee-22748ac59546&rank=4",
+      "name": "گوشی آیفون 16 | حافظه 256 گیگابایت دو سیم‌کارت نات اکتیو",
+      "priceToman": 350000000,
+      "shops": 2,
+      "image": "https://image.torob.com/base/images/Ma/XS/MaXSNWRSNEAFsbv5.jpg"
+    },
+    "apple-iphone-16pro-unknown-128": {
+      "prk": "ef2019e0-62cb-44a4-9cd8-7fa34b2084fb",
+      "url": "https://torob.com/p/ef2019e0-62cb-44a4-9cd8-7fa34b2084fb/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=&suid=01a14dd80c757690a0e5f7cc59a2ac48&search_id=01a14dd80c757690a0e5f7cc59a2ac48&cities=&province=&init_suid=01a14dd80c757690a0e5f7cc59a2ac48&algorithm=result_adv&prk=ef2019e0-62cb-44a4-9cd8-7fa34b2084fb&ad=01a14dd80ddb71119b9dbb3626168000&rank=0",
+      "name": "گوشی آیفون 16 پرو | حافظه 128 گیگابایت دو سیم‌کارت نات اکتیو",
+      "priceToman": 254000000,
+      "shops": 10,
+      "image": "https://image.torob.com/base/images/yk/d9/ykd9WsQM9wx0XOmr.webp"
+    },
+    "apple-iphone-16pro-unknown-256": {
+      "prk": "42a633af-2de8-4b81-b2e1-45c3317b942e",
+      "url": "https://torob.com/p/42a633af-2de8-4b81-b2e1-45c3317b942e/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=&suid=01a14dd80c757690a0e5f7cc59a2ac48&search_id=01a14dd80c757690a0e5f7cc59a2ac48&cities=&province=&init_suid=01a14dd80c757690a0e5f7cc59a2ac48&algorithm=text_similarity&prk=42a633af-2de8-4b81-b2e1-45c3317b942e&rank=5",
+      "name": "گوشی آیفون 16 پرو | حافظه 256 گیگابایت دو سیم‌کارت نات اکتیو",
+      "priceToman": 419560020,
+      "shops": 2,
+      "image": "https://image.torob.com/base/images/6-/K4/6-K4iW0bEqaxUvdp.jpg"
+    },
+    "apple-iphone-16promax-unknown-256": {
+      "prk": "fec103c2-9f76-4cf2-a423-ceeb26f47b53",
+      "url": "https://torob.com/p/fec103c2-9f76-4cf2-a423-ceeb26f47b53/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=&suid=01a14dd82e22710ea3d4742a34a12056&search_id=01a14dd82e22710ea3d4742a34a12056&cities=&province=&init_suid=01a14dd82e22710ea3d4742a34a12056&algorithm=text_similarity&prk=fec103c2-9f76-4cf2-a423-ceeb26f47b53&rank=7",
+      "name": "گوشی آیفون 16 پرو مکس | حافظه 256 گیگابایت دو سیم‌کارت نات اکتیو",
+      "priceToman": 428937102,
+      "shops": 1,
+      "image": "https://image.torob.com/base/images/9d/Qv/9dQvxcMASdoR1Gor.jpg"
+    },
+    "apple-iphone-16promax-unknown-512": {
+      "prk": "45ee4c4f-4f2e-4a0b-aeea-00079a0ef3d8",
+      "url": "https://torob.com/p/45ee4c4f-4f2e-4a0b-aeea-00079a0ef3d8/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=&suid=01a14dd82e22710ea3d4742a34a12056&search_id=01a14dd82e22710ea3d4742a34a12056&cities=&province=&init_suid=01a14dd82e22710ea3d4742a34a12056&algorithm=text_similarity&prk=45ee4c4f-4f2e-4a0b-aeea-00079a0ef3d8&rank=3",
+      "name": "گوشی آیفون 16 پرو مکس | حافظه 512 گیگابایت دو سیم‌کارت نات اکتیو",
+      "priceToman": 450000000,
+      "shops": 13,
+      "image": "https://image.torob.com/base/images/Fo/lG/FolG4WILmrViZmvO.jpg"
+    },
+    "samsung-a25-8-256": {
+      "prk": "896f7b67-aa8f-4510-aafa-e21d7d178124",
+      "url": "https://torob.com/p/896f7b67-aa8f-4510-aafa-e21d7d178124/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=sir34__a&suid=01a14dd87551753191b306fef7eadc54&search_id=01a14dd87551753191b306fef7eadc54&cities=&province=&init_suid=01a14dd87551753191b306fef7eadc54&algorithm=embedding&prk=896f7b67-aa8f-4510-aafa-e21d7d178124&rank=1",
+      "name": "گوشی سامسونگ (ویتنام) A25 5G | حافظه 256 رم 8 گیگابایت",
+      "priceToman": 118000000,
+      "shops": 1,
+      "image": "https://image.torob.com/base/images/Uo/rh/Uorhk2tmLwG1x4N9.webp"
+    },
+    "samsung-a35-8-128": {
+      "prk": "23c6636e-385a-49f7-822a-2f0e0d585cfb",
+      "url": "https://torob.com/p/23c6636e-385a-49f7-822a-2f0e0d585cfb/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=&suid=01a14dd88c8b70efa1aec9a54939751e&search_id=01a14dd88c8b70efa1aec9a54939751e&cities=&province=&init_suid=01a14dd88c8b70efa1aec9a54939751e&algorithm=text_similarity&prk=23c6636e-385a-49f7-822a-2f0e0d585cfb&rank=3",
+      "name": "گوشی سامسونگ (ویتنام) A35 5G | حافظه 128 رم 8 گیگابایت",
+      "priceToman": 88500000,
+      "shops": 1,
+      "image": "https://image.torob.com/base/images/jV/JO/jVJO5R03f9MUb1-E.webp"
+    },
+    "samsung-a35-8-256": {
+      "prk": "b1f15947-93d7-4e5c-b7c1-fe854918ae53",
+      "url": "https://torob.com/p/b1f15947-93d7-4e5c-b7c1-fe854918ae53/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=&suid=01a14dd88c8b70efa1aec9a54939751e&search_id=01a14dd88c8b70efa1aec9a54939751e&cities=&province=&init_suid=01a14dd88c8b70efa1aec9a54939751e&algorithm=text_similarity&prk=b1f15947-93d7-4e5c-b7c1-fe854918ae53&rank=1",
+      "name": "گوشی سامسونگ (ویتنام) A35 5G | حافظه 256 رم 8 گیگابایت",
+      "priceToman": 105290000,
+      "shops": 3,
+      "image": "https://image.torob.com/base/images/lb/02/lb028dRSs4zDgv5R.jpg"
+    },
+    "samsung-a55-8-128": {
+      "prk": "6985cbc0-03d2-41c3-b9e7-40599bf3aa3f",
+      "url": "https://torob.com/p/6985cbc0-03d2-41c3-b9e7-40599bf3aa3f/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=sir34__a&suid=01a14dd89f6671ff9482b7f475c1b57b&search_id=01a14dd89f6671ff9482b7f475c1b57b&cities=&province=&init_suid=01a14dd89f6671ff9482b7f475c1b57b&algorithm=embedding&prk=6985cbc0-03d2-41c3-b9e7-40599bf3aa3f&rank=2",
+      "name": "گوشی سامسونگ (ویتنام) A55 5G | حافظه 128 رم 8 گیگابایت",
+      "priceToman": 98000000,
+      "shops": 4,
+      "image": "https://image.torob.com/base/images/F7/03/F703Z4OJIQhEMW-M.webp"
+    },
+    "samsung-a55-8-256": {
+      "prk": "60f90a56-f971-434b-a1de-fc602e629b53",
+      "url": "https://torob.com/p/60f90a56-f971-434b-a1de-fc602e629b53/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=sir34__a&suid=01a14dd89f6671ff9482b7f475c1b57b&search_id=01a14dd89f6671ff9482b7f475c1b57b&cities=&province=&init_suid=01a14dd89f6671ff9482b7f475c1b57b&algorithm=embedding&prk=60f90a56-f971-434b-a1de-fc602e629b53&rank=1",
+      "name": "گوشی سامسونگ (ویتنام) A55 5G | حافظه 256 رم 8 گیگابایت",
+      "priceToman": 108000000,
+      "shops": 21,
+      "image": "https://image.torob.com/base/images/KQ/p0/KQp0j5DCQavr8V2q.webp"
+    },
+    "samsung-a56-8-128": {
+      "prk": "504db9cf-bc90-4cb8-b47e-eae8d8471e50",
+      "url": "https://torob.com/p/504db9cf-bc90-4cb8-b47e-eae8d8471e50/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=sir34__a&suid=01a14dd8b40f70e095d5d3f595a67943&search_id=01a14dd8b40f70e095d5d3f595a67943&cities=&province=&init_suid=01a14dd8b40f70e095d5d3f595a67943&algorithm=embedding&prk=504db9cf-bc90-4cb8-b47e-eae8d8471e50&rank=2",
+      "name": "گوشی سامسونگ A56 5G | حافظه 128 رم 8 گیگابایت",
+      "priceToman": 102502900,
+      "shops": 90,
+      "image": "https://image.torob.com/base/images/6g/7k/6g7kT51j7RmWc6WW.webp"
+    },
+    "samsung-a56-8-256": {
+      "prk": "29aefae2-7daf-4b6d-8a71-40126ef0cb0e",
+      "url": "https://torob.com/p/29aefae2-7daf-4b6d-8a71-40126ef0cb0e/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=sir34__a&suid=01a14dd8b40f70e095d5d3f595a67943&search_id=01a14dd8b40f70e095d5d3f595a67943&cities=&province=&init_suid=01a14dd8b40f70e095d5d3f595a67943&algorithm=embedding&prk=29aefae2-7daf-4b6d-8a71-40126ef0cb0e&rank=1",
+      "name": "گوشی سامسونگ A56 5G | حافظه 256 رم 8 گیگابایت",
+      "priceToman": 119300000,
+      "shops": 132,
+      "image": "https://image.torob.com/base/images/6g/7k/6g7kT51j7RmWc6WW.webp"
+    },
+    "samsung-a56-12-256": {
+      "prk": "4f5598ca-cb37-4b7a-b7b7-aeb1b84d249c",
+      "url": "https://torob.com/p/4f5598ca-cb37-4b7a-b7b7-aeb1b84d249c/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=sir34__a&suid=01a14dd8b40f70e095d5d3f595a67943&search_id=01a14dd8b40f70e095d5d3f595a67943&cities=&province=&init_suid=01a14dd8b40f70e095d5d3f595a67943&algorithm=embedding&prk=4f5598ca-cb37-4b7a-b7b7-aeb1b84d249c&rank=3",
+      "name": "گوشی سامسونگ (ویتنام) A56 5G | حافظه 256 رم 12 گیگابایت",
+      "priceToman": 128499000,
+      "shops": 44,
+      "image": "https://image.torob.com/base/images/6g/7k/6g7kT51j7RmWc6WW.webp"
+    },
+    "samsung-a36-8-128": {
+      "prk": "5d6afa30-f86c-4d8b-81bf-f883a121df9f",
+      "url": "https://torob.com/p/5d6afa30-f86c-4d8b-81bf-f883a121df9f/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=&suid=01a14dd8bf0977c7a6c6f18ef40dfb5d&search_id=01a14dd8bf0977c7a6c6f18ef40dfb5d&cities=&province=&init_suid=01a14dd8bf0977c7a6c6f18ef40dfb5d&algorithm=text_similarity&prk=5d6afa30-f86c-4d8b-81bf-f883a121df9f&rank=2",
+      "name": "گوشی سامسونگ (ویتنام) A36 5G | حافظه 128 رم 8 گیگابایت",
+      "priceToman": 83399000,
+      "shops": 126,
+      "image": "https://image.torob.com/base/images/BR/0A/BR0A8lO9gSKChcEz.webp"
+    },
+    "samsung-a36-8-256": {
+      "prk": "cac9175f-d3ff-443e-a141-08db5e9e4bf8",
+      "url": "https://torob.com/p/cac9175f-d3ff-443e-a141-08db5e9e4bf8/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=&suid=01a14dd8bf0977c7a6c6f18ef40dfb5d&search_id=01a14dd8bf0977c7a6c6f18ef40dfb5d&cities=&province=&init_suid=01a14dd8bf0977c7a6c6f18ef40dfb5d&algorithm=text_similarity&prk=cac9175f-d3ff-443e-a141-08db5e9e4bf8&rank=1",
+      "name": "گوشی سامسونگ (ویتنام) A36 5G | حافظه 256 رم 8 گیگابایت",
+      "priceToman": 94999000,
+      "shops": 154,
+      "image": "https://image.torob.com/base/images/BR/0A/BR0A8lO9gSKChcEz.webp"
+    },
+    "samsung-a36-12-256": {
+      "prk": "47b5ff4b-1083-4b45-b81a-3e66f254712d",
+      "url": "https://torob.com/p/47b5ff4b-1083-4b45-b81a-3e66f254712d/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=&suid=01a14dd8bf0977c7a6c6f18ef40dfb5d&search_id=01a14dd8bf0977c7a6c6f18ef40dfb5d&cities=&province=&init_suid=01a14dd8bf0977c7a6c6f18ef40dfb5d&algorithm=text_similarity&prk=47b5ff4b-1083-4b45-b81a-3e66f254712d&rank=3",
+      "name": "گوشی سامسونگ (ویتنام) A36 5G | حافظه 256 رم 12 گیگابایت",
+      "priceToman": 122500000,
+      "shops": 2,
+      "image": "https://image.torob.com/base/images/BR/0A/BR0A8lO9gSKChcEz.webp"
+    },
+    "samsung-a26-6-128": {
+      "prk": "a919036f-3658-48a6-88d9-f3cdac48d594",
+      "url": "https://torob.com/p/a919036f-3658-48a6-88d9-f3cdac48d594/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=&suid=01a14dd8d28f70f5b65182ae56cd2d60&search_id=01a14dd8d28f70f5b65182ae56cd2d60&cities=&province=&init_suid=01a14dd8d28f70f5b65182ae56cd2d60&algorithm=text_similarity&prk=a919036f-3658-48a6-88d9-f3cdac48d594&rank=2",
+      "name": "گوشی سامسونگ A26 5G | حافظه 128 رم 6 گیگابایت",
+      "priceToman": 70800000,
+      "shops": 148,
+      "image": "https://image.torob.com/base/images/_M/MH/_MMHIpXsKL6MrcwM.jpg"
+    },
+    "samsung-a26-8-256": {
+      "prk": "ce31f6e1-ce4e-4a9b-9827-aeab2c7eb3b2",
+      "url": "https://torob.com/p/ce31f6e1-ce4e-4a9b-9827-aeab2c7eb3b2/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=&suid=01a14dd8d28f70f5b65182ae56cd2d60&search_id=01a14dd8d28f70f5b65182ae56cd2d60&cities=&province=&init_suid=01a14dd8d28f70f5b65182ae56cd2d60&algorithm=result_adv&prk=ce31f6e1-ce4e-4a9b-9827-aeab2c7eb3b2&ad=01a14dd8d4e0768b8c33d56256ce3481&rank=0",
+      "name": "گوشی سامسونگ A26 5G | حافظه 256 رم 8 گیگابایت",
+      "priceToman": 88599000,
+      "shops": 119,
+      "image": "https://image.torob.com/base/images/ar/n7/arn7mAuFKpLFXDn_.jpg"
+    },
+    "samsung-s23-fe-8-256": {
+      "prk": "e73e32df-f315-4e68-8675-b078016831d7",
+      "url": "https://torob.com/p/e73e32df-f315-4e68-8675-b078016831d7/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=&suid=01a14dd8ed5c703ba7edee2ce05db830&search_id=01a14dd8ed5c703ba7edee2ce05db830&cities=&province=&init_suid=01a14dd8ed5c703ba7edee2ce05db830&algorithm=text_similarity&prk=e73e32df-f315-4e68-8675-b078016831d7&rank=1",
+      "name": "گوشی سامسونگ (ویتنام) S23 FE 5G | حافظه 256 رم 8 گیگابایت",
+      "priceToman": 171000000,
+      "shops": 3,
+      "image": "https://image.torob.com/base/images/A6/Pc/A6Pcn4-fPj0d0s6V.jpg"
+    },
+    "samsung-s24-ultra-12-256": {
+      "prk": "b7fe3c1c-0d74-4a3a-bed3-7e29e92f3fda",
+      "url": "https://torob.com/p/b7fe3c1c-0d74-4a3a-bed3-7e29e92f3fda/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=&suid=01a14dd9455476f2800e58954b1260f0&search_id=01a14dd9455476f2800e58954b1260f0&cities=&province=&init_suid=01a14dd9455476f2800e58954b1260f0&algorithm=rerank&prk=b7fe3c1c-0d74-4a3a-bed3-7e29e92f3fda&rank=2",
+      "name": "گوشی سامسونگ (ویتنام) S24 Ultra 5G | حافظه 256 رم 12 گیگابایت",
+      "priceToman": 287000000,
+      "shops": 14,
+      "image": "https://image.torob.com/base/images/bb/CV/bbCVIyIXfJ1svY8t.jpg"
+    },
+    "samsung-s24-ultra-12-512": {
+      "prk": "facdcb68-43fb-432a-9088-7bbf4ff45f23",
+      "url": "https://torob.com/p/facdcb68-43fb-432a-9088-7bbf4ff45f23/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=&suid=01a14dd9455476f2800e58954b1260f0&search_id=01a14dd9455476f2800e58954b1260f0&cities=&province=&init_suid=01a14dd9455476f2800e58954b1260f0&algorithm=text_similarity&prk=facdcb68-43fb-432a-9088-7bbf4ff45f23&rank=9",
+      "name": "گوشی سامسونگ (ویتنام) S24 Ultra 5G | حافظه 512 رم 12 گیگابایت",
+      "priceToman": 340000000,
+      "shops": 2,
+      "image": "https://image.torob.com/base/images/Y-/aI/Y-aIiLNLL452zsTh.jpg"
+    },
+    "samsung-s24-fe-8-256": {
+      "prk": "889b1641-4ab5-4e1b-8e20-03d170337de4",
+      "url": "https://torob.com/p/889b1641-4ab5-4e1b-8e20-03d170337de4/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=&suid=01a14dd958c7725a99516bac4d58e9b0&search_id=01a14dd958c7725a99516bac4d58e9b0&cities=&province=&init_suid=01a14dd958c7725a99516bac4d58e9b0&algorithm=result_adv&prk=889b1641-4ab5-4e1b-8e20-03d170337de4&ad=01a14dd95a9875cf9687879cdb49f124&rank=0",
+      "name": "گوشی سامسونگ (ویتنام) S24 FE 5G | حافظه 256 رم 8 گیگابایت",
+      "priceToman": 172500000,
+      "shops": 17,
+      "image": "https://image.torob.com/base/images/Ck/lv/CklvCDhqNAu-JepO.webp"
+    },
+    "samsung-z-fold6-12-256": {
+      "prk": "0a415614-487d-42ba-9118-ab09c62d1880",
+      "url": "https://torob.com/p/0a415614-487d-42ba-9118-ab09c62d1880/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=&suid=01a14dd9969172f1ac73b1ea739156f1&search_id=01a14dd9969172f1ac73b1ea739156f1&cities=&province=&init_suid=01a14dd9969172f1ac73b1ea739156f1&algorithm=text_similarity&prk=0a415614-487d-42ba-9118-ab09c62d1880&rank=1",
+      "name": "گوشی سامسونگ Z Fold 6 5G | حافظه 256 رم 12 گیگابایت",
+      "priceToman": 397980000,
+      "shops": 1,
+      "image": "https://image.torob.com/base/images/9G/9D/9G9DVhPDteLMiYCd.webp"
+    },
+    "poco-x6-pro-12-512": {
+      "prk": "810358de-8d19-4c4f-bb47-3562b08c3659",
+      "url": "https://torob.com/p/810358de-8d19-4c4f-bb47-3562b08c3659/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=&suid=01a14dcff3877133a2f35e1ed5ce6a3c&search_id=01a14dcff3877133a2f35e1ed5ce6a3c&cities=&province=&init_suid=01a14dcff3877133a2f35e1ed5ce6a3c&algorithm=rerank&prk=810358de-8d19-4c4f-bb47-3562b08c3659&rank=2",
+      "name": "گوشی شیائومی Poco X6 Pro 5G | حافظه 512 رم 12 گیگابایت",
+      "priceToman": 149000000,
+      "shops": 3,
+      "image": "https://image.torob.com/base/images/AE/ER/AEERXdJtY_Tt71L8.webp"
+    },
+    "poco-f6-12-512": {
+      "prk": "47d76be1-8ade-4e8b-9f67-2d2503d8ed68",
+      "url": "https://torob.com/p/47d76be1-8ade-4e8b-9f67-2d2503d8ed68/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=llm-reranker-7__a&suid=01a14dd9df9e7633afc0b9d6ec00620c&search_id=01a14dd9df9e7633afc0b9d6ec00620c&cities=&province=&init_suid=01a14dd9df9e7633afc0b9d6ec00620c&algorithm=rerank&prk=47d76be1-8ade-4e8b-9f67-2d2503d8ed68&rank=1",
+      "name": "گوشی شیائومی Poco F6 5G | حافظه 512 رم 12 گیگابایت",
+      "priceToman": 117300000,
+      "shops": 23,
+      "image": "https://image.torob.com/base/images/eg/aR/egaRG7YB9DGi1GYt.webp"
+    },
+    "poco-f6-pro-12-512": {
+      "prk": "de08ccab-566b-43e4-8a69-614579c7805f",
+      "url": "https://torob.com/p/de08ccab-566b-43e4-8a69-614579c7805f/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=&suid=01a14dd9f9ba70c089d24c6047123a3e&search_id=01a14dd9f9ba70c089d24c6047123a3e&cities=&province=&init_suid=01a14dd9f9ba70c089d24c6047123a3e&algorithm=text_similarity&prk=de08ccab-566b-43e4-8a69-614579c7805f&rank=1",
+      "name": "گوشی شیائومی Poco F6 Pro 5G | حافظه 512 رم 12 گیگابایت",
+      "priceToman": 139999000,
+      "shops": 4,
+      "image": "https://image.torob.com/base/images/ie/do/iedoHGXcG2kt-vEz.webp"
+    },
+    "poco-f6-pro-16-1024": {
+      "prk": "8d6583d4-aedf-4708-876a-b53c6d631554",
+      "url": "https://torob.com/p/8d6583d4-aedf-4708-876a-b53c6d631554/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=&suid=01a14dd9f9ba70c089d24c6047123a3e&search_id=01a14dd9f9ba70c089d24c6047123a3e&cities=&province=&init_suid=01a14dd9f9ba70c089d24c6047123a3e&algorithm=text_similarity&prk=8d6583d4-aedf-4708-876a-b53c6d631554&rank=2",
+      "name": "گوشی شیائومی Poco F6 Pro 5G | حافظه 1 ترابایت رم 16 گیگابایت",
+      "priceToman": 177480000,
+      "shops": 3,
+      "image": "https://image.torob.com/base/images/fP/E1/fPE1OCnEGohJPrr7.jpg"
+    },
+    "xiaomi-14t-12-512": {
+      "prk": "eefc224f-77fd-49fe-837d-3bc0bbb07b35",
+      "url": "https://torob.com/p/eefc224f-77fd-49fe-837d-3bc0bbb07b35/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=&suid=01a14ddf081373e2a7be9f562a024598&search_id=01a14ddf081373e2a7be9f562a024598&cities=&province=&init_suid=01a14ddf081373e2a7be9f562a024598&algorithm=rerank&prk=eefc224f-77fd-49fe-837d-3bc0bbb07b35&rank=1",
+      "name": "گوشی شیائومی 14T 5G | حافظه 512 رم 12 گیگابایت",
+      "priceToman": 199999900,
+      "shops": 6,
+      "image": "https://image.torob.com/base/images/Ss/xC/SsxCpl8XXmCj4k-R.webp"
+    },
+    "redmi-note-13-pro-5g-12-512": {
+      "prk": "64c67d66-e519-4f6b-8f4d-bc865f8275a6",
+      "url": "https://torob.com/p/64c67d66-e519-4f6b-8f4d-bc865f8275a6/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=llm-reranker-7__b&suid=01a14ddf18bd7797b9fe4475eaee12f7&search_id=01a14ddf18bd7797b9fe4475eaee12f7&cities=&province=&init_suid=01a14ddf18bd7797b9fe4475eaee12f7&algorithm=rerank&prk=64c67d66-e519-4f6b-8f4d-bc865f8275a6&rank=1",
+      "name": "گوشی شیائومی Redmi Note 13 Pro 5G | حافظه 512 رم 12 گیگابایت",
+      "priceToman": 143900000,
+      "shops": 4,
+      "image": "https://image.torob.com/base/images/wi/ny/winylm_2mFK__dvk.webp"
+    },
+    "redmi-note-13-pro-plus-5g-8-256": {
+      "prk": "5bcdf88c-a2c4-454f-ab9c-200a6f66b5ba",
+      "url": "https://torob.com/p/5bcdf88c-a2c4-454f-ab9c-200a6f66b5ba/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=&suid=01a14ddf21ac73519bb4293b2ed7db02&search_id=01a14ddf21ac73519bb4293b2ed7db02&cities=&province=&init_suid=01a14ddf21ac73519bb4293b2ed7db02&algorithm=text_similarity&prk=5bcdf88c-a2c4-454f-ab9c-200a6f66b5ba&rank=2",
+      "name": "گوشی شیائومی Redmi Note 13 Pro Plus 5G | حافظه 256 رم 8 گیگابایت",
+      "priceToman": 139933300,
+      "shops": 2,
+      "image": "https://image.torob.com/base/images/H4/YW/H4YWEnR948IJuQOc.jpg"
+    },
+    "redmi-note-14-pro-5g-8-256": {
+      "prk": "df29eded-6d2c-4018-af28-8f209a5fbe72",
+      "url": "https://torob.com/p/df29eded-6d2c-4018-af28-8f209a5fbe72/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=&suid=01a14ddf33f577b1b1ee8ae10d99d27b&search_id=01a14ddf33f577b1b1ee8ae10d99d27b&cities=&province=&init_suid=01a14ddf33f577b1b1ee8ae10d99d27b&algorithm=text_similarity&prk=df29eded-6d2c-4018-af28-8f209a5fbe72&rank=7",
+      "name": "گوشی شیائومی Redmi Note 14 Pro 5G | حافظه 256 رم 8 گیگابایت",
+      "priceToman": 103863000,
+      "shops": 1,
+      "image": "https://image.torob.com/base/images/ry/cv/rycvLg8JntRHXcSz.jpg"
+    },
+    "redmi-note-14-pro-5g-12-256": {
+      "prk": "3c030a57-08d4-4bcf-ae21-5a5670af230b",
+      "url": "https://torob.com/p/3c030a57-08d4-4bcf-ae21-5a5670af230b/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=&suid=01a14ddf33f577b1b1ee8ae10d99d27b&search_id=01a14ddf33f577b1b1ee8ae10d99d27b&cities=&province=&init_suid=01a14ddf33f577b1b1ee8ae10d99d27b&algorithm=text_similarity&prk=3c030a57-08d4-4bcf-ae21-5a5670af230b&rank=6",
+      "name": "گوشی شیائومی Redmi Note 14 Pro 5G | حافظه 256 رم 12 گیگابایت",
+      "priceToman": 137000000,
+      "shops": 4,
+      "image": "https://image.torob.com/base/images/Y3/_3/Y3_3zUica68Oc0WL.webp"
+    },
+    "redmi-note-14-pro-5g-12-512": {
+      "prk": "605f34f5-e1a7-4afd-9e2c-ec665f13d218",
+      "url": "https://torob.com/p/605f34f5-e1a7-4afd-9e2c-ec665f13d218/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=&suid=01a14ddf33f577b1b1ee8ae10d99d27b&search_id=01a14ddf33f577b1b1ee8ae10d99d27b&cities=&province=&init_suid=01a14ddf33f577b1b1ee8ae10d99d27b&algorithm=result_adv&prk=605f34f5-e1a7-4afd-9e2c-ec665f13d218&ad=01a14ddf358c737396e8619b73f6b6ce&rank=0",
+      "name": "گوشی شیائومی Redmi Note 14 Pro 5G | حافظه 512 رم 12 گیگابایت",
+      "priceToman": 121800000,
+      "shops": 19,
+      "image": "https://image.torob.com/base/images/lK/gg/lKggvasTZR51TV5_.webp"
+    },
+    "redmi-13-6-128": {
+      "prk": "57bbae49-8deb-42c8-bb98-1567eae45f5e",
+      "url": "https://torob.com/p/57bbae49-8deb-42c8-bb98-1567eae45f5e/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=&suid=01a14ddf3c2875419845a660bc9e6796&search_id=01a14ddf3c2875419845a660bc9e6796&cities=&province=&init_suid=01a14ddf3c2875419845a660bc9e6796&algorithm=rerank&prk=57bbae49-8deb-42c8-bb98-1567eae45f5e&rank=6",
+      "name": "گوشی شیائومی Redmi 13 4G | حافظه 128 رم 6 گیگابایت",
+      "priceToman": 65490000,
+      "shops": 5,
+      "image": "https://image.torob.com/base/images/f1/r3/f1r3sibEpzvVe9Xd.jpg"
+    },
+    "redmi-13-8-256": {
+      "prk": "31b658b2-5de2-40e1-af70-14947cbee806",
+      "url": "https://torob.com/p/31b658b2-5de2-40e1-af70-14947cbee806/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=&suid=01a14ddf3c2875419845a660bc9e6796&search_id=01a14ddf3c2875419845a660bc9e6796&cities=&province=&init_suid=01a14ddf3c2875419845a660bc9e6796&algorithm=rerank&prk=31b658b2-5de2-40e1-af70-14947cbee806&rank=1",
+      "name": "گوشی شیائومی Redmi 13 4G | حافظه 256 رم 8 گیگابایت",
+      "priceToman": 68931000,
+      "shops": 16,
+      "image": "https://image.torob.com/base/images/aE/3W/aE3WTZ_n9TS8_-Ls.webp"
+    },
+    "nothing-phone-2a-8-128": {
+      "prk": "930524af-ece8-4428-a606-84f9a55fe5b0",
+      "url": "https://torob.com/p/930524af-ece8-4428-a606-84f9a55fe5b0/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=&suid=01a14ddfdb50721386e4fc9eee908bd9&search_id=01a14ddfdb50721386e4fc9eee908bd9&cities=&province=&init_suid=01a14ddfdb50721386e4fc9eee908bd9&algorithm=rerank&prk=930524af-ece8-4428-a606-84f9a55fe5b0&rank=1",
+      "name": "گوشی ناتینگ Phone 2a 5G | حافظه 128 رم 8 گیگابایت",
+      "priceToman": 111999000,
+      "shops": 4,
+      "image": "https://image.torob.com/base/images/k0/Rv/k0Rvvv6T_8SOsW9N.webp"
+    },
+    "nothing-phone-3a-8-128": {
+      "prk": "6fe49792-f8ad-4ee6-a979-c44c294d0821",
+      "url": "https://torob.com/p/6fe49792-f8ad-4ee6-a979-c44c294d0821/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=&suid=01a14ddfeeb571d38803cc68eac1dae7&search_id=01a14ddfeeb571d38803cc68eac1dae7&cities=&province=&init_suid=01a14ddfeeb571d38803cc68eac1dae7&algorithm=text_similarity&prk=6fe49792-f8ad-4ee6-a979-c44c294d0821&rank=1",
+      "name": "گوشی ناتینگ فون Phone 3a 5G | حافظه 128رم 8 گیگابایت",
+      "priceToman": 229750020,
+      "shops": 1,
+      "image": "https://image.torob.com/base/images/hH/g_/hHg_nqXjLw-PP7pa.jpg"
+    },
+    "nothing-phone-3a-12-256": {
+      "prk": "2dc254ad-f23c-4acb-8eba-bf5f61a0ba22",
+      "url": "https://torob.com/p/2dc254ad-f23c-4acb-8eba-bf5f61a0ba22/",
+      "detailsUrl": "https://api.torob.com/v4/base-product/details/?source=torob_search&discover_method=search&_bt__experiment=&suid=01a14ddfeeb571d38803cc68eac1dae7&search_id=01a14ddfeeb571d38803cc68eac1dae7&cities=&province=&init_suid=01a14ddfeeb571d38803cc68eac1dae7&algorithm=text_similarity&prk=2dc254ad-f23c-4acb-8eba-bf5f61a0ba22&rank=2",
+      "name": "گوشی ناتینگ فون Phone 3a 5G | حافظه 256 رم 12 گیگابایت",
+      "priceToman": 210000700,
+      "shops": 1,
+      "image": "https://image.torob.com/base/images/vi/1y/vi1yeHD5RvRRdHj4.jpg"
+    }
+  }
+}
